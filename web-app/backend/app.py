@@ -11,6 +11,7 @@ import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import WebDriverException, NoSuchWindowException
 import re
 import tempfile
 import shutil
@@ -101,9 +102,22 @@ class WalmartReviewInference:
         self.driver = uc.Chrome(options=options, version_main=None)
         self.wait = WebDriverWait(self.driver, 8)
         self.analyzer = sentiment_analyzer
+        self.browser_closed = False
+    
+    def is_browser_alive(self) -> bool:
+        """Check if browser is still running"""
+        if self.browser_closed:
+            return False
+        try:
+            _ = self.driver.current_url
+            return True
+        except (WebDriverException, NoSuchWindowException):
+            self.browser_closed = True
+            return False
     
     def close(self):
         """Close browser and cleanup"""
+        self.browser_closed = True
         if hasattr(self, 'driver'):
             try:
                 self.driver.quit()
@@ -138,6 +152,8 @@ class WalmartReviewInference:
     
     def click_element_safely(self, element):
         """Click element safely"""
+        if not self.is_browser_alive():
+            return False
         try:
             self.driver.execute_script(
                 "arguments[0].scrollIntoView({block: 'center', behavior: 'instant'});", 
@@ -146,11 +162,15 @@ class WalmartReviewInference:
             self.human_delay(0.2, 0.5)
             self.driver.execute_script("arguments[0].click();", element)
             return True
-        except:
+        except (WebDriverException, NoSuchWindowException):
+            self.browser_closed = True
             return False
     
     def check_captcha_quick(self) -> bool:
         """Quick check for CAPTCHA"""
+        if not self.is_browser_alive():
+            return False
+            
         captcha_indicators = [
             "//iframe[contains(@src, 'captcha')]",
             "//iframe[contains(@src, 'challenge')]",
@@ -181,11 +201,18 @@ class WalmartReviewInference:
         Navigate to next page.
         Returns (success: bool, captcha_detected: bool)
         """
+        if not self.is_browser_alive():
+            return False, False
+            
         if self.check_captcha_quick():
             return False, True
         
-        self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        self.human_delay(0.3, 0.7)
+        try:
+            self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            self.human_delay(0.3, 0.7)
+        except (WebDriverException, NoSuchWindowException):
+            self.browser_closed = True
+            return False, False
         
         next_page_num = current_page + 1
         
@@ -201,6 +228,9 @@ class WalmartReviewInference:
         ]
         
         for selector in all_selectors:
+            if not self.is_browser_alive():
+                return False, False
+                
             try:
                 button = self.driver.find_element(By.XPATH, selector)
                 if button.is_displayed() and button.is_enabled():
@@ -214,10 +244,13 @@ class WalmartReviewInference:
                         return False, True
                     
                     if self.click_element_safely(button):
-                        self.wait.until(
-                            lambda d: d.execute_script("return document.readyState") == "complete"
-                        )
-                        self.human_delay(0.5, 1.2)
+                        try:
+                            self.wait.until(
+                                lambda d: d.execute_script("return document.readyState") == "complete"
+                            )
+                            self.human_delay(0.5, 1.2)
+                        except:
+                            pass
                         
                         if self.check_captcha_quick():
                             return False, True
@@ -330,11 +363,18 @@ class WalmartReviewInference:
     
     def extract_reviews_from_current_page(self, seen_texts: set) -> Tuple[List[Dict], bool]:
         """Extract reviews from current page"""
+        if not self.is_browser_alive():
+            return [], False
+            
         if self.check_captcha_quick():
             return [], True
         
-        self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        self.human_delay(0.5, 1.0)
+        try:
+            self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            self.human_delay(0.5, 1.0)
+        except (WebDriverException, NoSuchWindowException):
+            self.browser_closed = True
+            return [], False
         
         if self.check_captcha_quick():
             return [], True
@@ -347,6 +387,8 @@ class WalmartReviewInference:
         
         review_elements = []
         for selector in review_selectors:
+            if not self.is_browser_alive():
+                return [], False
             try:
                 elements = self.driver.find_elements(By.XPATH, selector)
                 filtered = [e for e in elements if len(e.text) > 50]
@@ -385,15 +427,26 @@ class WalmartReviewInference:
         if session_id:
             analysis_status[session_id] = {"status": "loading", "message": "Loading product page..."}
         
-        self.driver.get(url)
-        self.human_delay(2.0, 3.5)
+        try:
+            self.driver.get(url)
+            self.human_delay(2.0, 3.5)
+        except (WebDriverException, NoSuchWindowException):
+            raise ValueError("Browser was closed unexpectedly")
+        
+        if not self.is_browser_alive():
+            raise ValueError("Browser was closed unexpectedly")
         
         if session_id:
             analysis_status[session_id] = {"status": "loading", "message": "Navigating to reviews..."}
         
         for _ in range(2):
-            self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-            self.human_delay(0.5, 1.0)
+            if not self.is_browser_alive():
+                raise ValueError("Browser was closed unexpectedly")
+            try:
+                self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+                self.human_delay(0.5, 1.0)
+            except:
+                break
         
         review_tab_selectors = [
             "//button[contains(text(), 'Reviews')]",
@@ -401,6 +454,8 @@ class WalmartReviewInference:
         ]
         
         for selector in review_tab_selectors:
+            if not self.is_browser_alive():
+                raise ValueError("Browser was closed unexpectedly")
             try:
                 tab = self.driver.find_element(By.XPATH, selector)
                 if tab.is_displayed():
@@ -416,6 +471,8 @@ class WalmartReviewInference:
         ]
         
         for selector in see_all_selectors:
+            if not self.is_browser_alive():
+                raise ValueError("Browser was closed unexpectedly")
             try:
                 button = self.driver.find_element(By.XPATH, selector)
                 if button.is_displayed():
@@ -428,13 +485,15 @@ class WalmartReviewInference:
         if session_id:
             analysis_status[session_id] = {"status": "loading", "message": "Extracting reviews from multiple pages..."}
         
-        # Multi-page extraction
         all_reviews = []
         seen_texts = set()
         current_page = 1
-        max_pages = 10  # Limit to prevent infinite loops
+        max_pages = 10
         
         while current_page <= max_pages and len(all_reviews) < max_reviews:
+            if not self.is_browser_alive():
+                raise ValueError("Browser was closed unexpectedly")
+                
             if session_id:
                 analysis_status[session_id] = {
                     "status": "loading", 
@@ -451,7 +510,6 @@ class WalmartReviewInference:
             if len(all_reviews) >= max_reviews:
                 break
             
-            # Try to go to next page
             next_success, captcha_detected = self.click_next_page(current_page)
             
             if captcha_detected or not next_success:
@@ -460,7 +518,6 @@ class WalmartReviewInference:
             current_page += 1
             self.human_delay(0.8, 1.5)
         
-        # Limit to max_reviews
         reviews = all_reviews[:max_reviews]
         
         if session_id:
@@ -501,16 +558,32 @@ def analyze():
     if not url:
         return jsonify({"error": "URL is required"}), 400
     
-    # Validate Walmart URL
     if not re.search(r'walmart\.com', url, re.IGNORECASE):
         return jsonify({"error": "Invalid Walmart URL"}), 400
     
     session_id = str(time.time())
     
+    # Initialize status immediately
+    analysis_status[session_id] = {
+        "status": "loading",
+        "message": "Initializing browser..."
+    }
+    
     def run_analysis():
         scraper = None
         try:
+            analysis_status[session_id] = {
+                "status": "loading",
+                "message": "Starting browser..."
+            }
+            
             scraper = WalmartReviewInference(analyzer, headless=False)
+            
+            analysis_status[session_id] = {
+                "status": "loading",
+                "message": "Browser started, beginning analysis..."
+            }
+            
             result = scraper.scrape_and_analyze(url, max_reviews, session_id)
             
             reviews = result['reviews']
@@ -538,7 +611,6 @@ def analyze():
             ratings = [r.get('rating') for r in reviews if r.get('rating')]
             avg_rating = sum(ratings) / len(ratings) if ratings else None
             
-            # Get top samples for each sentiment
             positive.sort(key=lambda x: x.get('confidence', 0), reverse=True)
             negative.sort(key=lambda x: x.get('confidence', 0), reverse=True)
             neutral.sort(key=lambda x: x.get('confidence', 0), reverse=True)
@@ -567,16 +639,25 @@ def analyze():
                 }
             }
             
-        except Exception as e:
+        except ValueError as e:
             analysis_status[session_id] = {
                 "status": "error",
                 "message": str(e)
+            }
+        except Exception as e:
+            error_msg = str(e)
+            if "no such window" in error_msg.lower() or "target window already closed" in error_msg.lower():
+                error_msg = "Browser was closed unexpectedly. Please keep the browser window open during analysis."
+            
+            analysis_status[session_id] = {
+                "status": "error",
+                "message": error_msg
             }
         finally:
             if scraper:
                 scraper.close()
     
-    thread = threading.Thread(target=run_analysis)
+    thread = threading.Thread(target=run_analysis, daemon=True)
     thread.start()
     
     return jsonify({"session_id": session_id}), 202

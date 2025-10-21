@@ -35,7 +35,20 @@ function closeResultsModal() {
     document.getElementById('resultsModal').style.display = 'none';
     if (pollInterval) {
         clearInterval(pollInterval);
+        pollInterval = null;
     }
+    // Reset modal content to loading state
+    resetResultsModal();
+}
+
+function resetResultsModal() {
+    const resultsContent = document.getElementById('resultsContent');
+    resultsContent.innerHTML = `
+        <div class="loading">
+            <div class="spinner"></div>
+            <p id="loadingMessage">Starting analysis...</p>
+        </div>
+    `;
 }
 
 // Close modals when clicking outside
@@ -89,27 +102,59 @@ async function analyzeReviews() {
         const data = await response.json();
         const sessionId = data.session_id;
 
+        let pollAttempts = 0;
+        const maxPollAttempts = 150; // 5 minutes (150 * 2 seconds)
+        
+        // Wait a bit before starting to poll
+        await new Promise(resolve => setTimeout(resolve, 1000));
+
         // Poll for results
         pollInterval = setInterval(async () => {
+            pollAttempts++;
+
+            // Timeout after max attempts
+            if (pollAttempts > maxPollAttempts) {
+                clearInterval(pollInterval);
+                pollInterval = null;
+                showLoadingError('Analysis timed out. Please try again.');
+                analyzeBtn.disabled = false;
+                analyzeBtn.textContent = 'Analyze Reviews';
+                return;
+            }
+
             try {
                 const statusResponse = await fetch(`/api/status/${sessionId}`);
+                
+                if (!statusResponse.ok) {
+                    throw new Error('Failed to check status');
+                }
+
                 const status = await statusResponse.json();
 
                 if (status.status === 'loading') {
                     showLoading(status.message);
                 } else if (status.status === 'complete') {
                     clearInterval(pollInterval);
+                    pollInterval = null;
                     displayResults(status.data);
                     analyzeBtn.disabled = false;
                     analyzeBtn.textContent = 'Analyze Reviews';
                 } else if (status.status === 'error') {
                     clearInterval(pollInterval);
-                    showError(status.message);
+                    pollInterval = null;
+                    showLoadingError(status.message || 'An error occurred during analysis');
+                    analyzeBtn.disabled = false;
+                    analyzeBtn.textContent = 'Analyze Reviews';
+                } else if (status.status === 'not_found') {
+                    clearInterval(pollInterval);
+                    pollInterval = null;
+                    showLoadingError('Session not found. Please try again.');
                     analyzeBtn.disabled = false;
                     analyzeBtn.textContent = 'Analyze Reviews';
                 }
             } catch (error) {
                 clearInterval(pollInterval);
+                pollInterval = null;
                 showLoadingError('Error checking status: ' + error.message);
                 analyzeBtn.disabled = false;
                 analyzeBtn.textContent = 'Analyze Reviews';
@@ -117,6 +162,10 @@ async function analyzeReviews() {
         }, 2000);
 
     } catch (error) {
+        if (pollInterval) {
+            clearInterval(pollInterval);
+            pollInterval = null;
+        }
         showLoadingError('Error: ' + error.message);
         analyzeBtn.disabled = false;
         analyzeBtn.textContent = 'Analyze Reviews';
@@ -124,15 +173,34 @@ async function analyzeReviews() {
 }
 
 function showLoading(message) {
-    document.getElementById('loadingMessage').textContent = message;
+    const loadingMessageEl = document.getElementById('loadingMessage');
+    if (loadingMessageEl) {
+        loadingMessageEl.textContent = message;
+    }
 }
 
 function showLoadingError(message) {
     const resultsContent = document.getElementById('resultsContent');
     resultsContent.innerHTML = `
-        <div style="text-align: center; padding: 2rem; color: #f44336;">
-            <h3>❌ Error</h3>
-            <p>${message}</p>
+        <div style="text-align: center; padding: 2rem;">
+            <div style="font-size: 3rem; margin-bottom: 1rem;">❌</div>
+            <h3 style="color: #f44336; margin-bottom: 1rem;">Error</h3>
+            <p style="color: #666; line-height: 1.6;">${message}</p>
+            <button 
+                onclick="closeResultsModal()" 
+                style="
+                    margin-top: 1.5rem;
+                    background: linear-gradient(135deg, #667eea, #764ba2);
+                    color: white;
+                    border: none;
+                    padding: 0.8rem 2rem;
+                    border-radius: 25px;
+                    cursor: pointer;
+                    font-size: 1rem;
+                "
+            >
+                Close
+            </button>
         </div>
     `;
 }
@@ -227,7 +295,7 @@ function displayResults(data) {
     `;
 
     // Add sample reviews
-    if (samples.positive.length > 0) {
+    if (samples.positive && samples.positive.length > 0) {
         html += '<div class="reviews-section"><h3>📈 Sample Positive Reviews</h3>';
         samples.positive.forEach(review => {
             html += createReviewCard(review, 'positive');
@@ -235,7 +303,7 @@ function displayResults(data) {
         html += '</div>';
     }
 
-    if (samples.negative.length > 0) {
+    if (samples.negative && samples.negative.length > 0) {
         html += '<div class="reviews-section"><h3>📉 Sample Negative Reviews</h3>';
         samples.negative.forEach(review => {
             html += createReviewCard(review, 'negative');
@@ -243,7 +311,7 @@ function displayResults(data) {
         html += '</div>';
     }
 
-    if (samples.neutral.length > 0) {
+    if (samples.neutral && samples.neutral.length > 0) {
         html += '<div class="reviews-section"><h3>➖ Sample Neutral Reviews</h3>';
         samples.neutral.forEach(review => {
             html += createReviewCard(review, 'neutral');
