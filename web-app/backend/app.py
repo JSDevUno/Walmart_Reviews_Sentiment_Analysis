@@ -5,7 +5,7 @@ import os
 import time
 import random
 from datetime import datetime
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Tuple
 import numpy as np
 import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
@@ -81,7 +81,7 @@ class TFIDFSentimentAnalyzer:
 
 
 class WalmartReviewInference:
-    def __init__(self, sentiment_analyzer: TFIDFSentimentAnalyzer, headless: bool = True):
+    def __init__(self, sentiment_analyzer: TFIDFSentimentAnalyzer, headless: bool = False):
         """Initialize scraper with sentiment analyzer"""
         options = uc.ChromeOptions()
         if headless:
@@ -148,6 +148,85 @@ class WalmartReviewInference:
             return True
         except:
             return False
+    
+    def check_captcha_quick(self) -> bool:
+        """Quick check for CAPTCHA"""
+        captcha_indicators = [
+            "//iframe[contains(@src, 'captcha')]",
+            "//iframe[contains(@src, 'challenge')]",
+            "//*[contains(@id, 'px-captcha')]",
+            "//*[contains(text(), 'Press & Hold')]",
+            "//*[contains(text(), 'press and hold')]",
+            "//*[contains(@class, 'captcha') and not(contains(@style, 'display: none'))]",
+            "//div[@data-testid='captcha-modal']",
+            "//div[contains(@class, 'Modal') and contains(., 'Press')]"
+        ]
+        
+        for indicator in captcha_indicators:
+            try:
+                elements = self.driver.find_elements(By.XPATH, indicator)
+                for element in elements:
+                    try:
+                        if element.is_displayed():
+                            return True
+                    except:
+                        pass
+            except:
+                continue
+        
+        return False
+    
+    def click_next_page(self, current_page: int) -> Tuple[bool, bool]:
+        """
+        Navigate to next page.
+        Returns (success: bool, captcha_detected: bool)
+        """
+        if self.check_captcha_quick():
+            return False, True
+        
+        self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        self.human_delay(0.3, 0.7)
+        
+        next_page_num = current_page + 1
+        
+        all_selectors = [
+            f"//button[@aria-label='page {next_page_num}']",
+            f"//a[@aria-label='page {next_page_num}']",
+            f"//button[normalize-space(text())='{next_page_num}']",
+            f"//a[normalize-space(text())='{next_page_num}']",
+            "//button[contains(@aria-label, 'next page') and not(@disabled)]",
+            "//a[contains(@aria-label, 'next page')]",
+            "//button[contains(., '›') and not(@disabled)]",
+            "//a[contains(., '›')]"
+        ]
+        
+        for selector in all_selectors:
+            try:
+                button = self.driver.find_element(By.XPATH, selector)
+                if button.is_displayed() and button.is_enabled():
+                    disabled = button.get_attribute('disabled')
+                    aria_disabled = button.get_attribute('aria-disabled')
+                    
+                    if disabled or aria_disabled == 'true':
+                        continue
+                    
+                    if self.check_captcha_quick():
+                        return False, True
+                    
+                    if self.click_element_safely(button):
+                        self.wait.until(
+                            lambda d: d.execute_script("return document.readyState") == "complete"
+                        )
+                        self.human_delay(0.5, 1.2)
+                        
+                        if self.check_captcha_quick():
+                            return False, True
+                        
+                        return True, False
+            except:
+                continue
+        
+        return False, False
     
     def extract_review_from_element(self, element) -> Optional[Dict]:
         """Extract review data from element"""
@@ -249,8 +328,52 @@ class WalmartReviewInference:
         except Exception as e:
             return None
     
+    def extract_reviews_from_current_page(self, seen_texts: set) -> Tuple[List[Dict], bool]:
+        """Extract reviews from current page"""
+        if self.check_captcha_quick():
+            return [], True
+        
+        self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        self.human_delay(0.5, 1.0)
+        
+        if self.check_captcha_quick():
+            return [], True
+        
+        review_selectors = [
+            "//*[contains(@data-testid, 'review')]",
+            "//*[contains(@class, 'review-')]",
+            "//div[contains(@class, 'customer-review')]"
+        ]
+        
+        review_elements = []
+        for selector in review_selectors:
+            try:
+                elements = self.driver.find_elements(By.XPATH, selector)
+                filtered = [e for e in elements if len(e.text) > 50]
+                if filtered and len(filtered) > len(review_elements):
+                    review_elements = filtered
+            except:
+                continue
+        
+        reviews = []
+        for elem in review_elements:
+            review_data = self.extract_review_from_element(elem)
+            if review_data and review_data.get('review_text'):
+                review_text = review_data['review_text']
+                if review_text not in seen_texts and len(review_text) > 10:
+                    sentiment_result = self.analyzer.predict_sentiment(
+                        review_data['review_text'],
+                        review_data.get('title', '')
+                    )
+                    
+                    review_data.update(sentiment_result)
+                    reviews.append(review_data)
+                    seen_texts.add(review_text)
+        
+        return reviews, False
+    
     def scrape_and_analyze(self, url: str, max_reviews: int = 50, session_id: str = None) -> Dict:
-        """Scrape reviews and analyze sentiment"""
+        """Scrape reviews and analyze sentiment with pagination"""
         if session_id:
             analysis_status[session_id] = {"status": "loading", "message": "Extracting product ID..."}
         
@@ -303,43 +426,51 @@ class WalmartReviewInference:
                 continue
         
         if session_id:
-            analysis_status[session_id] = {"status": "loading", "message": "Extracting reviews..."}
+            analysis_status[session_id] = {"status": "loading", "message": "Extracting reviews from multiple pages..."}
         
-        review_selectors = [
-            "//*[contains(@data-testid, 'review')]",
-            "//*[contains(@class, 'review-')]",
-            "//div[contains(@class, 'customer-review')]"
-        ]
+        # Multi-page extraction
+        all_reviews = []
+        seen_texts = set()
+        current_page = 1
+        max_pages = 10  # Limit to prevent infinite loops
         
-        review_elements = []
-        for selector in review_selectors:
-            try:
-                elements = self.driver.find_elements(By.XPATH, selector)
-                filtered = [e for e in elements if len(e.text) > 50]
-                if filtered and len(filtered) > len(review_elements):
-                    review_elements = filtered
-            except:
-                continue
+        while current_page <= max_pages and len(all_reviews) < max_reviews:
+            if session_id:
+                analysis_status[session_id] = {
+                    "status": "loading", 
+                    "message": f"Extracting reviews from page {current_page}... (Found: {len(all_reviews)})"
+                }
+            
+            page_reviews, captcha_detected = self.extract_reviews_from_current_page(seen_texts)
+            
+            if captcha_detected:
+                break
+            
+            all_reviews.extend(page_reviews)
+            
+            if len(all_reviews) >= max_reviews:
+                break
+            
+            # Try to go to next page
+            next_success, captcha_detected = self.click_next_page(current_page)
+            
+            if captcha_detected or not next_success:
+                break
+            
+            current_page += 1
+            self.human_delay(0.8, 1.5)
+        
+        # Limit to max_reviews
+        reviews = all_reviews[:max_reviews]
         
         if session_id:
-            analysis_status[session_id] = {"status": "loading", "message": "Analyzing sentiment..."}
-        
-        reviews = []
-        for elem in review_elements[:max_reviews]:
-            review_data = self.extract_review_from_element(elem)
-            if review_data:
-                sentiment_result = self.analyzer.predict_sentiment(
-                    review_data['review_text'],
-                    review_data.get('title', '')
-                )
-                
-                review_data.update(sentiment_result)
-                reviews.append(review_data)
+            analysis_status[session_id] = {"status": "loading", "message": "Finalizing analysis..."}
         
         return {
             "product_id": product_id,
             "product_url": url,
             "reviews": reviews,
+            "total_pages_scraped": current_page,
             "analyzed_at": datetime.now().isoformat()
         }
 
@@ -379,7 +510,7 @@ def analyze():
     def run_analysis():
         scraper = None
         try:
-            scraper = WalmartReviewInference(analyzer, headless=True)
+            scraper = WalmartReviewInference(analyzer, headless=False)
             result = scraper.scrape_and_analyze(url, max_reviews, session_id)
             
             reviews = result['reviews']
@@ -419,6 +550,7 @@ def analyze():
                         "product_id": result['product_id'],
                         "product_url": result['product_url'],
                         "total_reviews": len(reviews),
+                        "total_pages_scraped": result.get('total_pages_scraped', 1),
                         "positive_count": len(positive),
                         "negative_count": len(negative),
                         "neutral_count": len(neutral),
