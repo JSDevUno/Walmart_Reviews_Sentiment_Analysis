@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walmart Sentiment Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- About Modal -->
+    <div id="aboutModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>About Walmart Sentiment Analyzer</h2>
+            <div class="about-content">
+                <p><strong>Version:</strong> 1.0.0</p>
+                <p><strong>Purpose:</strong> This tool analyzes customer reviews from Walmart products and classifies them into positive, negative, or neutral sentiments using machine learning.</p>
+                
+                <h3>How to Use:</h3>
+                <ol>
+                    <li>Copy a Walmart product URL (e.g., walmart.com/ip/product-name/123456)</li>
+                    <li>Paste it into the input field</li>
+                    <li>Click "Analyze Reviews"</li>
+                    <li>Wait for the analysis to complete (may take 1-2 minutes)</li>
+                    <li>View the sentiment distribution and sample reviews</li>
+                </ol>
+                
+                <h3>Features:</h3>
+                <ul>
+                    <li>Automated web scraping of Walmart reviews</li>
+                    <li>Machine learning-based sentiment classification</li>
+                    <li>Visual sentiment distribution charts</li>
+                    <li>Sample reviews for each sentiment category</li>
+                    <li>Rating statistics and distribution</li>
+                </ul>
+                
+                <h3>Technical Details:</h3>
+                <p><strong>Backend:</strong> Python, Flask, Selenium, scikit-learn</p>
+                <p><strong>Frontend:</strong> HTML5, CSS3, JavaScript</p>
+                <p><strong>Model:</strong> LinearSVC with TF-IDF vectorization</p>
+                
+                <h3>Limitations:</h3>
+                <ul>
+                    <li>Limited to 5 pages of reviews per analysis for performance</li>
+                    <li>Requires active internet connection</li>
+                    <li>May encounter CAPTCHA challenges</li>
+                </ul>
+                
+                <p class="footer-note">Created for sentiment analysis research and educational purposes.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <header>
+            <h1>🛒 Walmart Sentiment Analyzer</h1>
+            <p class="subtitle">Analyze customer reviews with AI-powered sentiment detection</p>
+            <button id="aboutBtn" class="about-btn">About</button>
+        </header>
+
+        <!-- Input Section -->
+        <div id="inputSection" class="input-section">
+            <div class="input-wrapper">
+                <input 
+                    type="text" 
+                    id="urlInput" 
+                    placeholder="Enter Walmart product URL (e.g., walmart.com/ip/product-name/123456)"
+                    class="url-input"
+                >
+                <button id="analyzeBtn" class="analyze-btn">Analyze Reviews</button>
+            </div>
+            <p class="hint">Example: https://www.walmart.com/ip/Apple-AirPods-Pro-2nd-Generation/1234567890</p>
+            <div id="errorMessage" class="error-message"></div>
+        </div>
+
+        <!-- Loading Section -->
+        <div id="loadingSection" class="loading-section hidden">
+            <div class="loader"></div>
+            <p class="loading-text">Analyzing reviews... This may take 1-2 minutes</p>
+            <p class="loading-subtext">Please wait while we scrape and analyze the reviews</p>
+        </div>
+
+        <!-- Results Section -->
+        <div id="resultsSection" class="results-section hidden">
+            <!-- Statistics Cards -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>Total Reviews</h3>
+                    <p class="stat-value" id="totalReviews">0</p>
+                </div>
+                <div class="stat-card positive">
+                    <h3>Positive</h3>
+                    <p class="stat-value" id="positiveCount">0</p>
+                    <p class="stat-percent" id="positivePercent">0%</p>
+                </div>
+                <div class="stat-card negative">
+                    <h3>Negative</h3>
+                    <p class="stat-value" id="negativeCount">0</p>
+                    <p class="stat-percent" id="negativePercent">0%</p>
+                </div>
+                <div class="stat-card neutral">
+                    <h3>Neutral</h3>
+                    <p class="stat-value" id="neutralCount">0</p>
+                    <p class="stat-percent" id="neutralPercent">0%</p>
+                </div>
+            </div>
+
+            <!-- Rating Info -->
+            <div class="rating-section">
+                <h2>Rating Overview</h2>
+                <div class="avg-rating">
+                    <span class="rating-value" id="avgRating">0.0</span>
+                    <span class="rating-label">/ 5.0</span>
+                </div>
+                <div class="rating-bars" id="ratingBars"></div>
+            </div>
+
+            <!-- Sentiment Chart -->
+            <div class="chart-section">
+                <h2>Sentiment Distribution</h2>
+                <div class="chart-container">
+                    <canvas id="sentimentChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Sample Reviews -->
+            <div class="samples-section">
+                <h2>Sample Reviews</h2>
+                
+                <div class="sentiment-category">
+                    <h3 class="category-positive">😊 Positive Reviews</h3>
+                    <div id="positiveSamples" class="review-samples"></div>
+                </div>
+
+                <div class="sentiment-category">
+                    <h3 class="category-negative">😞 Negative Reviews</h3>
+                    <div id="negativeSamples" class="review-samples"></div>
+                </div>
+
+                <div class="sentiment-category">
+                    <h3 class="category-neutral">😐 Neutral Reviews</h3>
+                    <div id="neutralSamples" class="review-samples"></div>
+                </div>
+            </div>
+
+            <button id="analyzeAnotherBtn" class="analyze-another-btn">Analyze Another Product</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

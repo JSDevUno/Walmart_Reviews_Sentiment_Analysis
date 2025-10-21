@@ -1,0 +1,42 @@
+{
+  "product_id": "16812905827",
+  "product_url": "https://www.walmart.com/ip/Clearance-Tall-Self-Watering-Indoor-Outdoor-Patio-Planter-Pot-Tall-Planters-Outdoor-Plants-Large-Square-Planter-Flower-Pot-Drainage-Holes-Taper-Plant/16812905827?classType=VARIANT&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "This planter is NOT TALL. It's a little over 10\". it's smaller than a bathroom waste basket. That's probably why there are no details about height in the ad. It should not be advertised as tall. It's short/small. I was very disappointed.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "negative",
+      "confidence": 0.905,
+      "score": 0.0475,
+      "roberta_label": "negative",
+      "method": "roberta",
+      "product_id": "16812905827",
+      "product_url": "https://www.walmart.com/ip/Clearance-Tall-Self-Watering-Indoor-Outdoor-Patio-Planter-Pot-Tall-Planters-Outdoor-Plants-Large-Square-Planter-Flower-Pot-Drainage-Holes-Taper-Plant/16812905827?classType=VARIANT&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "This is an opaque green color. It is approx 6inches tall, which is not tall. The quality is horrible.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "negative",
+      "confidence": 0.9305,
+      "score": 0.0348,
+      "roberta_label": "negative",
+      "method": "roberta",
+      "product_id": "16812905827",
+      "product_url": "https://www.walmart.com/ip/Clearance-Tall-Self-Watering-Indoor-Outdoor-Patio-Planter-Pot-Tall-Planters-Outdoor-Plants-Large-Square-Planter-Flower-Pot-Drainage-Holes-Taper-Plant/16812905827?classType=VARIANT&from=/search",
+      "product_name": null
+    }
+  ],
+  "scraped_at": "2025-10-21T03:59:31.445443"
+}
