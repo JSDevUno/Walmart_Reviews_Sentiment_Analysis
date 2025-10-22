@@ -1,0 +1,26 @@
+{
+  "product_id": "434270447",
+  "product_url": "https://www.walmart.com/ip/Qunler-Gaming-Keyboard-and-Mouse-Set-Rainbow-LED-Backlit-Wired-USB-Keyboard-and-Mouse-for-PC-PS3-PS4-Xbox-One-and-360/434270447?classType=REGULAR&athbdg=L1900&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "its ok",
+      "review_text": "paid 11 bucks a piece so i expected it. but they are pretty cheaply made. and it took a minute to figure out how to turn the light on the keyboard on.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4675,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "434270447",
+      "product_url": "https://www.walmart.com/ip/Qunler-Gaming-Keyboard-and-Mouse-Set-Rainbow-LED-Backlit-Wired-USB-Keyboard-and-Mouse-for-PC-PS3-PS4-Xbox-One-and-360/434270447?classType=REGULAR&athbdg=L1900&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-22T23:05:34.965018"
+}

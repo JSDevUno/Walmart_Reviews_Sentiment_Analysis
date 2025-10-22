@@ -1,0 +1,43 @@
+{
+  "product_id": "5259617226",
+  "product_url": "https://www.walmart.com/ip/Hyper-Tough-10-Foot-3-Outlet-Light-Duty-Extension-Cord-Black/5259617226?classType=VARIANT&athbdg=L1600&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Served my purpose. Seems I always need an extension cord and never have it when needed. So I ordered five of them.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4652,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5259617226",
+      "product_url": "https://www.walmart.com/ip/Hyper-Tough-10-Foot-3-Outlet-Light-Duty-Extension-Cord-Black/5259617226?classType=VARIANT&athbdg=L1600&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "the flexible cord was easy to work with. I didnt want it to show and was able to keep it very flat to disguise it",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4906,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5259617226",
+      "product_url": "https://www.walmart.com/ip/Hyper-Tough-10-Foot-3-Outlet-Light-Duty-Extension-Cord-Black/5259617226?classType=VARIANT&athbdg=L1600&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-22T19:19:34.814482"
+}

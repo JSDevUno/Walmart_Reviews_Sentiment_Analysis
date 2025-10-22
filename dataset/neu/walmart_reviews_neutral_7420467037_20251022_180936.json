@@ -1,0 +1,26 @@
+{
+  "product_id": "7420467037",
+  "product_url": "https://www.walmart.com/ip/GMKtec-Gaming-Mini-PC-32GB-RAM-1TB-SSD-AMD-Ryzen-7-7840HS-MAX5-1GHz-Windows-11-Pro-Mini-Computer-Dual-2-5G-LAN-WiFi-6-BT-5-2-Type-C-NucBox-K6/7420467037?adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "An upgrade over GMTeck G10 but wish knew better",
+      "review_text": "Well, I first bought a GMTeck G10 (didnt like it much so returned) and decided to spend a little more and get something better this time and I did (spend quite a lot more but also got more). I don't really need another mini PC having a Mini Mac M4 but happy with this purchase overall. And also the fact this one was discounted when bought it, otherwise I wouldn't have. What you need to know and all those youtube 'experts' reviews dont tell you is this, the cooling is improved over the K6 but still insufficient, I added a SKhynix P41 2TB and it was 'cooking' in the available middle SSD slot. I figured out why SSD comes installed in slot 1 next to wall, it is because next to inlet so better cooling than inside.. You need to move your hotter SSD to this slot 1 for better cooling. Second and more important, early reviews noted it came with BiWin NV 7400 SSD Pcie 4 x 4 and Crucial RAM, so I was happy with that and bought 32GB / 1 TB model but oh surprise, it came with Crucial P3 Plus SSDPcie 3 x 4 and TSWC ram..:(... They went cheap and downgraded on both, Not only P3 Plus speeds is slower but also TBW is a third of NV 7400. And I liked Crucial Rams but gotTSWC instead. If I had known , I would had bought a barebone and installed RAM and SSD myself, but stuck with these now. Finally, intial setup was a breeze ( compared to G10) and pleasently surprised but later it came to bite me, suddenly it crash once for no reason and restarted normal later so thought Ok, but no, when tried migrating my Windows to SK P41, it kept failing many times (wasted more than 5 hours with useless Acronis TrueImage cloner, DONT USE THAT CRAP). Acronis is free if Crucial SSD is installed so it failed (dont know if related to early crash or Acronis is just crap) . Finally went the SK Hynis route and downloaded Macrium cloner (it wont work for you if dont have SK Hynix SSD) and failed twice too but at least was quick, I finally figure it out from logs, I needed to disable Windows Antivirus folder protection , and it cloned successfully in like 20 mins..After that I did a Windows reset by reinstalling a fresh copy of Windows online (solved similarly an issue with G10 and Bluetooth keyboard)So that's my advice , I wish I had known or told before by \"expert\" youtubers but didn't. In insight, I should had bought a K6 or similar BOSGAME M4 etc , much cheaper and very similar overall..But I bought it and not going to return it .. Experience is similar (not same level of course) as mini M4, which crushes in efficiency and performance as user experience but this one is Windows variant so ok.. I think review is like 4 or 4.5 stars overall and I would recommend it to others if on sale and barebone model only..Disappointed with P3 Plus and TSWC current options.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4286,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "7420467037",
+      "product_url": "https://www.walmart.com/ip/GMKtec-Gaming-Mini-PC-32GB-RAM-1TB-SSD-AMD-Ryzen-7-7840HS-MAX5-1GHz-Windows-11-Pro-Mini-Computer-Dual-2-5G-LAN-WiFi-6-BT-5-2-Type-C-NucBox-K6/7420467037?adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-22T18:09:36.580764"
+}

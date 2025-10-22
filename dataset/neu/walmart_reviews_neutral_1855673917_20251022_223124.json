@@ -1,0 +1,26 @@
+{
+  "product_id": "1855673917",
+  "product_url": "https://www.walmart.com/ip/Tops-for-Women-Plus-Size-Short-Sleeve-Blouse-Shirts-Polyester-Multiple-Color-Options-S-5XL/1855673917?classType=VARIANT&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Depends on color/collar big",
+      "review_text": "I initially bought this in blue because it looked like it could be a “safe” color. For the $3 price, I was concerned the colors may be neon, even though not described that way. The blue is a bit neon for public wear, the collar is big and it looked frumpy on me, so I didn't like it, but my mom liked it as a PJ top, so we ordered other colors at the price. We've been pleasantly surprised by the green, purple and especially the WHITE!!! The fabric feels very close to a regular tshirt, but it doesn't wrinkle and it doesn't look like polyester or spandex (on the white one, in particular). The red and blue are much cheaper looking because of the “neon” look of the colors in person. The red is more of a Christmas red - a slight orange tint. I highly recommend the white (5 stars). Others are ok: Green %26 purple (3.5 stars). Blue %26 red (3 stars if you just wear them around home. 1.5 stars if you expect to add them to your wardrobe.) We got the black, but I don't think I've seen it on her yet and I can't find it for the pic or review.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6632,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "1855673917",
+      "product_url": "https://www.walmart.com/ip/Tops-for-Women-Plus-Size-Short-Sleeve-Blouse-Shirts-Polyester-Multiple-Color-Options-S-5XL/1855673917?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-22T22:31:24.050158"
+}

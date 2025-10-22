@@ -1,0 +1,43 @@
+{
+  "product_id": "14881215682",
+  "product_url": "https://www.walmart.com/ip/Maximm-Extension-Cord-Heavy-Duty-5-Feet-Flat-Wire-3-Prong-Flat-Plug-14-AWG-Power-Cord-UL-Certified-Black-Ideal-Home-Office-Use-Appliances-Electronics/14881215682?adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "just what I needed to be able to move my refrigerator to a working outlet",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4972,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "14881215682",
+      "product_url": "https://www.walmart.com/ip/Maximm-Extension-Cord-Heavy-Duty-5-Feet-Flat-Wire-3-Prong-Flat-Plug-14-AWG-Power-Cord-UL-Certified-Black-Ideal-Home-Office-Use-Appliances-Electronics/14881215682?adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Heavy duty electric extension cord",
+      "review_text": "It is black but that is ok. Appliance cords are for safety",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6518,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "14881215682",
+      "product_url": "https://www.walmart.com/ip/Maximm-Extension-Cord-Heavy-Duty-5-Feet-Flat-Wire-3-Prong-Flat-Plug-14-AWG-Power-Cord-UL-Certified-Black-Ideal-Home-Office-Use-Appliances-Electronics/14881215682?adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-22T19:27:03.017177"
+}

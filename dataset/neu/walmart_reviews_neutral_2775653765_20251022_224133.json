@@ -1,0 +1,60 @@
+{
+  "product_id": "2775653765",
+  "product_url": "https://www.walmart.com/ip/VONMAY-Unisex-Clogs-Thick-Sole-EVA-Clog-Non-slip-Sandals-Comfort-Garden-Shoes/2775653765?classType=VARIANT&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Win some... lose some...",
+      "review_text": "I originally ordered 2 different styles of 'Crocs' and a pair of leopard print shoes, ordering according to the measurements of my feet, size 8 - 8%261/2. The shoes did fit okay. The 'Crocs' turned out to be much too large. One was not in the pattern as pictured. So, I ordered another pair of each style of 'Crocs' in size 7. One was sent in the correct size which I am keeping. This style, which I am reviewing was sent in a size 11... way too large... but in the same pattern as originally pictured!!! Now I have to go through the process of returning things... ugh!!!",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4847,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "2775653765",
+      "product_url": "https://www.walmart.com/ip/VONMAY-Unisex-Clogs-Thick-Sole-EVA-Clog-Non-slip-Sandals-Comfort-Garden-Shoes/2775653765?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "I'm returning this brand, as I've also purchased the original Crocs from Walmart. I would prefer to stick with the Crocs I know after seeing this brand.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5594,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "2775653765",
+      "product_url": "https://www.walmart.com/ip/VONMAY-Unisex-Clogs-Thick-Sole-EVA-Clog-Non-slip-Sandals-Comfort-Garden-Shoes/2775653765?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Run large",
+      "review_text": "These are good for what I bought them for (shoes to wear when we have to go to the dump), but they run very large and will slip off if you do a lot of walking in them. I don't think they would be good for yard work or marine environments. The pink is a true light pink, not a coral pink as it appears on the screen. This actually was a nice surprise as I prefer true pink. They are very light.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5004,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "2775653765",
+      "product_url": "https://www.walmart.com/ip/VONMAY-Unisex-Clogs-Thick-Sole-EVA-Clog-Non-slip-Sandals-Comfort-Garden-Shoes/2775653765?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-22T22:41:33.131963"
+}

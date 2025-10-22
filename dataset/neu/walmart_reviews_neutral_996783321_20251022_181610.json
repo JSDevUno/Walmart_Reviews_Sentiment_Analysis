@@ -1,0 +1,60 @@
+{
+  "product_id": "996783321",
+  "product_url": "https://www.walmart.com/ip/SteelSeries-Apex-3-TKL-RGB-Gaming-Keyboard-Tenkeyless-Water-Dust-Resistant-PC-and-USB-A/996783321?classType=VARIANT&athbdg=L1102",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Ok for the money",
+      "review_text": "Decent for the price. It has really squishy soft keys so it's easy to miss a letter when you type. Ok for gaming but like I said, for the price. Don't expect top of the line performance.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4295,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "996783321",
+      "product_url": "https://www.walmart.com/ip/SteelSeries-Apex-3-TKL-RGB-Gaming-Keyboard-Tenkeyless-Water-Dust-Resistant-PC-and-USB-A/996783321?classType=VARIANT&athbdg=L1102",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "solid budget gaming keyboard",
+      "review_text": "pros: not to big , has F and directional arrow keys, solid budget keyboard cons: cheaper plastic all around, membrane keyboard, lower quality",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5777,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "996783321",
+      "product_url": "https://www.walmart.com/ip/SteelSeries-Apex-3-TKL-RGB-Gaming-Keyboard-Tenkeyless-Water-Dust-Resistant-PC-and-USB-A/996783321?classType=VARIANT&athbdg=L1102",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Apex 3 TKL",
+      "review_text": "[This review was collected as part of a promotion.] Apex 3 TKL (US) Customizable 8-zone RGB illumination reacts to games and discord. Clickable volume roller and media keys help me to adjust the settings and on-the-fly, instead of searching through applications and settings. I can also Adjust brightness, rewind, skip, or pause all at the touch of a button and dust and water resistant and built with extra durability to prevent damage from liquids and dust which is very helpful. TKL keyboards because eliminating the ten-key numpad provides more space for large mouse swipes and allows for better ergonomics while gaming. I love the sleek design and High-Quality Polymer Frame made very well. The lighting effects is cool practical playing games in the dark. There 3 built-in channels where the cable can exit the keyboard, keeping your desk tidy. The gaming-Grade Anti-Ghosting fast keystroke. Compatibility with Windows, Mac OS X, Xbox, and PS4. USB port required.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.535,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "996783321",
+      "product_url": "https://www.walmart.com/ip/SteelSeries-Apex-3-TKL-RGB-Gaming-Keyboard-Tenkeyless-Water-Dust-Resistant-PC-and-USB-A/996783321?classType=VARIANT&athbdg=L1102",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-22T18:16:10.489690"
+}

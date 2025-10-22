@@ -1,0 +1,26 @@
+{
+  "product_id": "5503843653",
+  "product_url": "https://www.walmart.com/ip/Wireless-Microphone-Rechargeable-Wireless-Dual-UHF-Microphone-Dual-Handheld-Dynamic-Wireless-Mic-Karaoke-Singing-Wedding-DJ-Party-Speech-Church-Class/5503843653?classType=REGULAR&athbdg=L1600&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Did what is needed.",
+      "review_text": "It was simple to understand how to set it up and to use it correctly.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5334,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5503843653",
+      "product_url": "https://www.walmart.com/ip/Wireless-Microphone-Rechargeable-Wireless-Dual-UHF-Microphone-Dual-Handheld-Dynamic-Wireless-Mic-Karaoke-Singing-Wedding-DJ-Party-Speech-Church-Class/5503843653?classType=REGULAR&athbdg=L1600&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-22T19:11:33.184973"
+}

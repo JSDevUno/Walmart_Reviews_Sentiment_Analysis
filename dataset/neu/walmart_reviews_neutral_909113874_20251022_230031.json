@@ -1,0 +1,60 @@
+{
+  "product_id": "909113874",
+  "product_url": "https://www.walmart.com/ip/Majestic-Pure-Biotin-Shampoo-for-Hair-Growth-16-fl-oz-Volumizing-Shampoo-for-Hair-Loss-Hydrating-Nourishing-Sulfate-Free-for-Men-Women/909113874?classType=VARIANT&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Biotin Shampoo for hair growth",
+      "review_text": "Biotin Shampoo for Hair Growth - Volumizing Shampoo for Hair Loss - Thin Hair Shampoo - 16 fl oz. Since turning 50 I've noticed thinning and some hair loss, I have only had this product for a couple weeks so I think it's too early to tell if it does what it claims to do - I hope so! I did have some nice volume after my initial use, this shampoo feels nice while using it (e.g. not greasy or goopy), has a very light scent and comes with a pump, contains no harsh chemicals or parabens per the label and not tested on animals.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5701,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "909113874",
+      "product_url": "https://www.walmart.com/ip/Majestic-Pure-Biotin-Shampoo-for-Hair-Growth-16-fl-oz-Volumizing-Shampoo-for-Hair-Loss-Hydrating-Nourishing-Sulfate-Free-for-Men-Women/909113874?classType=VARIANT&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Majestic Biotin shampoo dht-3 blocker",
+      "review_text": "havent noticed any difference in hair shed since using shampoo for two months. hair seems fine hasn't improved or worsen hair texture or hair loss.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6041,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "909113874",
+      "product_url": "https://www.walmart.com/ip/Majestic-Pure-Biotin-Shampoo-for-Hair-Growth-16-fl-oz-Volumizing-Shampoo-for-Hair-Loss-Hydrating-Nourishing-Sulfate-Free-for-Men-Women/909113874?classType=VARIANT&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Less hair loss",
+      "review_text": "Hair feels thicker after continued use and noticeably less hair loss.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.602,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "909113874",
+      "product_url": "https://www.walmart.com/ip/Majestic-Pure-Biotin-Shampoo-for-Hair-Growth-16-fl-oz-Volumizing-Shampoo-for-Hair-Loss-Hydrating-Nourishing-Sulfate-Free-for-Men-Women/909113874?classType=VARIANT&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-22T23:00:31.205754"
+}

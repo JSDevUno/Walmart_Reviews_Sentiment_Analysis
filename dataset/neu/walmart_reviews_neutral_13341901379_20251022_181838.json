@@ -1,0 +1,26 @@
+{
+  "product_id": "13341901379",
+  "product_url": "https://www.walmart.com/ip/onn-6-Button-Wireless-with-Quick-Scroll-Wheel-Mouse-USB-A-Nano-Receiver-Black/13341901379?classType=REGULAR&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "It's okay for the price point - nothing spectacula",
+      "review_text": "[This review was collected as part of a promotion.] This is a decent camera for the price, but it does struggle a bit with light. The attached video was recorded in 4k but it's definitely overexposed with default settings. Given the cost of Onn devices, however, it would likely work just fine for someone who needs a webcam for work, but don't expect amazing quality from it. It also didn't always stay upright and would slump to the side without interference, and I noticed bumping it actually causes distortion instead of just shaking it which makes me question the build quality.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4937,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "13341901379",
+      "product_url": "https://www.walmart.com/ip/onn-6-Button-Wireless-with-Quick-Scroll-Wheel-Mouse-USB-A-Nano-Receiver-Black/13341901379?classType=REGULAR&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-22T18:18:38.765355"
+}

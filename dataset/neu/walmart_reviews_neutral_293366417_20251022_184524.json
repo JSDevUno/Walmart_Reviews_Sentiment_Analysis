@@ -1,0 +1,43 @@
+{
+  "product_id": "293366417",
+  "product_url": "https://www.walmart.com/ip/SteelSeries-Aerox-3-2022-Edition-Wireless-Optical-Gaming-Mouse-with-Ultra-Lightweight-Design-White/293366417?classType=VARIANT&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "My son is in the first few days of using this product",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.72,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "293366417",
+      "product_url": "https://www.walmart.com/ip/SteelSeries-Aerox-3-2022-Edition-Wireless-Optical-Gaming-Mouse-with-Ultra-Lightweight-Design-White/293366417?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Very responsive but a bit loud",
+      "review_text": "Clicks are a bit loud but feel solid and reliabale",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4903,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "293366417",
+      "product_url": "https://www.walmart.com/ip/SteelSeries-Aerox-3-2022-Edition-Wireless-Optical-Gaming-Mouse-with-Ultra-Lightweight-Design-White/293366417?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-22T18:45:24.122342"
+}

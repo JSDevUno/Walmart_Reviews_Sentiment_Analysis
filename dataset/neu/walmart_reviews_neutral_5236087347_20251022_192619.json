@@ -1,0 +1,26 @@
+{
+  "product_id": "5236087347",
+  "product_url": "https://www.walmart.com/ip/BN-LINK-6ft-Indoor-Outdoor-Extension-Cord-16-3-SJTW-2-Pack-Black-3-Prong-Weather-Resistant-Flame-Retardant-Indoor-Garden-Landscaping-Holiday-Decorati/5236087347?classType=REGULAR&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "When in Doubt",
+      "review_text": "I ordered these extention cords specifically after a move finging my current outdoor extention cord too short. I was torn between a 6 ft or a 10 ft since I wasn't sure if I'd keep my light where they are. If you're looking to move things around they're a great option.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.725,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5236087347",
+      "product_url": "https://www.walmart.com/ip/BN-LINK-6ft-Indoor-Outdoor-Extension-Cord-16-3-SJTW-2-Pack-Black-3-Prong-Weather-Resistant-Flame-Retardant-Indoor-Garden-Landscaping-Holiday-Decorati/5236087347?classType=REGULAR&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-22T19:26:19.795222"
+}

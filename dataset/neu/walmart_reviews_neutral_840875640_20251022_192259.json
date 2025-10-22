@@ -1,0 +1,43 @@
+{
+  "product_id": "840875640",
+  "product_url": "https://www.walmart.com/ip/DEWENWILS-White-12FT-Extension-Cord-for-Indoor-Step-on-Switch-with-Indicator-Light-2-Prong-3-Outlets/840875640?classType=VARIANT&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Off/on button to close to the electrical outlet.",
+      "review_text": "The on button is too close to the outlet to serve my purpose. I could have just unplugged my porch lights but wanted a switch closer to the door.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.598,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "840875640",
+      "product_url": "https://www.walmart.com/ip/DEWENWILS-White-12FT-Extension-Cord-for-Indoor-Step-on-Switch-with-Indicator-Light-2-Prong-3-Outlets/840875640?classType=VARIANT&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Make life easier",
+      "review_text": "Like the foot switch do not have to dig behind the Christmas tree to turn it off.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.529,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "840875640",
+      "product_url": "https://www.walmart.com/ip/DEWENWILS-White-12FT-Extension-Cord-for-Indoor-Step-on-Switch-with-Indicator-Light-2-Prong-3-Outlets/840875640?classType=VARIANT&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-22T19:22:59.446772"
+}

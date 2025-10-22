@@ -1,0 +1,43 @@
+{
+  "product_id": "1327983741",
+  "product_url": "https://www.walmart.com/ip/onn-Wireless-Mouse-with-5-Buttons-and-Scroll-Wheel-2-4-GHz-with-USB-Nano-Receiver-Blue/1327983741?athcpid=1327983741&athpgid=AthenaItempage&athcgid=null&athznid=siext&athieid=v0&athstid=CS055~CS004&athguid=JXuqc6HUjP5hdxol1LT9RTWH0wP5TGo2wsE-&athancid=100154259&athposb=0&athena=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "It fits my hand and not uncomfortable for someone who uses it for an 8 hour shift",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4986,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "1327983741",
+      "product_url": "https://www.walmart.com/ip/onn-Wireless-Mouse-with-5-Buttons-and-Scroll-Wheel-2-4-GHz-with-USB-Nano-Receiver-Blue/1327983741?athcpid=1327983741&athpgid=AthenaItempage&athcgid=null&athznid=siext&athieid=v0&athstid=CS055~CS004&athguid=JXuqc6HUjP5hdxol1LT9RTWH0wP5TGo2wsE-&athancid=100154259&athposb=0&athena=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "works well, thing I do not like is that the USB Receiver stowage is under the top cover rather than on the bottom. You have to take the top off each time you want to set it up rather than just unhousing it from the bottom. It is a bit bulky for a young child or adolescent, more for a man than a woman.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5093,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "1327983741",
+      "product_url": "https://www.walmart.com/ip/onn-Wireless-Mouse-with-5-Buttons-and-Scroll-Wheel-2-4-GHz-with-USB-Nano-Receiver-Blue/1327983741?athcpid=1327983741&athpgid=AthenaItempage&athcgid=null&athznid=siext&athieid=v0&athstid=CS055~CS004&athguid=JXuqc6HUjP5hdxol1LT9RTWH0wP5TGo2wsE-&athancid=100154259&athposb=0&athena=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-22T18:49:55.408352"
+}

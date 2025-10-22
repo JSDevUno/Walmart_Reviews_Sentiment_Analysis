@@ -1,0 +1,26 @@
+{
+  "product_id": "15860516837",
+  "product_url": "https://www.walmart.com/ip/PPCHVOMEY-Comfort-Orthopedic-Sneakers-for-Women-Arch-Support-Breathable-Sneakers-with-Slip-Resistant-Sole-Casual-Walking-Orthopedic-Shoes/15860516837?classType=VARIANT&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "These run small so I suggest getting a half size larger than normal. Don't expect to tie them as the laces are short",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.7218,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "15860516837",
+      "product_url": "https://www.walmart.com/ip/PPCHVOMEY-Comfort-Orthopedic-Sneakers-for-Women-Arch-Support-Breathable-Sneakers-with-Slip-Resistant-Sole-Casual-Walking-Orthopedic-Shoes/15860516837?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-22T22:40:36.679796"
+}

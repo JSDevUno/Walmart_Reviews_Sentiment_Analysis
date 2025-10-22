@@ -1,0 +1,26 @@
+{
+  "product_id": "14847717822",
+  "product_url": "https://www.walmart.com/ip/memzuoix-LED-Rechargeable-Wireless-Mouse-9-Color-Gradient-RGB-Light-1200-DPI-Gaming-Mouse-Magnetic-Cover-Computer-Mouse-Laptop-Desktop-MacBook-Left-R/14847717822?classType=VARIANT&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "I only get a day and a half use then I have to charge it again. I have had one before and it would last about 3 days then it would need charging.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6106,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "14847717822",
+      "product_url": "https://www.walmart.com/ip/memzuoix-LED-Rechargeable-Wireless-Mouse-9-Color-Gradient-RGB-Light-1200-DPI-Gaming-Mouse-Magnetic-Cover-Computer-Mouse-Laptop-Desktop-MacBook-Left-R/14847717822?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-22T18:28:01.787431"
+}

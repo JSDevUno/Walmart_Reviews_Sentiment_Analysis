@@ -1,0 +1,60 @@
+{
+  "product_id": "16966666409",
+  "product_url": "https://www.walmart.com/ip/Fantaslook-Two-Piece-Sets-for-Women-Fall-Outfits-Fashion-Lounge-Sets-V-Neck-Tops-Long-Pants-Tracksuit-Vacation-Travel-Outfits/16966666409?classType=VARIANT&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Sizing??",
+      "review_text": "I normally wear a medium I'm going to return and order a larger size. It fits a little too snug for me. Matter of taste!!!",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4871,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "16966666409",
+      "product_url": "https://www.walmart.com/ip/Fantaslook-Two-Piece-Sets-for-Women-Fall-Outfits-Fashion-Lounge-Sets-V-Neck-Tops-Long-Pants-Tracksuit-Vacation-Travel-Outfits/16966666409?classType=VARIANT&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Easy Soft Outfit",
+      "review_text": "like easy soft outfit while recovering from surgery soft went up on size",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6798,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "16966666409",
+      "product_url": "https://www.walmart.com/ip/Fantaslook-Two-Piece-Sets-for-Women-Fall-Outfits-Fashion-Lounge-Sets-V-Neck-Tops-Long-Pants-Tracksuit-Vacation-Travel-Outfits/16966666409?classType=VARIANT&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Material comfortable. Shorts are a bit shorter possibly for a plus size older woman.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.8034,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "16966666409",
+      "product_url": "https://www.walmart.com/ip/Fantaslook-Two-Piece-Sets-for-Women-Fall-Outfits-Fashion-Lounge-Sets-V-Neck-Tops-Long-Pants-Tracksuit-Vacation-Travel-Outfits/16966666409?classType=VARIANT&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-22T22:32:22.550148"
+}

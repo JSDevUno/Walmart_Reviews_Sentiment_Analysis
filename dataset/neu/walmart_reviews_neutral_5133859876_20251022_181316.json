@@ -1,0 +1,26 @@
+{
+  "product_id": "5133859876",
+  "product_url": "https://www.walmart.com/ip/Geeky-GK61-SE-Gaming-Keyboard-with-RGB-LED-Backlit-White/5133859876?classType=VARIANT&athbdg=L1600",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "How do I change the color to one color and keep it there",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.8974,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5133859876",
+      "product_url": "https://www.walmart.com/ip/Geeky-GK61-SE-Gaming-Keyboard-with-RGB-LED-Backlit-White/5133859876?classType=VARIANT&athbdg=L1600",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-22T18:13:16.400090"
+}

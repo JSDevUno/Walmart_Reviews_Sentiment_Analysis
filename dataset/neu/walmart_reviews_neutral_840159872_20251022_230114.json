@@ -1,0 +1,60 @@
+{
+  "product_id": "840159872",
+  "product_url": "https://www.walmart.com/ip/Dell-Wired-Keyboard-KB216-580-ADMT-New/840159872?classType=REGULAR&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Delivered on time",
+      "review_text": "I did not expect it to be placed in the mailbox. Outside box undamaged, have not opened it, waiting on move. Will review again when I opened and use it.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5043,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "840159872",
+      "product_url": "https://www.walmart.com/ip/Dell-Wired-Keyboard-KB216-580-ADMT-New/840159872?classType=REGULAR&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Not \"New\"",
+      "review_text": "This was listed as \"New\". When we took it out of the packaging and went to connect it to the computer we realized the numbers on the number pad were sticking. Something sticky had been spilled all over the keyboard.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4951,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "840159872",
+      "product_url": "https://www.walmart.com/ip/Dell-Wired-Keyboard-KB216-580-ADMT-New/840159872?classType=REGULAR&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Not new",
+      "review_text": "I received a used keyboard instead a new one.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.7065,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "840159872",
+      "product_url": "https://www.walmart.com/ip/Dell-Wired-Keyboard-KB216-580-ADMT-New/840159872?classType=REGULAR&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-22T23:01:14.380157"
+}

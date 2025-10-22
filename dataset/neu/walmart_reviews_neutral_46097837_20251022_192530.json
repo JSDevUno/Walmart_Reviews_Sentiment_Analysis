@@ -1,0 +1,60 @@
+{
+  "product_id": "46097837",
+  "product_url": "https://www.walmart.com/ip/GoGreen-Power-16-3-50-13750-Heavy-Duty-Extension-Cord-Lighted-End/46097837?classType=REGULAR&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "it works",
+      "review_text": "I plugged it in to the power and then the other end into something that needed to be powered and the power line was connected",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5827,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "46097837",
+      "product_url": "https://www.walmart.com/ip/GoGreen-Power-16-3-50-13750-Heavy-Duty-Extension-Cord-Lighted-End/46097837?classType=REGULAR&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Description says heavy duty. But the actual packaging doesn't say heavy duty anywhere. The actual cord isn't as thick as I expected but it did get the job done.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.594,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "46097837",
+      "product_url": "https://www.walmart.com/ip/GoGreen-Power-16-3-50-13750-Heavy-Duty-Extension-Cord-Lighted-End/46097837?classType=REGULAR&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "needed two extension cord for my new blower and Walmart had what I wanted.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5899,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "46097837",
+      "product_url": "https://www.walmart.com/ip/GoGreen-Power-16-3-50-13750-Heavy-Duty-Extension-Cord-Lighted-End/46097837?classType=REGULAR&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-22T19:25:30.903844"
+}

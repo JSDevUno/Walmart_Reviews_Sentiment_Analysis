@@ -1,0 +1,43 @@
+{
+  "product_id": "5425060529",
+  "product_url": "https://www.walmart.com/ip/FIFINE-AM8-XLR-USB-Dynamic-Microphone-Computer-PC-PS5-Podcast-Gaming-Music-Recording-Mic-RGB-Headphone-Jack-Gain-Control-Mute-Noise-Cancellation/5425060529?classType=VARIANT&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "FIFINE AmpliGame AM8 USB/XLR Dynamic Microphone with RGB, Touch-mute, I/O Controls, Live Monitoring for Streaming",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6992,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5425060529",
+      "product_url": "https://www.walmart.com/ip/FIFINE-AM8-XLR-USB-Dynamic-Microphone-Computer-PC-PS5-Podcast-Gaming-Music-Recording-Mic-RGB-Headphone-Jack-Gain-Control-Mute-Noise-Cancellation/5425060529?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "FIFINE AmpliGame AM8 RGB USB/XLR Dynamic Mic with Touch-mute Button, I/O Controls, Live Monitoring Jack for Streaming",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.7668,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5425060529",
+      "product_url": "https://www.walmart.com/ip/FIFINE-AM8-XLR-USB-Dynamic-Microphone-Computer-PC-PS5-Podcast-Gaming-Music-Recording-Mic-RGB-Headphone-Jack-Gain-Control-Mute-Noise-Cancellation/5425060529?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-22T19:13:47.472413"
+}
