@@ -205,6 +205,9 @@ body {
 }
 
 .theme-toggle-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: auto;
 }
 
@@ -253,9 +256,18 @@ body {
     opacity: 1;
 }
 
+.theme-toggle-mobile .theme-icon-wrapper {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* Theme Toggle - Mobile */
 .theme-toggle-mobile i {
     transition: opacity 0.3s ease;
+    position: absolute;
 }
 
 [data-theme="dark"] .theme-toggle-mobile .fa-sun {
