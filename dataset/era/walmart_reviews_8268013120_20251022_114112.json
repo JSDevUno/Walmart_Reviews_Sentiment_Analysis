@@ -1,0 +1,25 @@
+{
+  "product_id": "8268013120",
+  "product_url": "https://www.walmart.com/ip/IMAGE-Skincare-Ageless-Total-Pure-Hyaluronic-Filler-1-oz/8268013120?classType=REGULAR&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Incomplete order",
+      "review_text": "This is only a portion of my order. Still waiting on two other items....",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "negative",
+      "confidence": 0.883,
+      "score": 0.0585,
+      "roberta_label": "negative",
+      "method": "roberta",
+      "product_id": "8268013120",
+      "product_url": "https://www.walmart.com/ip/IMAGE-Skincare-Ageless-Total-Pure-Hyaluronic-Filler-1-oz/8268013120?classType=REGULAR&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "scraped_at": "2025-10-22T11:41:12.925306"
+}

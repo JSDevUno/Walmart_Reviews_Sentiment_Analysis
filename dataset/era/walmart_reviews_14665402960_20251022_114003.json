@@ -1,0 +1,25 @@
+{
+  "product_id": "14665402960",
+  "product_url": "https://www.walmart.com/ip/Botanic-Hearth-Mandarin-Orange-and-Honey-Body-wash-16-fl-oz/14665402960?classType=REGULAR&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Great smell, pump doesn't work",
+      "review_text": "I bought the space on reviews look good was excited to get it. It smelled well. But after I put it together and put it in the come to find out the pump doesn't work. It doesn't work at all and now it's useless. Bummed.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "negative",
+      "confidence": 0.7312,
+      "score": 0.1344,
+      "roberta_label": "negative",
+      "method": "roberta",
+      "product_id": "14665402960",
+      "product_url": "https://www.walmart.com/ip/Botanic-Hearth-Mandarin-Orange-and-Honey-Body-wash-16-fl-oz/14665402960?classType=REGULAR&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "scraped_at": "2025-10-22T11:40:03.932543"
+}

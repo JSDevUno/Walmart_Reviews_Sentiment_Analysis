@@ -1,0 +1,25 @@
+{
+  "product_id": "1172673782",
+  "product_url": "https://www.walmart.com/ip/Men-s-Nintendo-The-Legend-of-Zelda-Tears-of-the-Kingdom-Master-Sword-Icon-Graphic-Tee-Black-Medium/1172673782?classType=VARIANT&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "too small, would like return and order large size",
+      "review_text": "The sizing was wrong. Would like to order large and return medium",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "negative",
+      "confidence": 0.8045,
+      "score": 0.0978,
+      "roberta_label": "negative",
+      "method": "roberta",
+      "product_id": "1172673782",
+      "product_url": "https://www.walmart.com/ip/Men-s-Nintendo-The-Legend-of-Zelda-Tears-of-the-Kingdom-Master-Sword-Icon-Graphic-Tee-Black-Medium/1172673782?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "scraped_at": "2025-10-22T11:49:39.715422"
+}

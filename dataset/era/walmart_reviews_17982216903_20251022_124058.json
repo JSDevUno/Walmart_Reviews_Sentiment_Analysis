@@ -1,0 +1,25 @@
+{
+  "product_id": "17982216903",
+  "product_url": "https://www.walmart.com/ip/Lumora-65-x24-Arched-Full-Length-Aluminum-Alloy-Standing-Floor-Mirror-Black/17982216903?classType=VARIANT&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": 1.0,
+      "title": "Customer ratings & reviews",
+      "review_text": "Customer ratings & reviews\n3.3 out of 5\n3.3 out of 5 stars\nstars\n3 ratings\n|\n0 reviews\nHow item rating is calculated\n5 stars\n33% (1)\n4 stars\n33% (1)\n3 stars\n0% (0)\n2 stars\n0% (0)\n1 star\n33% (1)\nFiltered and sorted results would be available on the new 'Customer ratings & reviews' page.\nAll filters\nStar rating\nVerified purchases only\nSort by | Most relevant\nThis item does not have any reviews yet",
+      "date": "",
+      "verified_purchase": true,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.7662,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "17982216903",
+      "product_url": "https://www.walmart.com/ip/Lumora-65-x24-Arched-Full-Length-Aluminum-Alloy-Standing-Floor-Mirror-Black/17982216903?classType=VARIANT&from=/search",
+      "product_name": null
+    }
+  ],
+  "scraped_at": "2025-10-22T12:40:58.432924"
+}

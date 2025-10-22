@@ -1,0 +1,25 @@
+{
+  "product_id": "17751374851",
+  "product_url": "https://www.walmart.com/ip/TOOTH-BITS-Mouthwash-Tablets/17751374851?classType=REGULAR&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "If your mouth burns with liquid freshener this will too!!",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "negative",
+      "confidence": 0.4731,
+      "score": 0.2634,
+      "roberta_label": "negative",
+      "method": "roberta",
+      "product_id": "17751374851",
+      "product_url": "https://www.walmart.com/ip/TOOTH-BITS-Mouthwash-Tablets/17751374851?classType=REGULAR&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "scraped_at": "2025-10-22T11:44:38.608249"
+}

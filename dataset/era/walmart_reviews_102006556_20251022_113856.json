@@ -1,0 +1,42 @@
+{
+  "product_id": "102006556",
+  "product_url": "https://www.walmart.com/ip/Eufora-Smooth-n-Frizz-Control-Shampoo-8-45oz-250ml/102006556?classType=REGULAR&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": 0.0,
+      "title": "Customer ratings & reviews",
+      "review_text": "Customer ratings & reviews\n1 out of 5\n1 out of 5 stars\nstars\n1 rating\n|\n0 reviews\nHow item rating is calculated\n5 stars\n0% (0)\n4 stars\n0% (0)\n3 stars\n0% (0)\n2 stars\n0% (0)\n1 star\n100% (1)\nFiltered and sorted results would be available on the new 'Customer ratings & reviews' page.\nAll filters\nStar rating\nVerified purchases only\nSort by | Most relevant\nThis item does not have any reviews yet",
+      "date": "",
+      "verified_purchase": true,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.8149,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "102006556",
+      "product_url": "https://www.walmart.com/ip/Eufora-Smooth-n-Frizz-Control-Shampoo-8-45oz-250ml/102006556?classType=REGULAR&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "4.380597014925373 stars out of 5, based on 402 seller reviews\n(4.4)\n402 seller reviews",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.8323,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "102006556",
+      "product_url": "https://www.walmart.com/ip/Eufora-Smooth-n-Frizz-Control-Shampoo-8-45oz-250ml/102006556?classType=REGULAR&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "scraped_at": "2025-10-22T11:38:56.067315"
+}

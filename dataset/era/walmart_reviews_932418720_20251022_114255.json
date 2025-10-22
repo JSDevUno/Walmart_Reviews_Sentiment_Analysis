@@ -1,0 +1,25 @@
+{
+  "product_id": "932418720",
+  "product_url": "https://www.walmart.com/ip/SPA-REDI-Clay-Mask-Mandarin-128-Oz-Pedicure-Body-Deep-Cleansing-Skin-Pore-Purifying-Detoxifying-Hydrating-Natural-Bentonite-Clay-Infused-with-Amino-A/932418720?classType=REGULAR&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "waste my time",
+      "review_text": "After 14 days from my order, I didn't get it",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "negative",
+      "confidence": 0.9037,
+      "score": 0.0481,
+      "roberta_label": "negative",
+      "method": "roberta",
+      "product_id": "932418720",
+      "product_url": "https://www.walmart.com/ip/SPA-REDI-Clay-Mask-Mandarin-128-Oz-Pedicure-Body-Deep-Cleansing-Skin-Pore-Purifying-Detoxifying-Hydrating-Natural-Bentonite-Clay-Infused-with-Amino-A/932418720?classType=REGULAR&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "scraped_at": "2025-10-22T11:42:55.785568"
+}

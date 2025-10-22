@@ -1,0 +1,25 @@
+{
+  "product_id": "16279120463",
+  "product_url": "https://www.walmart.com/ip/Bottomland-Camouflage-Polo-Shirt-for-Men-Short-Sleeve-Outdoors-Fishing/16279120463?classType=VARIANT&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Pass….",
+      "review_text": "Super disappointed in this polo. The material is cheap and catches on everything. The colors are way off, even have a purplish tint. Definitely not like the picture or what you would expect from bottomland print. Additionally, it's way overpriced for the quality and color. Plus the shipping took way longer than it should have or expected. I do not recommend. This was a gift for my husband's birthday and it's too poor quality to give as a gift.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "negative",
+      "confidence": 0.9355,
+      "score": 0.0323,
+      "roberta_label": "negative",
+      "method": "roberta",
+      "product_id": "16279120463",
+      "product_url": "https://www.walmart.com/ip/Bottomland-Camouflage-Polo-Shirt-for-Men-Short-Sleeve-Outdoors-Fishing/16279120463?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "scraped_at": "2025-10-22T11:46:49.577567"
+}

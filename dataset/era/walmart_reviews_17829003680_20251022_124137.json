@@ -1,0 +1,42 @@
+{
+  "product_id": "17829003680",
+  "product_url": "https://www.walmart.com/ip/Lumora-21-x64-LED-Full-Length-Mirror-Rounded-Corner-Floor-Mirror-with-Dimming-3-Color-Lighting/17829003680?classType=VARIANT&athbdg=L1102&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Mirror color lighting beauty",
+      "review_text": "Elegance and functionality in one. The Lumora 21\" x 64\" LED-lit mirror with an arched design transforms any space. 3 light tones Dimmable Perfect for selfies and complete looks. Style and practicality in one mirror!",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "positive",
+      "confidence": 0.9033,
+      "score": 0.9517,
+      "roberta_label": "positive",
+      "method": "roberta",
+      "product_id": "17829003680",
+      "product_url": "https://www.walmart.com/ip/Lumora-21-x64-LED-Full-Length-Mirror-Rounded-Corner-Floor-Mirror-with-Dimming-3-Color-Lighting/17829003680?classType=VARIANT&athbdg=L1102&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Wrong mirror",
+      "review_text": "They sent me the wrong one :( not the mirror pictured !!!! Very disappointed",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "negative",
+      "confidence": 0.9475,
+      "score": 0.0262,
+      "roberta_label": "negative",
+      "method": "roberta",
+      "product_id": "17829003680",
+      "product_url": "https://www.walmart.com/ip/Lumora-21-x64-LED-Full-Length-Mirror-Rounded-Corner-Floor-Mirror-with-Dimming-3-Color-Lighting/17829003680?classType=VARIANT&athbdg=L1102&from=/search",
+      "product_name": null
+    }
+  ],
+  "scraped_at": "2025-10-22T12:41:37.268987"
+}

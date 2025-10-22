@@ -1,0 +1,42 @@
+{
+  "product_id": "15131609586",
+  "product_url": "https://www.walmart.com/ip/3-Pack-Men-s-T-Shirts-100-Cotton-V-Neck-Short-Sleeve-S-XL-Basic-Classic-Fit-Solid-Regular-Big-Tall-Workout-Plain-Breathable-Casual-Tee-Menswear-Top/15131609586?classType=REGULAR&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": 0.0,
+      "title": "Customer ratings & reviews",
+      "review_text": "Customer ratings & reviews\n2 out of 5\n2 out of 5 stars\nstars\n1 rating\n|\n0 reviews\nHow item rating is calculated\n5 stars\n0% (0)\n4 stars\n0% (0)\n3 stars\n0% (0)\n2 stars\n100% (1)\n1 star\n0% (0)\nFiltered and sorted results would be available on the new 'Customer ratings & reviews' page.\nAll filters\nStar rating\nVerified purchases only\nSort by | Most relevant\nThis item does not have any reviews yet",
+      "date": "",
+      "verified_purchase": true,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.8152,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "15131609586",
+      "product_url": "https://www.walmart.com/ip/3-Pack-Men-s-T-Shirts-100-Cotton-V-Neck-Short-Sleeve-S-XL-Basic-Classic-Fit-Solid-Regular-Big-Tall-Workout-Plain-Breathable-Casual-Tee-Menswear-Top/15131609586?classType=REGULAR&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "4.038461538461538 stars out of 5, based on 26 seller reviews\n(4.0)\n26 seller reviews",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.8531,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "15131609586",
+      "product_url": "https://www.walmart.com/ip/3-Pack-Men-s-T-Shirts-100-Cotton-V-Neck-Short-Sleeve-S-XL-Basic-Classic-Fit-Solid-Regular-Big-Tall-Workout-Plain-Breathable-Casual-Tee-Menswear-Top/15131609586?classType=REGULAR&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "scraped_at": "2025-10-22T11:47:22.044430"
+}

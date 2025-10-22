@@ -1,0 +1,42 @@
+{
+  "product_id": "5446120984",
+  "product_url": "https://www.walmart.com/ip/Ma-Croix-Mens-Premium-Jersey-Track-Pants-with-Ankle-Zipper-Slim-Athletic-Fit-Sweatpants/5446120984?classType=VARIANT&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Track pants are tight, form fitting. I was looking for loose fit space to minimize sweating during running or cardio. Also, the waistband likes to fall below the waist. The lower leg zippers don't zip high enough so they are difficult or impossible to pull off over running shoes with larger heels, soles. so I would not recommend them for jogging or warm up. the material is a spongy fabric instead of a slick windbreaker poly or nylon fabric. but it's \"okay\" since the windbreaker, long ankle zipper type are hard to find nowadays.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "negative",
+      "confidence": 0.5912,
+      "score": 0.2044,
+      "roberta_label": "negative",
+      "method": "roberta",
+      "product_id": "5446120984",
+      "product_url": "https://www.walmart.com/ip/Ma-Croix-Mens-Premium-Jersey-Track-Pants-with-Ankle-Zipper-Slim-Athletic-Fit-Sweatpants/5446120984?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Athletic Pants with zipper legs",
+      "review_text": "The pants are very comfortable except for the fact that the legs are quite skinny. These pants were ordered for a large man who has large legs and the legs are small. I am grateful for the zippers in the legs.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "positive",
+      "confidence": 0.9323,
+      "score": 0.9661,
+      "roberta_label": "positive",
+      "method": "roberta",
+      "product_id": "5446120984",
+      "product_url": "https://www.walmart.com/ip/Ma-Croix-Mens-Premium-Jersey-Track-Pants-with-Ankle-Zipper-Slim-Athletic-Fit-Sweatpants/5446120984?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "scraped_at": "2025-10-22T12:03:39.543129"
+}

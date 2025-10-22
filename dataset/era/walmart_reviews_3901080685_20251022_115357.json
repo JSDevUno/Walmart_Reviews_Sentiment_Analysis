@@ -1,0 +1,42 @@
+{
+  "product_id": "3901080685",
+  "product_url": "https://www.walmart.com/ip/Saucezhan-Men-s-Jeans-Vulcanization-Olive-Green-Selvedge-Denim-Jeans-Vintage-Regular-Fit-Taper-Leg/3901080685?classType=VARIANT&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "no movement in the seat",
+      "review_text": "they look nice they feel nice but the cut is horrible. I felt super tight in the garage no movement. The waist felt good but through the hip and crotch felt super snug",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "negative",
+      "confidence": 0.8095,
+      "score": 0.0953,
+      "roberta_label": "negative",
+      "method": "roberta",
+      "product_id": "3901080685",
+      "product_url": "https://www.walmart.com/ip/Saucezhan-Men-s-Jeans-Vulcanization-Olive-Green-Selvedge-Denim-Jeans-Vintage-Regular-Fit-Taper-Leg/3901080685?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Small and slim cut with issues.",
+      "review_text": "the green demon color is why I purchased these. I had to return the first pair, they are at least 2” smaller. The cut is awkward and these feel tight from the waist down for about 5”. I am considering getting this pair tailored or wait until I lose weight.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "negative",
+      "confidence": 0.7022,
+      "score": 0.1489,
+      "roberta_label": "negative",
+      "method": "roberta",
+      "product_id": "3901080685",
+      "product_url": "https://www.walmart.com/ip/Saucezhan-Men-s-Jeans-Vulcanization-Olive-Green-Selvedge-Denim-Jeans-Vintage-Regular-Fit-Taper-Leg/3901080685?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "scraped_at": "2025-10-22T11:53:57.413814"
+}

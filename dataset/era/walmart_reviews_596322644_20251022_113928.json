@@ -1,0 +1,25 @@
+{
+  "product_id": "596322644",
+  "product_url": "https://www.walmart.com/ip/Therapro-Mediceuticals-Solv-X-Oily-Scalp-Hair-Treatment-Shampoo-w-Wide-Tooth-Comb-8-45-oz/596322644?classType=REGULAR&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Don't waste your money!",
+      "review_text": "It doesn't work ! My hair became more oily with this product than the products sold in store. Don't waste your money.! And it smells bad. It has a chemical smell .",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "negative",
+      "confidence": 0.9346,
+      "score": 0.0327,
+      "roberta_label": "negative",
+      "method": "roberta",
+      "product_id": "596322644",
+      "product_url": "https://www.walmart.com/ip/Therapro-Mediceuticals-Solv-X-Oily-Scalp-Hair-Treatment-Shampoo-w-Wide-Tooth-Comb-8-45-oz/596322644?classType=REGULAR&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "scraped_at": "2025-10-22T11:39:28.126596"
+}

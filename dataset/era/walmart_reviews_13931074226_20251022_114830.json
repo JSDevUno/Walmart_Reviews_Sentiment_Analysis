@@ -1,0 +1,25 @@
+{
+  "product_id": "13931074226",
+  "product_url": "https://www.walmart.com/ip/Skull-USA-Distressed-Men-T-Shirt-American-Flag-Tee-Gym-Biker/13931074226?classType=VARIANT&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Didn't receive",
+      "review_text": "Never got shirt. Would like a refund",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "negative",
+      "confidence": 0.7855,
+      "score": 0.1072,
+      "roberta_label": "negative",
+      "method": "roberta",
+      "product_id": "13931074226",
+      "product_url": "https://www.walmart.com/ip/Skull-USA-Distressed-Men-T-Shirt-American-Flag-Tee-Gym-Biker/13931074226?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "scraped_at": "2025-10-22T11:48:30.288419"
+}

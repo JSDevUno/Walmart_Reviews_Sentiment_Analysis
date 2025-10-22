@@ -1,0 +1,42 @@
+{
+  "product_id": "833677124",
+  "product_url": "https://www.walmart.com/ip/Dr-Jart-CRYO-RUBBER-WITH-SOOTHING-ALLANTOIN-MASK/833677124?classType=REGULAR",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Treat yourself",
+      "review_text": "These masks make your skin feel so soft and refreshed.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "positive",
+      "confidence": 0.9536,
+      "score": 0.9768,
+      "roberta_label": "positive",
+      "method": "roberta",
+      "product_id": "833677124",
+      "product_url": "https://www.walmart.com/ip/Dr-Jart-CRYO-RUBBER-WITH-SOOTHING-ALLANTOIN-MASK/833677124?classType=REGULAR",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Waste",
+      "review_text": "This mask was missing the cream and fell off of my face almost immediately. Total waste of money.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "negative",
+      "confidence": 0.9432,
+      "score": 0.0284,
+      "roberta_label": "negative",
+      "method": "roberta",
+      "product_id": "833677124",
+      "product_url": "https://www.walmart.com/ip/Dr-Jart-CRYO-RUBBER-WITH-SOOTHING-ALLANTOIN-MASK/833677124?classType=REGULAR",
+      "product_name": null
+    }
+  ],
+  "scraped_at": "2025-10-22T11:43:30.584242"
+}

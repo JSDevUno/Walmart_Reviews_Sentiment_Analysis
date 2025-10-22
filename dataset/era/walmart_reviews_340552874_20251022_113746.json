@@ -1,0 +1,25 @@
+{
+  "product_id": "340552874",
+  "product_url": "https://www.walmart.com/ip/8-LED-Lighted-Wall-Mount-Plug-in-Two-Sided-Makeup-Vanity-Mirror-Matte-Black-1X-10X-Magnification-by-Fixsen/340552874?classType=VARIANT&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Light doesn't work out of the box",
+      "review_text": "I'm mounted it to the wall and plugged it in and turned it on and the light doesn't work.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "negative",
+      "confidence": 0.7984,
+      "score": 0.1008,
+      "roberta_label": "negative",
+      "method": "roberta",
+      "product_id": "340552874",
+      "product_url": "https://www.walmart.com/ip/8-LED-Lighted-Wall-Mount-Plug-in-Two-Sided-Makeup-Vanity-Mirror-Matte-Black-1X-10X-Magnification-by-Fixsen/340552874?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "scraped_at": "2025-10-22T11:37:46.877438"
+}

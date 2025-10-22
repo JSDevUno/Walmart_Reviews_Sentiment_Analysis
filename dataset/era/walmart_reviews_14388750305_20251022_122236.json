@@ -1,0 +1,25 @@
+{
+  "product_id": "14388750305",
+  "product_url": "https://www.walmart.com/ip/Ouwald-Makeup-Mirror-1500mA-Rechargeable-Vanity-Mirror-Lights-92-Led-Portable-10-Travel-Lighted-Makeup-Mirror-10X-Magnification-Mirror-White/14388750305?classType=REGULAR&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Wrong",
+      "review_text": "Never got mirror. I ended up with someones Prescription glasses and Shirt. Its a pain in the butt trying to return the wrong items because someone sent you the wrong stuff.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "negative",
+      "confidence": 0.9318,
+      "score": 0.0341,
+      "roberta_label": "negative",
+      "method": "roberta",
+      "product_id": "14388750305",
+      "product_url": "https://www.walmart.com/ip/Ouwald-Makeup-Mirror-1500mA-Rechargeable-Vanity-Mirror-Lights-92-Led-Portable-10-Travel-Lighted-Makeup-Mirror-10X-Magnification-Mirror-White/14388750305?classType=REGULAR&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "scraped_at": "2025-10-22T12:22:36.503578"
+}

@@ -1,0 +1,25 @@
+{
+  "product_id": "206646320",
+  "product_url": "https://www.walmart.com/ip/Christian-Faith-Bigger-Than-Fear-Graphic-T-shirt/206646320?classType=VARIANT&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Colors are way more dull than the ones pictured. Not great quality graphics.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "negative",
+      "confidence": 0.9266,
+      "score": 0.0367,
+      "roberta_label": "negative",
+      "method": "roberta",
+      "product_id": "206646320",
+      "product_url": "https://www.walmart.com/ip/Christian-Faith-Bigger-Than-Fear-Graphic-T-shirt/206646320?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "scraped_at": "2025-10-22T11:47:55.982620"
+}

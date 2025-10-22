@@ -1,0 +1,59 @@
+{
+  "product_id": "200102148",
+  "product_url": "https://www.walmart.com/ip/Majestic-Pure-Gold-Facial-Mask-Help-Reduces-the-Appearances-of-Fine-Lines-and-Wrinkles-Ancient-Gold-Face-Mask-Formula-8-8-Oz/200102148?classType=REGULAR&adsRedirect=true\\",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Love this product",
+      "review_text": "I love putting this on my skin. My skin looks vibrant after. Ive notice my skin looks tighter too.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "positive",
+      "confidence": 0.9803,
+      "score": 0.9901,
+      "roberta_label": "positive",
+      "method": "roberta",
+      "product_id": "200102148",
+      "product_url": "https://www.walmart.com/ip/Majestic-Pure-Gold-Facial-Mask-Help-Reduces-the-Appearances-of-Fine-Lines-and-Wrinkles-Ancient-Gold-Face-Mask-Formula-8-8-Oz/200102148?classType=REGULAR&adsRedirect=true\\",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Wasnt filled all the way like pictured, maybe like 1/4 missing",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5722,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "200102148",
+      "product_url": "https://www.walmart.com/ip/Majestic-Pure-Gold-Facial-Mask-Help-Reduces-the-Appearances-of-Fine-Lines-and-Wrinkles-Ancient-Gold-Face-Mask-Formula-8-8-Oz/200102148?classType=REGULAR&adsRedirect=true\\",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "RIPP OFF COMPANY",
+      "review_text": "ordered a product arrived USED NO EMAIL OR CHAT SUPPORT CUSTOMER SERVICE ON THE PHONE PROMISED A REFUND THEN DID NOT PROCESS IT CALLED AGAIN SHE LIED AND GAVE ME THE RUN AROUND AND REFUSED TO CONNECT ME WITH A MANAGER",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "negative",
+      "confidence": 0.9234,
+      "score": 0.0383,
+      "roberta_label": "negative",
+      "method": "roberta",
+      "product_id": "200102148",
+      "product_url": "https://www.walmart.com/ip/Majestic-Pure-Gold-Facial-Mask-Help-Reduces-the-Appearances-of-Fine-Lines-and-Wrinkles-Ancient-Gold-Face-Mask-Formula-8-8-Oz/200102148?classType=REGULAR&adsRedirect=true\\",
+      "product_name": null
+    }
+  ],
+  "scraped_at": "2025-10-22T11:42:22.129706"
+}

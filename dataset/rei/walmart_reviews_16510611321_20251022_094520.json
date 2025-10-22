@@ -1,0 +1,59 @@
+{
+  "product_id": "16510611321",
+  "product_url": "https://www.walmart.com/ip/Pre-Owned-Apple-AirPods-4-White-In-Ear-Headphones-MXP63LL-A/16510611321?conditionGroupCode=3&classType=REGULAR&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Quality and sound very good. Satisfied with purchase.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "positive",
+      "confidence": 0.9798,
+      "score": 0.9899,
+      "roberta_label": "positive",
+      "method": "roberta",
+      "product_id": "16510611321",
+      "product_url": "https://www.walmart.com/ip/Pre-Owned-Apple-AirPods-4-White-In-Ear-Headphones-MXP63LL-A/16510611321?conditionGroupCode=3&classType=REGULAR&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Everything works, looks good. Thinking about changing to the newest airpods for live translation.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "positive",
+      "confidence": 0.9586,
+      "score": 0.9793,
+      "roberta_label": "positive",
+      "method": "roberta",
+      "product_id": "16510611321",
+      "product_url": "https://www.walmart.com/ip/Pre-Owned-Apple-AirPods-4-White-In-Ear-Headphones-MXP63LL-A/16510611321?conditionGroupCode=3&classType=REGULAR&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "It did not com with a charger for the pods have to go buy one paid 90 bucks",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "negative",
+      "confidence": 0.7098,
+      "score": 0.1451,
+      "roberta_label": "negative",
+      "method": "roberta",
+      "product_id": "16510611321",
+      "product_url": "https://www.walmart.com/ip/Pre-Owned-Apple-AirPods-4-White-In-Ear-Headphones-MXP63LL-A/16510611321?conditionGroupCode=3&classType=REGULAR&from=/search",
+      "product_name": null
+    }
+  ],
+  "scraped_at": "2025-10-22T09:45:20.352110"
+}

@@ -1,0 +1,42 @@
+{
+  "product_id": "12299365301",
+  "product_url": "https://www.walmart.com/ip/Mooyam-Turmeric-Exfoliating-Cleansing-Pads-50-Pcs-For-Facial-Cleansing-Exfoliation-Removal-of-Dirt-and-Make-Up-Residue/12299365301?classType=REGULAR&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "face scrub",
+      "review_text": "small enough for travel, but each wipe too flimsy. Although looks yellow, not sure it is turmeric does not smell of turmeric",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "negative",
+      "confidence": 0.7719,
+      "score": 0.114,
+      "roberta_label": "negative",
+      "method": "roberta",
+      "product_id": "12299365301",
+      "product_url": "https://www.walmart.com/ip/Mooyam-Turmeric-Exfoliating-Cleansing-Pads-50-Pcs-For-Facial-Cleansing-Exfoliation-Removal-of-Dirt-and-Make-Up-Residue/12299365301?classType=REGULAR&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Defective packaging",
+      "review_text": "Product defective. Foil on bottle has a space and all the liquid leaked out. Might try to buy again one day",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "negative",
+      "confidence": 0.9166,
+      "score": 0.0417,
+      "roberta_label": "negative",
+      "method": "roberta",
+      "product_id": "12299365301",
+      "product_url": "https://www.walmart.com/ip/Mooyam-Turmeric-Exfoliating-Cleansing-Pads-50-Pcs-For-Facial-Cleansing-Exfoliation-Removal-of-Dirt-and-Make-Up-Residue/12299365301?classType=REGULAR&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "scraped_at": "2025-10-22T11:38:23.702740"
+}

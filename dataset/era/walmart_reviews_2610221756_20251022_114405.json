@@ -1,0 +1,25 @@
+{
+  "product_id": "2610221756",
+  "product_url": "https://www.walmart.com/ip/TTdayup-Rustic-Shabby-Chic-Vase-Flower-Finish-Galvanized-Milk-Can-Handle-Vintage-Farmhouse-Vase-French-Bucket-Centerpieces-Handle-Light-Grey/2610221756?classType=VARIANT&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "I love this little milk can!",
+      "review_text": "This milk can is SO adorable! I didn't realize that the color isn't white - it's actually a very soft light blue, but that makes me love it even more! The item description says it isn't waterproof, but the seller actually put a clear plastic container inside in case you want to add fresh flowers. I just used mine for silk ivy, but it just too cute for words! 🫠",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "positive",
+      "confidence": 0.9745,
+      "score": 0.9873,
+      "roberta_label": "positive",
+      "method": "roberta",
+      "product_id": "2610221756",
+      "product_url": "https://www.walmart.com/ip/TTdayup-Rustic-Shabby-Chic-Vase-Flower-Finish-Galvanized-Milk-Can-Handle-Vintage-Farmhouse-Vase-French-Bucket-Centerpieces-Handle-Light-Grey/2610221756?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "scraped_at": "2025-10-22T11:44:05.043759"
+}

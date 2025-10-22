@@ -1,0 +1,42 @@
+{
+  "product_id": "16678903684",
+  "product_url": "https://www.walmart.com/ip/Brooklyn-Cloth-Men-s-Cropped-Bedstuy-Motor-Club-Button-Up-Shirt-Short-Sleeve-Olive-Gray-Small/16678903684?classType=VARIANT&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": 0.0,
+      "title": "Customer ratings & reviews",
+      "review_text": "Customer ratings & reviews\n2 out of 5\n2 out of 5 stars\nstars\n1 rating\n|\n0 reviews\nHow item rating is calculated\n5 stars\n0% (0)\n4 stars\n0% (0)\n3 stars\n0% (0)\n2 stars\n100% (1)\n1 star\n0% (0)\nFiltered and sorted results would be available on the new 'Customer ratings & reviews' page.\nAll filters\nStar rating\nVerified purchases only\nSort by | Most relevant\nThis item does not have any reviews yet",
+      "date": "",
+      "verified_purchase": true,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.8152,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "16678903684",
+      "product_url": "https://www.walmart.com/ip/Brooklyn-Cloth-Men-s-Cropped-Bedstuy-Motor-Club-Button-Up-Shirt-Short-Sleeve-Olive-Gray-Small/16678903684?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "5 stars out of 5, based on 4 seller reviews\n(5.0)\n4 seller reviews",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.7109,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "16678903684",
+      "product_url": "https://www.walmart.com/ip/Brooklyn-Cloth-Men-s-Cropped-Bedstuy-Motor-Club-Button-Up-Shirt-Short-Sleeve-Olive-Gray-Small/16678903684?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "scraped_at": "2025-10-22T11:46:14.418821"
+}

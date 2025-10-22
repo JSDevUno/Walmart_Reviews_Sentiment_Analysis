@@ -1,0 +1,25 @@
+{
+  "product_id": "5074609968",
+  "product_url": "https://www.walmart.com/ip/NIKA-SKIN-CARE-Anti-Aging-Intensive-Treatment-Botox-Alternative-Moisturizer-Collagen-Matrixyl-Argireline-Peptides-Hyaluronic-Acid-Collagen-Retinol-Ap/5074609968?classType=REGULAR&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "It came and I couldn't get anything out of it. Then they wanted me to bring it back to return it.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "negative",
+      "confidence": 0.7439,
+      "score": 0.128,
+      "roberta_label": "negative",
+      "method": "roberta",
+      "product_id": "5074609968",
+      "product_url": "https://www.walmart.com/ip/NIKA-SKIN-CARE-Anti-Aging-Intensive-Treatment-Botox-Alternative-Moisturizer-Collagen-Matrixyl-Argireline-Peptides-Hyaluronic-Acid-Collagen-Retinol-Ap/5074609968?classType=REGULAR&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "scraped_at": "2025-10-22T11:36:02.259562"
+}

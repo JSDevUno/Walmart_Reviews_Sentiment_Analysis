@@ -1,0 +1,25 @@
+{
+  "product_id": "940059214",
+  "product_url": "https://www.walmart.com/ip/Truly-Free-Refillable-Non-Toxic-Dish-Soap-2-Pack-Liquid-Dish-Soap-Harmful-Ingredients-Includes-Empty-16-oz-Bottle-2-Refills-each-make-16-oz/940059214?classType=VARIANT&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "I haven't been able to try the product yet, but so far I'm disappointed by the photos and description… REFILLABLE means that it should include a container to refill, as shown in the pictures. I read carefully before ordering and made sure there was not a separate container available for purchase from the same seller to include in my order. There was not, so I ordered based on the main photo and item specifications. If it doesn't include a container, change the description and exclude it from the photo. I checked the company's website after delivery and the same product with the same photos states it includes a container. Not sure if I will keep this since I'll need to buy a container of some sort. I can't find this brand specifically for purchase by itself.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "negative",
+      "confidence": 0.8085,
+      "score": 0.0958,
+      "roberta_label": "negative",
+      "method": "roberta",
+      "product_id": "940059214",
+      "product_url": "https://www.walmart.com/ip/Truly-Free-Refillable-Non-Toxic-Dish-Soap-2-Pack-Liquid-Dish-Soap-Harmful-Ingredients-Includes-Empty-16-oz-Bottle-2-Refills-each-make-16-oz/940059214?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "scraped_at": "2025-10-22T11:40:39.546303"
+}
