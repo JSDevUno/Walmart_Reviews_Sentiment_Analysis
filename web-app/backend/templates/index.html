@@ -4,84 +4,142 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Walmart Sentiment Analyzer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="../static/css/style.css">
 </head>
-<body>
-    <nav>
-        <div class="logo">
-            <div class="logo-icon">W</div>
+<body class="light-mode">
+    <nav class="navbar">
+        <div class="nav-brand">
+            <div class="nav-icon">
+                <i class="fas fa-store"></i>
+            </div>
             <span>Walmart Sentiment Analyzer</span>
         </div>
-        <button class="about-btn" onclick="openAboutModal()">About</button>
+        <div class="nav-actions desktop-nav">
+            <button class="btn-secondary" onclick="openAboutModal()">
+                <i class="fas fa-info-circle"></i> About
+            </button>
+            <button class="theme-toggle" id="themeToggle" title="Toggle theme">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+        <button class="burger-menu" id="burgerMenu">
+            <i class="fas fa-bars"></i>
+        </button>
     </nav>
 
-    <div class="container">
-        <div class="main-content">
-            <h1>Analyze Product Reviews</h1>
-            <p class="subtitle">Get instant sentiment analysis of Walmart product reviews using AI</p>
-            
-            <div class="input-group">
-                <div class="input-wrapper">
-                    <input 
-                        type="text" 
-                        id="urlInput" 
-                        placeholder="Paste Walmart product URL here..."
-                        onkeypress="if(event.key==='Enter') analyzeReviews()"
-                    >
-                    <div id="errorMessage" class="error-message"></div>
-                </div>
-                <button class="analyze-btn" onclick="analyzeReviews()" id="analyzeBtn">
-                    Analyze Reviews
-                </button>
-            </div>
+    <!-- Side Navigation -->
+    <div class="side-nav" id="sideNav">
+        <div class="side-nav-header">
+            <h3>Menu</h3>
+            <button class="close-side-nav">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="side-nav-content">
+            <button class="side-nav-item" onclick="openAboutModal(); closeSideNav();">
+                <i class="fas fa-info-circle"></i>
+                <span>About</span>
+            </button>
+            <button class="side-nav-item theme-toggle-mobile">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <span>Toggle Theme</span>
+            </button>
         </div>
     </div>
+    <div class="side-nav-overlay" id="sideNavOverlay"></div>
+
+    <main class="main-container">
+        <div class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">Analyze Product Reviews</h1>
+                <p class="hero-subtitle">ML-powered sentiment analysis for Walmart customer reviews</p>
+                
+                <div class="input-section">
+                    <div class="input-container">
+                        <div class="input-wrapper">
+                            <i class="fas fa-link input-icon"></i>
+                            <input 
+                                type="text" 
+                                id="urlInput" 
+                                placeholder="Paste Walmart product URL here..."
+                            >
+                        </div>
+                        <div id="errorMessage" class="error-message"></div>
+                    </div>
+                    <button class="btn-primary" id="analyzeBtn">
+                        <i class="fas fa-rocket"></i>
+                        <span>Analyze Reviews</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
 
     <!-- About Modal -->
-    <div id="aboutModal" class="modal">
+    <div id="aboutModal" class="modal" role="dialog" aria-labelledby="aboutTitle">
         <div class="modal-content">
             <div class="modal-header">
-                <h2>About This Tool</h2>
-                <button class="close-btn" onclick="closeAboutModal()">&times;</button>
+                <h2 id="aboutTitle">About This Tool</h2>
+                <button class="btn-icon" onclick="closeAboutModal()" aria-label="Close">
+                    <i class="fas fa-times"></i>
+                </button>
             </div>
-            <div class="modal-body about-content">
-                <h3>Walmart Sentiment Analyzer</h3>
-                <p>This tool uses machine learning to analyze customer reviews from Walmart products and determine their sentiment.</p>
-                
-                <h4 style="margin-top: 2rem; color: #667eea;">Features:</h4>
-                <ul>
-                    <li>Automated web scraping of Walmart product reviews</li>
-                    <li>TF-IDF + SVM sentiment classification (Positive, Negative, Neutral)</li>
-                    <li>Confidence scores for each prediction</li>
-                    <li>Statistical analysis and visualization</li>
-                    <li>Sample reviews from each sentiment category</li>
-                </ul>
-
-                <h4 style="margin-top: 2rem; color: #667eea;">How to Use:</h4>
-                <ul>
-                    <li>Copy a Walmart product URL from walmart.com</li>
-                    <li>Paste it into the input field</li>
-                    <li>Click "Analyze Reviews" and wait for results</li>
-                    <li>View comprehensive sentiment analysis and sample reviews</li>
-                </ul>
-
-                <h4 style="margin-top: 2rem; color: #667eea;">Technology:</h4>
-                <p style="line-height: 1.8;">Built with Python (Flask, Selenium, scikit-learn), HTML, CSS, and JavaScript. Uses TF-IDF vectorization and Linear SVM for sentiment classification.</p>
+            <div class="modal-body">
+                <div class="about-grid">
+                    <div class="about-section">
+                        <h3><i class="fas fa-brain"></i> ML Sentiment Analysis</h3>
+                        <p>Uses TF-IDF vectorization with Linear SVM for accurate 3-class sentiment classification (Positive, Negative, Neutral).</p>
+                    </div>
+                    <div class="about-section">
+                        <h3><i class="fas fa-spider"></i> Automated Scraping</h3>
+                        <p>Selenium-powered web scraping with anti-detection measures and pagination support.</p>
+                    </div>
+                    <div class="about-section">
+                        <h3><i class="fas fa-chart-line"></i> Real-time Results</h3>
+                        <p>Live progress updates, confidence scoring, and comprehensive statistical analysis.</p>
+                    </div>
+                </div>
+                <div class="about-features">
+                    <h3>Key Features</h3>
+                    <div class="features-grid">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>50+ reviews analyzed per request</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Confidence scores for each prediction</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Sample reviews by sentiment category</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Average rating calculation</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- Results Modal -->
-    <div id="resultsModal" class="modal">
-        <div class="modal-content">
+    <div id="resultsModal" class="modal" role="dialog" aria-labelledby="resultsTitle">
+        <div class="modal-content large">
             <div class="modal-header">
-                <h2>Analysis Results</h2>
-                <button class="close-btn" onclick="closeResultsModal()">&times;</button>
+                <h2 id="resultsTitle">Analysis Results</h2>
+                <button class="btn-icon" onclick="closeResultsModal()" aria-label="Close">
+                    <i class="fas fa-times"></i>
+                </button>
             </div>
             <div class="modal-body" id="resultsContent">
-                <div class="loading">
+                <div class="loading-state">
                     <div class="spinner"></div>
-                    <p id="loadingMessage">Starting analysis...</p>
+                    <p id="loadingMessage">Initializing browser...</p>
                 </div>
             </div>
         </div>
