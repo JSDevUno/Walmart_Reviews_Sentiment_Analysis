@@ -48,7 +48,6 @@ function ReviewCard({ review }) {
     <div className="review-card">
       <div className="review-header">
         <div className="reviewer-info">
-          <span className="reviewer-name">{review.reviewer_name || 'Anonymous'}</span>
           {review.verified_purchase && (
             <span className="verified-badge">
               <i className="fas fa-check-circle"></i>
@@ -77,15 +76,10 @@ function ReviewCard({ review }) {
         </div>
       </div>
       
-      {review.title && (
-        <h4 className="review-title">{review.title}</h4>
-      )}
+      <h4 className="review-title">{review.title || 'No title'}</h4>
       
       <p className="review-text">{review.review_text}</p>
       
-      <div className="review-footer">
-        <span className="review-date">{formatDate(review.date)}</span>
-      </div>
     </div>
   )
 }
