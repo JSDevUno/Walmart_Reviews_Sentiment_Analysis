@@ -64,7 +64,7 @@ function HomePage({ onShowResults }) {
       <div className="hero-content">
         <h1>Analyze Product Reviews</h1>
         <p className="hero-subtitle">
-          Get instant sentiment analysis of Walmart product reviews using advanced AI
+          Get instant sentiment analysis of Walmart product reviews using advanced NLP and machine learning model.
         </p>
         
         <AnalysisForm 
