@@ -1,0 +1,60 @@
+{
+  "product_id": "2221499879",
+  "product_url": "https://www.walmart.com/ip/HUMSURE-Outdoor-Terrace-Heater-Indoor-Infrared-Heater-Wall-Mounted-Heater-Using-Electric-Infrared-Technology-Carbon-Fiber-Tube-Remote-Control-Ultra-Q/2221499879?classType=REGULAR&athbdg=L1103",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Satisfied",
+      "review_text": "Space heater adequate for small spaces. This heater controls the temperature and the fan speed. It has a fan only function, a 750-watt heater and a 1500 wat heater for those who may want and/or need high heat quickly. we've always used the 750-watt setting.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6673,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "2221499879",
+      "product_url": "https://www.walmart.com/ip/HUMSURE-Outdoor-Terrace-Heater-Indoor-Infrared-Heater-Wall-Mounted-Heater-Using-Electric-Infrared-Technology-Carbon-Fiber-Tube-Remote-Control-Ultra-Q/2221499879?classType=REGULAR&athbdg=L1103",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Hot",
+      "review_text": "Heats up quickly. I've had to go to electric space heaters as my furnace is broken.Winter's are not fun but now I at least have heat in my home.I love the tip over feature cause I don't have to worry about it if it does get knocked.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.3757,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "2221499879",
+      "product_url": "https://www.walmart.com/ip/HUMSURE-Outdoor-Terrace-Heater-Indoor-Infrared-Heater-Wall-Mounted-Heater-Using-Electric-Infrared-Technology-Carbon-Fiber-Tube-Remote-Control-Ultra-Q/2221499879?classType=REGULAR&athbdg=L1103",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Heat output is great for a small heater",
+      "review_text": "Ideal for small space. It was good and easy to use at bedside but it is not working although it shows that power is reaching I'm not sure what the problem is.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4381,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "2221499879",
+      "product_url": "https://www.walmart.com/ip/HUMSURE-Outdoor-Terrace-Heater-Indoor-Infrared-Heater-Wall-Mounted-Heater-Using-Electric-Infrared-Technology-Carbon-Fiber-Tube-Remote-Control-Ultra-Q/2221499879?classType=REGULAR&athbdg=L1103",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-23T22:25:56.461491"
+}
