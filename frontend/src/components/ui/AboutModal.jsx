@@ -41,7 +41,7 @@ function AboutModal({ isOpen, onClose }) {
           <div className="about-section">
             <h3>What is this tool?</h3>
             <p>
-              The Walmart Sentiment Analyzer is an AI-powered tool that analyzes customer reviews 
+              The Walmart Sentiment Analyzer is an ML-powered tool that analyzes customer reviews 
               from Walmart products to determine overall sentiment. It uses advanced machine learning 
               models to classify reviews as positive, negative, or neutral.
             </p>
@@ -52,7 +52,7 @@ function AboutModal({ isOpen, onClose }) {
             <ol>
               <li>Enter a Walmart product URL</li>
               <li>Our system scrapes all available reviews</li>
-              <li>AI analyzes each review's sentiment</li>
+              <li>ML model analyzes each review's sentiment</li>
               <li>Get comprehensive insights and statistics</li>
             </ol>
           </div>
@@ -71,8 +71,7 @@ function AboutModal({ isOpen, onClose }) {
           <div className="about-section">
             <h3>Technology</h3>
             <p>
-              Built with React frontend, Flask backend, and advanced NLP models including 
-              RoBERTa and TF-IDF with LinearSVC for sentiment classification.
+              Built with React frontend, Python backend, and advanced NLP model using TF-IDF with LinearSVC for sentiment classification.
             </p>
           </div>
         </div>
