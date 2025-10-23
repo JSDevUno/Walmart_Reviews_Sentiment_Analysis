@@ -45,7 +45,7 @@ function ReviewCard({ review }) {
   }
 
   return (
-    <div className="review-card">
+    <div className="review-card" data-sentiment={review.sentiment}>
       <div className="review-header">
         <div className="reviewer-info">
           {review.verified_purchase && (
