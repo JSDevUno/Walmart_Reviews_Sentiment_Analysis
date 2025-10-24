@@ -1,0 +1,26 @@
+{
+  "product_id": "1127665576",
+  "product_url": "https://www.walmart.com/ip/MorisMos-39-Giant-Teddy-Bear-Mommy-and-Baby-Soft-Plush-Bear-Stuffed-Animal/1127665576?athcpid=1127665576&athpgid=AthenaItempage&athcgid=null&athznid=siext&athieid=v0&athstid=CS055%7ECS004%7ECS098&athguid=4nZWl3dgvbZONoT_o_8vL42SSsExYuMhsOBf&athancid=3391040136&athposb=-1&athena=true&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "You can add stuffing to it",
+      "review_text": "There is a zipper in the back to add stuffing. I added a 13 gallon bag of sofa stuffing to the bear. The picture shown is with the added stuffing. I paid $25 for the bear, and it did not hold its head up or support itself originally. Without adding extra stuffing, I would not buy it. The baby bear detached but did not tear.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6824,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "1127665576",
+      "product_url": "https://www.walmart.com/ip/MorisMos-39-Giant-Teddy-Bear-Mommy-and-Baby-Soft-Plush-Bear-Stuffed-Animal/1127665576?athcpid=1127665576&athpgid=AthenaItempage&athcgid=null&athznid=siext&athieid=v0&athstid=CS055%7ECS004%7ECS098&athguid=4nZWl3dgvbZONoT_o_8vL42SSsExYuMhsOBf&athancid=3391040136&athposb=-1&athena=true&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-24T16:20:57.144481"
+}

@@ -1,0 +1,43 @@
+{
+  "product_id": "389496204",
+  "product_url": "https://www.walmart.com/ip/Great-Value-Organic-Frozen-Strawberry-Banana-Blend-10-oz-in-Resealable-Bag/389496204?classType=REGULAR&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "okay, but regular blend is the better option",
+      "review_text": "its good but the price for the size is pricey in my opinion. organic is good for you, or so they say but I think regular frozen strawberry banana blend is the better choice and you cant even tell the difference.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4594,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "389496204",
+      "product_url": "https://www.walmart.com/ip/Great-Value-Organic-Frozen-Strawberry-Banana-Blend-10-oz-in-Resealable-Bag/389496204?classType=REGULAR&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "I bought a bag for smoothies. When I opened the there was only 2 strawberries in the bag. The rest was all bananas.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.8075,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "389496204",
+      "product_url": "https://www.walmart.com/ip/Great-Value-Organic-Frozen-Strawberry-Banana-Blend-10-oz-in-Resealable-Bag/389496204?classType=REGULAR&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-24T15:44:56.906553"
+}

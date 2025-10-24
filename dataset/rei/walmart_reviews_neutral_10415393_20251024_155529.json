@@ -1,0 +1,60 @@
+{
+  "product_id": "10415393",
+  "product_url": "https://www.walmart.com/ip/Great-Value-Buttermilk-Pancakes-16-5-oz-12-Count-Frozen/10415393?classType=REGULAR",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "New to this brand.",
+      "review_text": "I did not find anything wrong with the pancakes, I saw reviews stating them as gritty, I am trying to understand what that means. In the past I have purchased the name brands, Great Value Pancakes will be on my list.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5103,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "10415393",
+      "product_url": "https://www.walmart.com/ip/Great-Value-Buttermilk-Pancakes-16-5-oz-12-Count-Frozen/10415393?classType=REGULAR",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "I like brand names better",
+      "review_text": "Its best to stick to brand names for the taste.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4412,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "10415393",
+      "product_url": "https://www.walmart.com/ip/Great-Value-Buttermilk-Pancakes-16-5-oz-12-Count-Frozen/10415393?classType=REGULAR",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "arrived defrosted",
+      "review_text": "late delivery made the pancakes thaw",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.8251,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "10415393",
+      "product_url": "https://www.walmart.com/ip/Great-Value-Buttermilk-Pancakes-16-5-oz-12-Count-Frozen/10415393?classType=REGULAR",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-24T15:55:29.086761"
+}

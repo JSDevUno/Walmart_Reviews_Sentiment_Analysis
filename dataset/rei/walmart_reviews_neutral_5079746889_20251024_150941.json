@@ -1,0 +1,43 @@
+{
+  "product_id": "5079746889",
+  "product_url": "https://www.walmart.com/ip/Happy-Curves-Aluminum-Talc-Free-Whole-Body-Deodorant-for-Women-Tahitian-Vanilla-Stick-2-65-oz/5079746889?adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Fresh",
+      "review_text": "Always fresh never had any issues hasn't caused any issues with skin",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5977,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5079746889",
+      "product_url": "https://www.walmart.com/ip/Happy-Curves-Aluminum-Talc-Free-Whole-Body-Deodorant-for-Women-Tahitian-Vanilla-Stick-2-65-oz/5079746889?adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Smells good but too slimy. Not dry enough for the curves",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4478,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5079746889",
+      "product_url": "https://www.walmart.com/ip/Happy-Curves-Aluminum-Talc-Free-Whole-Body-Deodorant-for-Women-Tahitian-Vanilla-Stick-2-65-oz/5079746889?adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-24T15:09:41.488983"
+}

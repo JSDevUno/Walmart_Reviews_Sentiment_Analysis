@@ -132,6 +132,7 @@ class SentimentCounter:
         patterns = [
             "*_combined_*.json",
             "*combined*.json",
+            "_hybrid_",
             "*.json"
         ]
         

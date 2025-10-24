@@ -1,0 +1,26 @@
+{
+  "product_id": "750127165",
+  "product_url": "https://www.walmart.com/ip/5-Surprise-Mini-Brands-Mystery-Capsule-Collectible-Toy-by-ZURU/750127165?classType=VARIANT&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Single ball 14.98 not 3 pack",
+      "review_text": "I paid 45.88 for 3 having read the listing as a 3 pack but now it shows 1 ball when you select single for 14.98, so if you are ok with paying that for 1 ball go for it, I was not and chose to return it and write a review in case anyone else read it the same way.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6938,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "750127165",
+      "product_url": "https://www.walmart.com/ip/5-Surprise-Mini-Brands-Mystery-Capsule-Collectible-Toy-by-ZURU/750127165?classType=VARIANT&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-24T13:44:51.461982"
+}

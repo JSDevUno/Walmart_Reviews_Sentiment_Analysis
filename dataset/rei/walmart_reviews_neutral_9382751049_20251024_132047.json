@@ -1,0 +1,60 @@
+{
+  "product_id": "9382751049",
+  "product_url": "https://www.walmart.com/ip/Athletic-Works-Women-s-Core-Active-Texture-Knit-Short-Sleeve-V-Neck-T-Shirt-Sizes-XS-XXXL/9382751049?classType=VARIANT&athbdg=L1300&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Nice and light",
+      "review_text": "I expected the material to be the same as the shorts and it's not, even though they are called the same thjng.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4835,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "9382751049",
+      "product_url": "https://www.walmart.com/ip/Athletic-Works-Women-s-Core-Active-Texture-Knit-Short-Sleeve-V-Neck-T-Shirt-Sizes-XS-XXXL/9382751049?classType=VARIANT&athbdg=L1300&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Wide hips",
+      "review_text": "Product needs to be larger in the hip area",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.8136,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "9382751049",
+      "product_url": "https://www.walmart.com/ip/Athletic-Works-Women-s-Core-Active-Texture-Knit-Short-Sleeve-V-Neck-T-Shirt-Sizes-XS-XXXL/9382751049?classType=VARIANT&athbdg=L1300&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Snug fit",
+      "review_text": "I like the material and I like the shirt just did not fit me right, but I think I need to lose a little bit of weight and it will fit me nicely satisfied with everything.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5188,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "9382751049",
+      "product_url": "https://www.walmart.com/ip/Athletic-Works-Women-s-Core-Active-Texture-Knit-Short-Sleeve-V-Neck-T-Shirt-Sizes-XS-XXXL/9382751049?classType=VARIANT&athbdg=L1300&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-24T13:20:47.126149"
+}

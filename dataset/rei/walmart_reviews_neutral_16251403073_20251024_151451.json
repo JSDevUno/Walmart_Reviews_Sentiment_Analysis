@@ -1,0 +1,43 @@
+{
+  "product_id": "16251403073",
+  "product_url": "https://www.walmart.com/ip/Lindt-Dubai-Style-Chocolate-Bar-5-3OZ/16251403073?classType=REGULAR&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "i have tasted different dubai chocolates and this one was the one i liked the least",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.454,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "16251403073",
+      "product_url": "https://www.walmart.com/ip/Lindt-Dubai-Style-Chocolate-Bar-5-3OZ/16251403073?classType=REGULAR&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Barely any filling",
+      "review_text": "Context: this is the viral Dubai Chocolate bar, while most premium Chocolate bars of equivalent size are $5 this one is $15. So at 3x the price my expectations are reasonably high. The results: the bar had barely any filling and the milk chocolate completely overpowered what little filling there was. For reference I had just had nutty %26 fruity brand Dubai Chocolate bars which had almost 3 times the filling. Chocolate itself was good but could barely make out the pistachio and kadayif which was the whole point of getting this bar vs a milk chocolate bar for 1/3rd of the price.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5292,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "16251403073",
+      "product_url": "https://www.walmart.com/ip/Lindt-Dubai-Style-Chocolate-Bar-5-3OZ/16251403073?classType=REGULAR&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-24T15:14:51.631244"
+}

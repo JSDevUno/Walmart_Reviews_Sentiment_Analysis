@@ -1,0 +1,43 @@
+{
+  "product_id": "14621462112",
+  "product_url": "https://www.walmart.com/ip/HY-IMPACT-Power-Pulse-Deep-Tissue-Percussion-Muscle-Massager-Touch-Control-3-Modes-99-Speeds-10-Attachments/14621462112?classType=REGULAR&athbdg=L1600&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Muscle Relief of an old man",
+      "review_text": "I'm a person who has had many surgeries and because of that, surrounding muscle tissue tightens up, especially around my knees. The massager has 10 attachments which allows me the choice for which one brings the most relief and power settings that allow me the right comfort level of force. This massager works great.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4839,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "14621462112",
+      "product_url": "https://www.walmart.com/ip/HY-IMPACT-Power-Pulse-Deep-Tissue-Percussion-Muscle-Massager-Touch-Control-3-Modes-99-Speeds-10-Attachments/14621462112?classType=REGULAR&athbdg=L1600&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Short grip",
+      "review_text": "Not a bad product. But to massage my shoulders, the handle needed to be longer because I have shoulder issues.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5867,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "14621462112",
+      "product_url": "https://www.walmart.com/ip/HY-IMPACT-Power-Pulse-Deep-Tissue-Percussion-Muscle-Massager-Touch-Control-3-Modes-99-Speeds-10-Attachments/14621462112?classType=REGULAR&athbdg=L1600&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-24T15:10:53.396579"
+}
