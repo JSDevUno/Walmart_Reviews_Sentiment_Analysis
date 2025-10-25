@@ -1,0 +1,60 @@
+{
+  "product_id": "16703705076",
+  "product_url": "https://www.walmart.com/ip/HYYUO-14inch-Laptop-Compter-8GB-RAM-512GB-ROM-Intel-Celeron-N4000-2-Cores-2-6GHz-Windows-11-WiFi-5-BT5-0-Business-Beginners-Student-Dark-Gray/16703705076?classType=REGULAR # Completed at 2025-10-22 09:33:12 | Product ID: 16703705076",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Never again, lesson learned",
+      "review_text": "Would not recommend! This company is shady and unprofessional. I will never consider ordering from them again! Pay very close attention to your bank account or credit card because this company charged me for a cancelled item after receiving a full refund.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "negative",
+      "confidence": 0.9377,
+      "score": 0.0312,
+      "roberta_label": "negative",
+      "method": "roberta",
+      "product_id": "16703705076",
+      "product_url": "https://www.walmart.com/ip/HYYUO-14inch-Laptop-Compter-8GB-RAM-512GB-ROM-Intel-Celeron-N4000-2-Cores-2-6GHz-Windows-11-WiFi-5-BT5-0-Business-Beginners-Student-Dark-Gray/16703705076?classType=REGULAR # Completed at 2025-10-22 09:33:12 | Product ID: 16703705076",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "The WORST laptop ever",
+      "review_text": "It is slower then a dial up computer and when you go to return it they tell you to return it to Walmart by a specific date and so you go do that then they say you can't return it because it's a marketplace item",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "negative",
+      "confidence": 0.9335,
+      "score": 0.0333,
+      "roberta_label": "negative",
+      "method": "roberta",
+      "product_id": "16703705076",
+      "product_url": "https://www.walmart.com/ip/HYYUO-14inch-Laptop-Compter-8GB-RAM-512GB-ROM-Intel-Celeron-N4000-2-Cores-2-6GHz-Windows-11-WiFi-5-BT5-0-Business-Beginners-Student-Dark-Gray/16703705076?classType=REGULAR # Completed at 2025-10-22 09:33:12 | Product ID: 16703705076",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Too slow. Terrible Bluetooth conbection. Computercspeaker sound was too low . Labored to hear.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "negative",
+      "confidence": 0.9478,
+      "score": 0.0261,
+      "roberta_label": "negative",
+      "method": "roberta",
+      "product_id": "16703705076",
+      "product_url": "https://www.walmart.com/ip/HYYUO-14inch-Laptop-Compter-8GB-RAM-512GB-ROM-Intel-Celeron-N4000-2-Cores-2-6GHz-Windows-11-WiFi-5-BT5-0-Business-Beginners-Student-Dark-Gray/16703705076?classType=REGULAR # Completed at 2025-10-22 09:33:12 | Product ID: 16703705076",
+      "product_name": null
+    }
+  ],
+  "filter": "NEGATIVE_ONLY",
+  "scraped_at": "2025-10-25T07:23:08.300757"
+}
