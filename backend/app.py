@@ -48,8 +48,109 @@ class TFIDFSentimentAnalyzer:
         
         self.vectorizer = model_data['vectorizer']
         self.model = model_data['model']
+        self.scaler = model_data.get('scaler')  # Get the scaler for linguistic features
         self.label_map = model_data['label_map']
         self.reverse_label_map = model_data['reverse_label_map']
+        
+        # Enhanced feature extraction patterns (from svm_regression.py)
+        self.intensity_amplifiers = model_data.get('intensity_amplifiers', {
+            'very', 'extremely', 'incredibly', 'absolutely', 'totally',
+            'completely', 'utterly', 'highly', 'really', 'so', 'super'
+        })
+        
+        self.negation_words = model_data.get('negation_words', {
+            'not', 'no', 'never', 'nothing', 'nowhere', 'neither', 'nobody',
+            'none', 'hardly', 'scarcely', 'barely', "n't", 'cannot', 'cant'
+        })
+        
+        self.positive_emoticons = model_data.get('positive_emoticons', [':)', ':-)', ':D', ':-D', ':P', ':-P', '^_^', '😊', '😃', '👍', '❤️'])
+        self.negative_emoticons = model_data.get('negative_emoticons', [':(', ':-(', ':[', ':-[', ':/',':-/', '😢', '😞', '👎', '💔'])
+    
+    def extract_linguistic_features(self, text: str) -> np.ndarray:
+        """Extract advanced linguistic and contextual features (same as svm_regression.py)"""
+        features = []
+        text_lower = text.lower()
+        
+        # 1. Punctuation-based features (tone indicators)
+        features.append(text.count('!') / max(len(text), 1))  # Exclamation ratio
+        features.append(text.count('?') / max(len(text), 1))  # Question ratio
+        features.append(text.count('...') + text.count('…'))  # Ellipsis count
+        features.append(1 if text.isupper() and len(text) > 10 else 0)  # All caps (shouting)
+        
+        # 2. Intensity and emphasis
+        words = text_lower.split()
+        amplifier_count = sum(1 for w in words if w in self.intensity_amplifiers)
+        features.append(amplifier_count / max(len(words), 1))
+        
+        # 3. Negation detection (critical for context)
+        negation_count = sum(1 for w in words if w in self.negation_words)
+        features.append(negation_count / max(len(words), 1))
+        
+        # 4. Emoticon analysis
+        pos_emoticon = sum(1 for e in self.positive_emoticons if e in text)
+        neg_emoticon = sum(1 for e in self.negative_emoticons if e in text)
+        features.append(pos_emoticon)
+        features.append(neg_emoticon)
+        
+        # 5. Length-based features (longer reviews often more detailed)
+        features.append(len(text))  # Character count
+        features.append(len(words))  # Word count
+        features.append(len([s for s in text.split('.') if s.strip()]))  # Sentence count
+        
+        # 6. Capitalization patterns (emphasis)
+        capital_words = sum(1 for w in words if w.isupper() and len(w) > 1)
+        features.append(capital_words / max(len(words), 1))
+        
+        # 7. Repeated characters (e.g., "sooooo good" or "baaad")
+        repeated_chars = len(re.findall(r'(.)\1{2,}', text_lower))
+        features.append(repeated_chars)
+        
+        # 8. Question words (uncertainty indicators)
+        question_words = {'why', 'how', 'what', 'when', 'where', 'who'}
+        question_count = sum(1 for w in words if w in question_words)
+        features.append(question_count / max(len(words), 1))
+        
+        # 9. Comparative/superlative (best, worst, better, worse)
+        comparatives = {'best', 'worst', 'better', 'worse', 'great', 'terrible', 
+                       'excellent', 'awful', 'amazing', 'horrible'}
+        comparative_count = sum(1 for w in words if w in comparatives)
+        features.append(comparative_count / max(len(words), 1))
+        
+        # 10. Personal pronouns (engagement level)
+        personal_pronouns = {'i', 'me', 'my', 'mine', 'we', 'us', 'our'}
+        pronoun_count = sum(1 for w in words if w in personal_pronouns)
+        features.append(pronoun_count / max(len(words), 1))
+        
+        return np.array(features)
+    
+    def _get_ensemble_probabilities(self, combined_features):
+        """Get probabilities from ensemble model by averaging individual estimator probabilities"""
+        try:
+            # Get probabilities from each estimator in the ensemble
+            estimator_probs = []
+            
+            for name, estimator in self.model.named_estimators_.items():
+                if hasattr(estimator, 'predict_proba'):
+                    probs = estimator.predict_proba(combined_features)[0]
+                    estimator_probs.append(probs)
+                elif hasattr(estimator, 'decision_function'):
+                    # Convert decision scores to probabilities
+                    decision_scores = estimator.decision_function(combined_features)[0]
+                    exp_scores = np.exp(decision_scores - np.max(decision_scores))
+                    probs = exp_scores / exp_scores.sum()
+                    estimator_probs.append(probs)
+            
+            if estimator_probs:
+                # Average the probabilities from all estimators
+                avg_probs = np.mean(estimator_probs, axis=0)
+                return avg_probs
+            else:
+                # Fallback if no estimators provide probabilities
+                return np.array([0.33, 0.34, 0.33])
+                
+        except Exception as e:
+            print(f"Error getting ensemble probabilities: {e}")
+            return np.array([0.33, 0.34, 0.33])
         
     def predict_sentiment(self, text: str, title: str = "") -> Dict:
         """Predict sentiment for a single review"""
@@ -62,13 +163,77 @@ class TFIDFSentimentAnalyzer:
                 "probabilities": {"negative": 0.33, "neutral": 0.34, "positive": 0.33}
             }
         
+        # Extract TF-IDF features
         text_tfidf = self.vectorizer.transform([full_text])
-        prediction = self.model.predict(text_tfidf)[0]
+        
+        # Extract linguistic features
+        linguistic_features = self.extract_linguistic_features(full_text)
+        
+        # Scale linguistic features if scaler is available
+        if self.scaler is not None:
+            try:
+                linguistic_features_scaled = self.scaler.transform([linguistic_features])
+            except Exception as e:
+                print(f"ERROR: Scaler transform failed: {e}")
+                print(f"Expected {self.scaler.n_features_in_} features, got {linguistic_features.shape[0]}")
+                
+                # Handle feature count mismatch
+                if linguistic_features.shape[0] != self.scaler.n_features_in_:
+                    print(f"Adjusting features from {linguistic_features.shape[0]} to {self.scaler.n_features_in_}")
+                    
+                    if linguistic_features.shape[0] < self.scaler.n_features_in_:
+                        # Pad with zeros for missing features
+                        padding_size = self.scaler.n_features_in_ - linguistic_features.shape[0]
+                        padding = np.zeros(padding_size)
+                        linguistic_features = np.concatenate([linguistic_features, padding])
+                        print(f"Padded with {padding_size} zeros")
+                    else:
+                        # Truncate excess features
+                        linguistic_features = linguistic_features[:self.scaler.n_features_in_]
+                        print(f"Truncated to {self.scaler.n_features_in_} features")
+                
+                try:
+                    linguistic_features_scaled = self.scaler.transform([linguistic_features])
+                except Exception as e2:
+                    print(f"ERROR: Still failed after adjustment: {e2}")
+                    print("Falling back to unscaled features")
+                    linguistic_features_scaled = [linguistic_features]
+        else:
+            linguistic_features_scaled = [linguistic_features]
+        
+        # Combine TF-IDF and linguistic features
+        from scipy.sparse import hstack, csr_matrix
+        combined_features = hstack([text_tfidf, csr_matrix(linguistic_features_scaled)])
+        
+        # Make prediction
+        prediction = self.model.predict(combined_features)[0]
         sentiment = self.reverse_label_map[prediction]
         
-        decision_scores = self.model.decision_function(text_tfidf)[0]
-        exp_scores = np.exp(decision_scores - np.max(decision_scores))
-        probabilities = exp_scores / exp_scores.sum()
+        # Handle probability calculation for ensemble models
+        try:
+            # Check if it's a VotingClassifier with hard voting
+            if hasattr(self.model, 'voting') and self.model.voting == 'hard':
+                # For hard voting, we need to get probabilities from individual estimators
+                probabilities = self._get_ensemble_probabilities(combined_features)
+            elif hasattr(self.model, 'named_estimators_'):
+                # It's an ensemble but not hard voting, try to get probabilities
+                probabilities = self._get_ensemble_probabilities(combined_features)
+            elif hasattr(self.model, 'decision_function'):
+                # Single model with decision function
+                decision_scores = self.model.decision_function(combined_features)[0]
+                exp_scores = np.exp(decision_scores - np.max(decision_scores))
+                probabilities = exp_scores / exp_scores.sum()
+            elif hasattr(self.model, 'predict_proba'):
+                # Model with predict_proba
+                probabilities = self.model.predict_proba(combined_features)[0]
+            else:
+                # Fallback: create uniform probabilities
+                probabilities = np.array([0.33, 0.34, 0.33])
+                print("Warning: Using fallback probabilities")
+        except Exception as e:
+            print(f"Error calculating probabilities: {e}")
+            # Fallback probabilities
+            probabilities = np.array([0.33, 0.34, 0.33])
         
         confidence = probabilities[prediction]
         
