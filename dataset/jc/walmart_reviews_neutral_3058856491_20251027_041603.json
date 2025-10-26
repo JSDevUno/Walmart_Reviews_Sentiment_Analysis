@@ -1,0 +1,60 @@
+{
+  "product_id": "3058856491",
+  "product_url": "https://www.walmart.com/ip/Belkin-BoostCharge-Pro-Universal-Easy-Align-Wireless-Charging-Pad-15W-Fast-Charger-Apple-iPhone-Samsung-Galaxy-Apple-Airpods-Pro-MagSafe-Enabled-Devi/3058856491?classType=REGULAR&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Read the specs before you purchase",
+      "review_text": "I thought it was a \"super boost\" type of charger but it charges at the normal rate. Secondly, I would have thought that the power cord would be USB instead it was attached permanently to the charger",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.8006,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "3058856491",
+      "product_url": "https://www.walmart.com/ip/Belkin-BoostCharge-Pro-Universal-Easy-Align-Wireless-Charging-Pad-15W-Fast-Charger-Apple-iPhone-Samsung-Galaxy-Apple-Airpods-Pro-MagSafe-Enabled-Devi/3058856491?classType=REGULAR&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "good for an over night charge",
+      "review_text": "its ok for over night, but it is NOT a fast charge.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.542,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "3058856491",
+      "product_url": "https://www.walmart.com/ip/Belkin-BoostCharge-Pro-Universal-Easy-Align-Wireless-Charging-Pad-15W-Fast-Charger-Apple-iPhone-Samsung-Galaxy-Apple-Airpods-Pro-MagSafe-Enabled-Devi/3058856491?classType=REGULAR&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "I like how I didn't have to remove my case to charge my phone but the pad on lasted a couple weeks before it stopped working",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5182,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "3058856491",
+      "product_url": "https://www.walmart.com/ip/Belkin-BoostCharge-Pro-Universal-Easy-Align-Wireless-Charging-Pad-15W-Fast-Charger-Apple-iPhone-Samsung-Galaxy-Apple-Airpods-Pro-MagSafe-Enabled-Devi/3058856491?classType=REGULAR&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-27T04:16:03.476622"
+}

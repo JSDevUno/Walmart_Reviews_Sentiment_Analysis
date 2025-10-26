@@ -1,0 +1,43 @@
+{
+  "product_id": "13714611076",
+  "product_url": "https://www.walmart.com/ip/Tasty-Bite-All-Natural-Mediterranean-Plant-Based-Protein-Bowl-Shelf-Stable-8-8-oz/13714611076?utm_source=chatgpt.com",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Mexican style is missing jalapeños!",
+      "review_text": "It's smaller than I expected and I have taken a picture of it with a small lollipop so you guys can have the idea of its size. Taste is okay, I expected the dressing to be spicy with a hint of jalapeños but it actually has a little sweet taste so I added my own hot sauce and then it tasted better.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4554,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "13714611076",
+      "product_url": "https://www.walmart.com/ip/Tasty-Bite-All-Natural-Mediterranean-Plant-Based-Protein-Bowl-Shelf-Stable-8-8-oz/13714611076?utm_source=chatgpt.com",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Chana Masala Bowl",
+      "review_text": "add a big cleaned leaf of chard for a more balanced microwave meal",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5945,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "13714611076",
+      "product_url": "https://www.walmart.com/ip/Tasty-Bite-All-Natural-Mediterranean-Plant-Based-Protein-Bowl-Shelf-Stable-8-8-oz/13714611076?utm_source=chatgpt.com",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-27T03:07:44.120005"
+}

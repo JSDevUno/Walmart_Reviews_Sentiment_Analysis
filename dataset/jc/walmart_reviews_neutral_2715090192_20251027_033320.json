@@ -1,0 +1,43 @@
+{
+  "product_id": "2715090192",
+  "product_url": "https://www.walmart.com/ip/Hello-Hobby-12-x-4-Royal-Blue-Permanent-Craft-Vinyl-Roll/2715090192?classType=VARIANT&athbdg=L1600",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Thick Strong Vinyl",
+      "review_text": "Thicker than similarly priced vinyl I've purchased from different retailers. The thickness might be the reason weeding seems to be a problem for others. I used \"more pressure\" rather than \"default\" on Cricut's Design Space to make sure the cut was clean. I feel like mil should be a spec for vinyl. The vinyl will stretch before tearing. The reverse backing has 1/2\" grid on it for straight and measured cutting with scissors. Overall, will purchase again.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6653,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "2715090192",
+      "product_url": "https://www.walmart.com/ip/Hello-Hobby-12-x-4-Royal-Blue-Permanent-Craft-Vinyl-Roll/2715090192?classType=VARIANT&athbdg=L1600",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Difficult weeding on a smaller scale",
+      "review_text": "It was difficult to weed on a smaller scale. While I have not tried it on a larger scale, it does seem like it has worked for other people.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5839,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "2715090192",
+      "product_url": "https://www.walmart.com/ip/Hello-Hobby-12-x-4-Royal-Blue-Permanent-Craft-Vinyl-Roll/2715090192?classType=VARIANT&athbdg=L1600",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-27T03:33:20.869635"
+}

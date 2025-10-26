@@ -452,7 +452,7 @@ def main():
         )
         
         # Save to file
-        output_file = f"walmart_reviews_synthetic_negative_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+        output_file = f"walmart_reviews_synthetic_negative_combined_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
         
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(synthetic_dataset, f, indent=2, ensure_ascii=False)
