@@ -10,11 +10,13 @@ from sklearn.svm import LinearSVC
 from sklearn.ensemble import VotingClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split, cross_val_score
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
-from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import classification_report, confusion_matrix, accuracy_score, precision_recall_fscore_support
+from sklearn.preprocessing import StandardScaler, label_binarize
+from sklearn.metrics import roc_curve, auc
 import matplotlib.pyplot as plt
 import seaborn as sns
 import re
+from itertools import cycle
 
 
 class EnhancedSentimentTrainer:
@@ -336,15 +338,15 @@ class EnhancedSentimentTrainer:
             max_features=15000,
             ngram_range=(1, 3),
             analyzer='word',
-            min_df=3,  # Increased to filter noise
-            max_df=0.85,  # Lower to remove very common words
+            min_df=3,
+            max_df=0.85,
             strip_accents='unicode',
             lowercase=True,
             stop_words='english',
             sublinear_tf=True,
-            norm='l2',  # L2 normalization
+            norm='l2',
             use_idf=True,
-            smooth_idf=True,  # Smooth IDF weights
+            smooth_idf=True,
             token_pattern=r'\b\w+\b|[!?.]+'
         )
         
@@ -365,25 +367,25 @@ class EnhancedSentimentTrainer:
         
         # Tuned SVM with better parameters
         svm_model = LinearSVC(
-            C=0.8,  # Balanced regularization
-            max_iter=15000,  # Increased for convergence
+            C=0.8,
+            max_iter=15000,
             random_state=42,
             class_weight='balanced',
-            tol=1e-4,  # Balanced tolerance
-            dual='auto',  # Let it choose optimal formulation
-            loss='squared_hinge'  # Better for multi-class
+            tol=1e-4,
+            dual='auto',
+            loss='squared_hinge'
         )
         
         # Tuned Logistic Regression
         logistic_model = LogisticRegression(
-            C=2.0,  # Increased for better fit
-            max_iter=10000,  # Increased to ensure convergence
+            C=2.0,
+            max_iter=10000,
             random_state=42,
             class_weight='balanced',
-            solver='lbfgs',  # More stable than saga, faster convergence
-            tol=1e-4,  # Slightly relaxed for faster convergence
-            penalty='l2',  # L2 regularization
-            n_jobs=-1  # Parallel processing
+            solver='lbfgs',
+            tol=1e-4,
+            penalty='l2',
+            n_jobs=-1
         )
         
         # Add a third classifier with different parameters for diversity
@@ -430,10 +432,21 @@ class EnhancedSentimentTrainer:
         
         y_pred = self.model.predict(X_test_combined)
         
-        accuracy = accuracy_score(y_test, y_pred)
-        print(f"\nAccuracy: {accuracy:.4f} ({accuracy*100:.2f}%)")
+        # Get training accuracy for comparison
+        y_train_pred = self.model.predict(X_train_combined)
+        train_accuracy = accuracy_score(y_train, y_train_pred)
+        test_accuracy = accuracy_score(y_test, y_pred)
+        
+        print(f"\nTraining Accuracy: {train_accuracy:.4f} ({train_accuracy*100:.2f}%)")
+        print(f"Test Accuracy: {test_accuracy:.4f} ({test_accuracy*100:.2f}%)")
         
         print("\nClassification Report:")
+        report_dict = classification_report(
+            y_test, y_pred,
+            target_names=['Negative', 'Neutral', 'Positive'],
+            digits=4,
+            output_dict=True
+        )
         print(classification_report(
             y_test, y_pred,
             target_names=['Negative', 'Neutral', 'Positive'],
@@ -448,23 +461,250 @@ class EnhancedSentimentTrainer:
         for i, (label, row) in enumerate(zip(['Negative', 'Neutral', 'Positive'], cm)):
             print(f"Actual {label:8s}  {row[0]:4d}  {row[1]:4d}  {row[2]:4d}")
         
-        self.plot_confusion_matrix(cm, ['Negative', 'Neutral', 'Positive'])
+        # Generate timestamp for all plots
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         
-        return accuracy
+        # Generate all evaluation charts
+        self.plot_confusion_matrix(cm, ['Negative', 'Neutral', 'Positive'], timestamp)
+        self.plot_metrics_comparison(report_dict, ['Negative', 'Neutral', 'Positive'], timestamp)
+        self.plot_accuracy_table(train_accuracy, test_accuracy, report_dict, 
+                                ['Negative', 'Neutral', 'Positive'], timestamp)
+        self.plot_roc_curves(X_test_combined, y_test, ['Negative', 'Neutral', 'Positive'], timestamp)
+        self.plot_cv_scores(cv_scores, timestamp)
+        
+        return test_accuracy
     
-    def plot_confusion_matrix(self, cm, labels):
+    def plot_confusion_matrix(self, cm, labels, timestamp):
         """Plot confusion matrix heatmap"""
         plt.figure(figsize=(8, 6))
         sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', 
                     xticklabels=labels, yticklabels=labels)
-        plt.title('Confusion Matrix - Enhanced Model')
-        plt.ylabel('Actual')
-        plt.xlabel('Predicted')
+        plt.title('Confusion Matrix - Enhanced Model', fontsize=14, fontweight='bold')
+        plt.ylabel('Actual', fontsize=12)
+        plt.xlabel('Predicted', fontsize=12)
         plt.tight_layout()
         
-        filename = f'confusion_matrix_enhanced_{datetime.now().strftime("%Y%m%d_%H%M%S")}.png'
+        filename = f'01_confusion_matrix_{timestamp}.png'
         plt.savefig(filename, dpi=300, bbox_inches='tight')
-        print(f"\nConfusion matrix saved to {filename}")
+        print(f"\n✓ Confusion matrix saved to {filename}")
+        plt.close()
+    
+    def plot_metrics_comparison(self, classification_rep, labels, timestamp):
+        """Plot precision, recall, and F1-score comparison"""
+        metrics_data = {
+            'Precision': [],
+            'Recall': [],
+            'F1-Score': []
+        }
+        
+        for label in labels:
+            metrics_data['Precision'].append(classification_rep[label]['precision'])
+            metrics_data['Recall'].append(classification_rep[label]['recall'])
+            metrics_data['F1-Score'].append(classification_rep[label]['f1-score'])
+        
+        x = np.arange(len(labels))
+        width = 0.25
+        
+        fig, ax = plt.subplots(figsize=(10, 6))
+        bars1 = ax.bar(x - width, metrics_data['Precision'], width, label='Precision', color='#3498db')
+        bars2 = ax.bar(x, metrics_data['Recall'], width, label='Recall', color='#2ecc71')
+        bars3 = ax.bar(x + width, metrics_data['F1-Score'], width, label='F1-Score', color='#e74c3c')
+        
+        ax.set_xlabel('Sentiment Class', fontsize=12, fontweight='bold')
+        ax.set_ylabel('Score', fontsize=12, fontweight='bold')
+        ax.set_title('Performance Metrics by Class', fontsize=14, fontweight='bold')
+        ax.set_xticks(x)
+        ax.set_xticklabels(labels)
+        ax.legend()
+        ax.set_ylim([0, 1.1])
+        ax.grid(axis='y', alpha=0.3)
+        
+        # Add value labels on bars
+        for bars in [bars1, bars2, bars3]:
+            for bar in bars:
+                height = bar.get_height()
+                ax.text(bar.get_x() + bar.get_width()/2., height,
+                       f'{height:.3f}',
+                       ha='center', va='bottom', fontsize=9)
+        
+        plt.tight_layout()
+        filename = f'02_metrics_comparison_{timestamp}.png'
+        plt.savefig(filename, dpi=300, bbox_inches='tight')
+        print(f"✓ Metrics comparison saved to {filename}")
+        plt.close()
+    
+    def plot_accuracy_table(self, train_acc, test_acc, classification_rep, labels, timestamp):
+        """Create a detailed accuracy comparison table"""
+        fig, ax = plt.subplots(figsize=(12, 6))
+        ax.axis('tight')
+        ax.axis('off')
+        
+        # Prepare table data
+        table_data = []
+        
+        # Header row
+        table_data.append(['Metric', 'Value', 'Details'])
+        
+        # Overall accuracies
+        table_data.append(['Training Accuracy', f'{train_acc:.4f} ({train_acc*100:.2f}%)', 'Performance on training set'])
+        table_data.append(['Test Accuracy', f'{test_acc:.4f} ({test_acc*100:.2f}%)', 'Performance on test set'])
+        table_data.append(['Overfitting Gap', f'{(train_acc - test_acc):.4f}', 'Train - Test difference'])
+        table_data.append(['', '', ''])
+        
+        # Per-class metrics
+        table_data.append(['Class-wise Accuracy', '', ''])
+        for label in labels:
+            precision = classification_rep[label]['precision']
+            recall = classification_rep[label]['recall']
+            f1 = classification_rep[label]['f1-score']
+            support = int(classification_rep[label]['support'])
+            
+            table_data.append([
+                f'  {label}',
+                f'P:{precision:.3f} R:{recall:.3f} F1:{f1:.3f}',
+                f'Support: {support} samples'
+            ])
+        
+        table_data.append(['', '', ''])
+        
+        # Macro and weighted averages
+        macro_avg = classification_rep['macro avg']
+        weighted_avg = classification_rep['weighted avg']
+        
+        table_data.append(['Macro Average', 
+                          f"P:{macro_avg['precision']:.3f} R:{macro_avg['recall']:.3f} F1:{macro_avg['f1-score']:.3f}",
+                          'Unweighted average'])
+        table_data.append(['Weighted Average', 
+                          f"P:{weighted_avg['precision']:.3f} R:{weighted_avg['recall']:.3f} F1:{weighted_avg['f1-score']:.3f}",
+                          'Support-weighted average'])
+        
+        # Create table
+        table = ax.table(cellText=table_data, cellLoc='left', loc='center',
+                        colWidths=[0.3, 0.35, 0.35])
+        
+        table.auto_set_font_size(False)
+        table.set_fontsize(10)
+        table.scale(1, 2)
+        
+        # Style header row
+        for i in range(3):
+            table[(0, i)].set_facecolor('#3498db')
+            table[(0, i)].set_text_props(weight='bold', color='white')
+        
+        # Style section headers
+        for row_idx in [5, len(table_data)-3]:
+            if row_idx < len(table_data):
+                table[(row_idx, 0)].set_facecolor('#ecf0f1')
+                table[(row_idx, 0)].set_text_props(weight='bold')
+        
+        # Alternate row colors
+        for i in range(1, len(table_data)):
+            if i not in [4, 5, len(table_data)-3]:
+                color = '#f8f9fa' if i % 2 == 0 else 'white'
+                for j in range(3):
+                    table[(i, j)].set_facecolor(color)
+        
+        plt.title('Model Performance Summary', fontsize=14, fontweight='bold', pad=20)
+        
+        filename = f'03_accuracy_table_{timestamp}.png'
+        plt.savefig(filename, dpi=300, bbox_inches='tight')
+        print(f"✓ Accuracy table saved to {filename}")
+        plt.close()
+    
+    def plot_roc_curves(self, X_test, y_test, labels, timestamp):
+        """Plot ROC curves for multi-class classification"""
+        # Binarize the labels for ROC curve
+        y_test_bin = label_binarize(y_test, classes=[0, 1, 2])
+        n_classes = y_test_bin.shape[1]
+        
+        # Get prediction probabilities
+        # For voting classifier with hard voting, we need to use individual classifiers
+        try:
+            # Get the logistic regression classifier which has predict_proba
+            logistic_clf = self.model.named_estimators_['logistic']
+            y_score = logistic_clf.predict_proba(X_test)
+        except:
+            print("⚠ ROC curves skipped (requires probability estimates)")
+            return
+        
+        # Compute ROC curve and ROC area for each class
+        fpr = dict()
+        tpr = dict()
+        roc_auc = dict()
+        
+        for i in range(n_classes):
+            fpr[i], tpr[i], _ = roc_curve(y_test_bin[:, i], y_score[:, i])
+            roc_auc[i] = auc(fpr[i], tpr[i])
+        
+        # Plot ROC curves
+        plt.figure(figsize=(10, 8))
+        colors = cycle(['#e74c3c', '#f39c12', '#2ecc71'])
+        
+        for i, color, label in zip(range(n_classes), colors, labels):
+            plt.plot(fpr[i], tpr[i], color=color, lw=2,
+                    label=f'{label} (AUC = {roc_auc[i]:.3f})')
+        
+        plt.plot([0, 1], [0, 1], 'k--', lw=2, label='Random (AUC = 0.500)')
+        plt.xlim([0.0, 1.0])
+        plt.ylim([0.0, 1.05])
+        plt.xlabel('False Positive Rate', fontsize=12, fontweight='bold')
+        plt.ylabel('True Positive Rate', fontsize=12, fontweight='bold')
+        plt.title('ROC Curves - Multi-class Classification', fontsize=14, fontweight='bold')
+        plt.legend(loc="lower right", fontsize=10)
+        plt.grid(alpha=0.3)
+        plt.tight_layout()
+        
+        filename = f'04_roc_curves_{timestamp}.png'
+        plt.savefig(filename, dpi=300, bbox_inches='tight')
+        print(f"✓ ROC curves saved to {filename}")
+        plt.close()
+    
+    def plot_cv_scores(self, cv_scores, timestamp):
+        """Plot cross-validation scores"""
+        fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 5))
+        
+        # Plot 1: CV scores per fold
+        folds = range(1, len(cv_scores) + 1)
+        ax1.plot(folds, cv_scores, 'o-', color='#3498db', linewidth=2, markersize=8)
+        ax1.axhline(y=cv_scores.mean(), color='#e74c3c', linestyle='--', linewidth=2, 
+                   label=f'Mean: {cv_scores.mean():.4f}')
+        ax1.fill_between(folds, 
+                        cv_scores.mean() - cv_scores.std(), 
+                        cv_scores.mean() + cv_scores.std(), 
+                        alpha=0.2, color='#e74c3c',
+                        label=f'±1 Std Dev: {cv_scores.std():.4f}')
+        ax1.set_xlabel('Fold Number', fontsize=12, fontweight='bold')
+        ax1.set_ylabel('Accuracy', fontsize=12, fontweight='bold')
+        ax1.set_title('Cross-Validation Scores per Fold', fontsize=13, fontweight='bold')
+        ax1.legend(loc='lower right')
+        ax1.grid(alpha=0.3)
+        ax1.set_ylim([min(cv_scores) - 0.01, max(cv_scores) + 0.01])
+        
+        # Add value labels on points
+        for fold, score in zip(folds, cv_scores):
+            ax1.text(fold, score + 0.002, f'{score:.4f}', 
+                    ha='center', va='bottom', fontsize=8)
+        
+        # Plot 2: Distribution of CV scores
+        ax2.hist(cv_scores, bins=7, color='#2ecc71', alpha=0.7, edgecolor='black')
+        ax2.axvline(x=cv_scores.mean(), color='#e74c3c', linestyle='--', linewidth=2,
+                   label=f'Mean: {cv_scores.mean():.4f}')
+        ax2.set_xlabel('Accuracy', fontsize=12, fontweight='bold')
+        ax2.set_ylabel('Frequency', fontsize=12, fontweight='bold')
+        ax2.set_title('Distribution of CV Scores', fontsize=13, fontweight='bold')
+        ax2.legend()
+        ax2.grid(axis='y', alpha=0.3)
+        
+        # Add statistics text box
+        stats_text = f'Min: {cv_scores.min():.4f}\nMax: {cv_scores.max():.4f}\nStd: {cv_scores.std():.4f}'
+        ax2.text(0.05, 0.95, stats_text, transform=ax2.transAxes, 
+                fontsize=10, verticalalignment='top',
+                bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.5))
+        
+        plt.tight_layout()
+        filename = f'05_cv_scores_{timestamp}.png'
+        plt.savefig(filename, dpi=300, bbox_inches='tight')
+        print(f"✓ Cross-validation scores saved to {filename}")
         plt.close()
     
     def save_model(self, model_path: str = None):
@@ -490,11 +730,11 @@ class EnhancedSentimentTrainer:
         with open(model_path, 'wb') as f:
             pickle.dump(model_data, f)
         
-        print(f"\nModel saved to {model_path}")
+        print(f"\n✓ Model saved to {model_path}")
         
         with open("latest_model.txt", 'w') as f:
             f.write(model_path)
-        print("Latest model path saved to latest_model.txt")
+        print("✓ Latest model path saved to latest_model.txt")
         
         return model_path
     
@@ -550,6 +790,7 @@ def main():
     print("  • Optimized hyperparameters (C values, tolerance)")
     print("  • 10-fold cross-validation for better evaluation")
     print("  • Additional linguistic features (8 new features)")
+    print("  • Multiple evaluation charts and visualizations")
     print()
     
     try:
@@ -603,6 +844,12 @@ def main():
         print("="*60)
         print(f"\nModel accuracy: {accuracy*100:.2f}%")
         print(f"Model saved to: {model_path}")
+        print(f"\nGenerated evaluation charts:")
+        print(f"  1. Confusion Matrix")
+        print(f"  2. Metrics Comparison (Precision/Recall/F1)")
+        print(f"  3. Accuracy Table (detailed performance)")
+        print(f"  4. ROC Curves (multi-class)")
+        print(f"  5. Cross-Validation Scores")
         print(f"\nExpected improvements over baseline:")
         print(f"  • Better negation handling → 1-2% accuracy gain")
         print(f"  • Sentiment lexicon features → 0.5-1% gain")
