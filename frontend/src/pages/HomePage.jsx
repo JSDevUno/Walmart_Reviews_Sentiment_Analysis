@@ -1,13 +1,16 @@
 import React, { useState } from 'react'
 import AnalysisForm from '../components/analysis/AnalysisForm'
+import ProgressIndicator from '../components/ui/ProgressIndicator'
 
 function HomePage({ onShowResults }) {
   const [isAnalyzing, setIsAnalyzing] = useState(false)
   const [error, setError] = useState('')
+  const [progressData, setProgressData] = useState(null)
 
   const handleAnalyze = async (url, maxReviews) => {
     setIsAnalyzing(true)
     setError('')
+    setProgressData(null)
 
     try {
       const response = await fetch('/api/analyze', {
@@ -36,16 +39,25 @@ function HomePage({ onShowResults }) {
 
           if (status.status === 'complete') {
             setIsAnalyzing(false)
+            setProgressData(null)
             onShowResults(status.data)
           } else if (status.status === 'error') {
             setIsAnalyzing(false)
+            setProgressData(null)
             setError(status.message)
           } else if (status.status === 'loading') {
+            // Update progress data
+            setProgressData({
+              progress: status.progress || 0,
+              message: status.message || 'Processing...',
+              stage: status.stage || 'loading'
+            })
             // Continue polling
-            setTimeout(pollResults, 2000)
+            setTimeout(pollResults, 1500)
           }
         } catch (err) {
           setIsAnalyzing(false)
+          setProgressData(null)
           setError('Failed to get analysis status')
         }
       }
@@ -55,6 +67,7 @@ function HomePage({ onShowResults }) {
 
     } catch (err) {
       setIsAnalyzing(false)
+      setProgressData(null)
       setError(err.message)
     }
   }
@@ -72,6 +85,13 @@ function HomePage({ onShowResults }) {
           isLoading={isAnalyzing}
           error={error}
           onClearError={() => setError('')}
+        />
+        
+        <ProgressIndicator 
+          progress={progressData?.progress}
+          message={progressData?.message}
+          stage={progressData?.stage}
+          isVisible={isAnalyzing && progressData}
         />
       </div>
     </div>

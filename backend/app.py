@@ -23,6 +23,19 @@ CORS(app)
 # Global variable to track analysis status
 analysis_status = {}
 
+# Progress tracking stages
+PROGRESS_STAGES = {
+    "initializing": {"message": "Initializing browser...", "progress": 5},
+    "browser_started": {"message": "Browser started successfully", "progress": 10},
+    "extracting_id": {"message": "Extracting product ID...", "progress": 15},
+    "loading_page": {"message": "Loading product page...", "progress": 20},
+    "navigating_reviews": {"message": "Navigating to reviews section...", "progress": 30},
+    "extracting_reviews": {"message": "Extracting reviews from multiple pages...", "progress": 40},
+    "analyzing_sentiment": {"message": "Analyzing sentiment...", "progress": 80},
+    "finalizing": {"message": "Finalizing analysis...", "progress": 95},
+    "complete": {"message": "Analysis complete!", "progress": 100}
+}
+
 class TFIDFSentimentAnalyzer:
     def __init__(self, model_path: str = None):
         """Initialize the TF-IDF + SVM sentiment analyzer"""
@@ -266,10 +279,20 @@ class WalmartReviewInference:
         self.temp_profile_dir = tempfile.mkdtemp(prefix='walmart_inference_')
         options.add_argument(f'--user-data-dir={self.temp_profile_dir}')
         
-        self.driver = uc.Chrome(options=options, version_main=None)
-        self.wait = WebDriverWait(self.driver, 8)
-        self.analyzer = sentiment_analyzer
-        self.browser_closed = False
+        try:
+            self.driver = uc.Chrome(options=options, version_main=None)
+            self.wait = WebDriverWait(self.driver, 8)
+            self.analyzer = sentiment_analyzer
+            self.browser_closed = False
+        except Exception as e:
+            # Clean up temp directory if Chrome fails to start
+            if hasattr(self, 'temp_profile_dir'):
+                try:
+                    if os.path.exists(self.temp_profile_dir):
+                        shutil.rmtree(self.temp_profile_dir, ignore_errors=True)
+                except:
+                    pass
+            raise ValueError(f"Failed to initialize Chrome browser. Please ensure Chrome is installed and accessible. Error: {str(e)}")
     
     def is_browser_alive(self) -> bool:
         if self.browser_closed:
@@ -366,13 +389,14 @@ class WalmartReviewInference:
         
         try:
             self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-            self.human_delay(0.3, 0.7)
+            self.human_delay(0.5, 1.0)
         except (WebDriverException, NoSuchWindowException):
             self.browser_closed = True
             return False, False
         
         next_page_num = current_page + 1
         
+        # Enhanced pagination selectors for Walmart
         all_selectors = [
             f"//button[@aria-label='page {next_page_num}']",
             f"//a[@aria-label='page {next_page_num}']",
@@ -381,7 +405,15 @@ class WalmartReviewInference:
             "//button[contains(@aria-label, 'next page') and not(@disabled)]",
             "//a[contains(@aria-label, 'next page')]",
             "//button[contains(., '›') and not(@disabled)]",
-            "//a[contains(., '›')]"
+            "//a[contains(., '›')]",
+            "//button[contains(@class, 'pagination') and contains(text(), 'Next')]",
+            "//a[contains(@class, 'pagination') and contains(text(), 'Next')]",
+            "//button[contains(@class, 'next') and not(@disabled)]",
+            "//a[contains(@class, 'next')]",
+            "//button[contains(@data-testid, 'next')]",
+            "//a[contains(@data-testid, 'next')]",
+            "//button[contains(@aria-label, 'Go to next page')]",
+            "//a[contains(@aria-label, 'Go to next page')]"
         ]
         
         for selector in all_selectors:
@@ -524,9 +556,18 @@ class WalmartReviewInference:
         if self.check_captcha_quick():
             return [], True
         
+        # Enhanced scrolling to trigger lazy loading
         try:
-            self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-            self.human_delay(0.5, 1.0)
+            # Scroll multiple times to ensure all content loads
+            for _ in range(3):
+                self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+                self.human_delay(1.0, 2.0)
+                # Scroll to middle to trigger more content
+                self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight/2);")
+                self.human_delay(0.5, 1.0)
+                # Scroll back to top
+                self.driver.execute_script("window.scrollTo(0, 0);")
+                self.human_delay(0.5, 1.0)
         except (WebDriverException, NoSuchWindowException):
             self.browser_closed = True
             return [], False
@@ -534,10 +575,22 @@ class WalmartReviewInference:
         if self.check_captcha_quick():
             return [], True
         
+        # Comprehensive review selectors for Walmart's structure
         review_selectors = [
             "//*[contains(@data-testid, 'review')]",
             "//*[contains(@class, 'review-')]",
-            "//div[contains(@class, 'customer-review')]"
+            "//div[contains(@class, 'customer-review')]",
+            "//div[contains(@class, 'review') and contains(@class, 'customer')]",
+            "//div[contains(@data-automation-id, 'review')]",
+            "//article[contains(@class, 'review')]",
+            "//div[contains(@class, 'review-item')]",
+            "//div[contains(@class, 'customer-review-item')]",
+            "//*[contains(@class, 'review') and .//*[contains(@class, 'star')]]",
+            "//div[contains(@class, 'feedback')]",
+            "//div[contains(@class, 'comment')]",
+            "//div[contains(@class, 'testimonial')]",
+            "//*[@data-automation-id='review']",
+            "//div[contains(@id, 'review')]"
         ]
         
         review_elements = []
@@ -546,11 +599,15 @@ class WalmartReviewInference:
                 return [], False
             try:
                 elements = self.driver.find_elements(By.XPATH, selector)
-                filtered = [e for e in elements if len(e.text) > 50]
+                # More lenient filtering - reduce minimum text length
+                filtered = [e for e in elements if len(e.text) > 20]
                 if filtered and len(filtered) > len(review_elements):
                     review_elements = filtered
             except:
                 continue
+        
+        # Debug logging
+        print(f"Found {len(review_elements)} potential review elements")
         
         reviews = []
         for elem in review_elements:
@@ -570,17 +627,26 @@ class WalmartReviewInference:
         return reviews, False
     
     def scrape_and_analyze(self, url: str, max_reviews: int = 50, session_id: str = None) -> Dict:
-        if session_id:
-            analysis_status[session_id] = {"status": "loading", "message": "Extracting product ID..."}
+        def update_progress(stage_key, additional_info=""):
+            if session_id and stage_key in PROGRESS_STAGES:
+                stage = PROGRESS_STAGES[stage_key]
+                message = stage["message"]
+                if additional_info:
+                    message += f" {additional_info}"
+                analysis_status[session_id] = {
+                    "status": "loading",
+                    "message": message,
+                    "progress": stage["progress"],
+                    "stage": stage_key
+                }
         
+        update_progress("extracting_id")
         product_id = self.extract_product_id(url)
         
         if not product_id:
             raise ValueError("Invalid Walmart URL")
         
-        if session_id:
-            analysis_status[session_id] = {"status": "loading", "message": "Loading product page..."}
-        
+        update_progress("loading_page")
         try:
             self.driver.get(url)
             self.human_delay(2.0, 3.5)
@@ -590,9 +656,7 @@ class WalmartReviewInference:
         if not self.is_browser_alive():
             raise ValueError("Browser was closed unexpectedly")
         
-        if session_id:
-            analysis_status[session_id] = {"status": "loading", "message": "Navigating to reviews..."}
-        
+        update_progress("navigating_reviews")
         for _ in range(2):
             if not self.is_browser_alive():
                 raise ValueError("Browser was closed unexpectedly")
@@ -636,46 +700,71 @@ class WalmartReviewInference:
             except:
                 continue
         
-        if session_id:
-            analysis_status[session_id] = {"status": "loading", "message": "Extracting reviews from multiple pages..."}
-        
+        update_progress("extracting_reviews")
         all_reviews = []
         seen_texts = set()
         current_page = 1
-        max_pages = 10
-        
+
+        # Calculate max pages based on total reviews needed
+        # Walmart typically shows 10 reviews per page
+        reviews_per_page = 10
+        estimated_pages = (max_reviews // reviews_per_page) + 2  # Add buffer
+        max_pages = min(estimated_pages, 20)  # Reasonable upper limit
+
+        print(f"Starting to scrape reviews. Target: {max_reviews}, Estimated pages: {max_pages}")
+
         while current_page <= max_pages and len(all_reviews) < max_reviews:
             if not self.is_browser_alive():
                 raise ValueError("Browser was closed unexpectedly")
-                
+            
+            # Calculate progress for review extraction (40-75%) based on reviews collected
+            reviews_collected = len(all_reviews)
+            progress_percentage = min((reviews_collected / max_reviews) * 100, 100)
+            # Map to 40-100% range
+            review_progress = 40 + (progress_percentage * 0.60)
+            
             if session_id:
                 analysis_status[session_id] = {
-                    "status": "loading", 
-                    "message": f"Extracting reviews from page {current_page}... (Found: {len(all_reviews)})"
+                    "status": "loading",
+                    "message": f"Extracting reviews... (Found: {reviews_collected}/{max_reviews})",
+                    "progress": review_progress,
+                    "stage": "extracting_reviews"
                 }
             
             page_reviews, captcha_detected = self.extract_reviews_from_current_page(seen_texts)
             
             if captcha_detected:
+                print("Captcha detected, stopping scraping")
                 break
             
+            print(f"Found {len(page_reviews)} new reviews")
             all_reviews.extend(page_reviews)
             
             if len(all_reviews) >= max_reviews:
+                print(f"Reached target of {max_reviews} reviews")
                 break
             
+            # Check if we can go to next page
             next_success, captcha_detected = self.click_next_page(current_page)
             
-            if captcha_detected or not next_success:
+            if captcha_detected:
+                print("Captcha detected while trying to go to next page")
+                break
+                
+            if not next_success:
+                print("No more pages available")
                 break
             
             current_page += 1
-            self.human_delay(0.8, 1.5)
+            self.human_delay(1.0, 2.0)  # Longer delay between pages
         
         reviews = all_reviews[:max_reviews]
         
-        if session_id:
-            analysis_status[session_id] = {"status": "loading", "message": "Finalizing analysis..."}
+        # update_progress("analyzing_sentiment")
+        # Simulate some processing time for sentiment analysis
+        # time.sleep(0.5)
+        
+        # update_progress("finalizing")
         
         return {
             "product_id": product_id,
@@ -723,14 +812,26 @@ def analyze():
         try:
             analysis_status[session_id] = {
                 "status": "loading",
-                "message": "Starting browser..."
+                "message": "Initializing browser...",
+                "progress": 5,
+                "stage": "initializing"
             }
             
-            scraper = WalmartReviewInference(analyzer, headless=False)
+            try:
+                scraper = WalmartReviewInference(analyzer, headless=False)
+            except ValueError as e:
+                # Handle Chrome initialization errors specifically
+                analysis_status[session_id] = {
+                    "status": "error",
+                    "message": str(e)
+                }
+                return
             
             analysis_status[session_id] = {
                 "status": "loading",
-                "message": "Browser started, beginning analysis..."
+                "message": "Browser started successfully",
+                "progress": 10,
+                "stage": "browser_started"
             }
             
             result = scraper.scrape_and_analyze(url, max_reviews, session_id)
@@ -766,6 +867,9 @@ def analyze():
             
             analysis_status[session_id] = {
                 "status": "complete",
+                "message": "Analysis complete!",
+                "progress": 100,
+                "stage": "complete",
                 "data": {
                     "metadata": {
                         "product_id": result['product_id'],
