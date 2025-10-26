@@ -1,0 +1,43 @@
+{
+  "product_id": "5419660475",
+  "product_url": "https://www.walmart.com/ip/LED-Tactical-Flashlight-2000-Lumens-Torch-Metal-Mini-Powerful-Handheld-Military-Grade-Zoomable-Waterproof-Outdoor-Camping-Emergencies-4-Pack/5419660475?classType=VARIANT&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "When I went to but the batteries in, a spring, a brass piece, and the part that holds it together came flying apart as I pulled it out of the flash lite. After searching I found the 3 parts. I guess I will see it I can glue it together, if not I will have 3 working flashlights instead of 4. So remember, you get what you pay for, it is not worth my time to send them back.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6011,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5419660475",
+      "product_url": "https://www.walmart.com/ip/LED-Tactical-Flashlight-2000-Lumens-Torch-Metal-Mini-Powerful-Handheld-Military-Grade-Zoomable-Waterproof-Outdoor-Camping-Emergencies-4-Pack/5419660475?classType=VARIANT&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "it doesn't put out as much light as I thought it would. still a good little flashlight",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4419,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5419660475",
+      "product_url": "https://www.walmart.com/ip/LED-Tactical-Flashlight-2000-Lumens-Torch-Metal-Mini-Powerful-Handheld-Military-Grade-Zoomable-Waterproof-Outdoor-Camping-Emergencies-4-Pack/5419660475?classType=VARIANT&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T08:37:31.552887"
+}

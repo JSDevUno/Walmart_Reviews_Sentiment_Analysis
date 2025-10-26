@@ -1,0 +1,43 @@
+{
+  "product_id": "5044454331",
+  "product_url": "https://www.walmart.com/ip/NISIEN-Queen-Bed-Frame-with-Charging-Station-Upholstered-Platform-Bed-with-Wingback-Storage-Headboard-Dark-Gray/5044454331?classType=VARIANT&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "2/3 person assembly %26 not noise free",
+      "review_text": "Definitely need 2/3 people to assemble the bed but after you get through the first part and a few breaks, it’s pretty easy. The bed is comfortable but it is not noise free as stated. My son said it squeaks and I heard it for myself today. Other than that, the bed looks great!",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5841,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5044454331",
+      "product_url": "https://www.walmart.com/ip/NISIEN-Queen-Bed-Frame-with-Charging-Station-Upholstered-Platform-Bed-with-Wingback-Storage-Headboard-Dark-Gray/5044454331?classType=VARIANT&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "I never opened the box...my son beat me to this Christmas present for my grandson, so I won't be needing it. I'm sure everything is great but since I didn't know for sure.. I rated down the middle.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.3915,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5044454331",
+      "product_url": "https://www.walmart.com/ip/NISIEN-Queen-Bed-Frame-with-Charging-Station-Upholstered-Platform-Bed-with-Wingback-Storage-Headboard-Dark-Gray/5044454331?classType=VARIANT&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T07:30:26.383813"
+}

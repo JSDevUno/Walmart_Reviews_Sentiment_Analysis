@@ -1,0 +1,43 @@
+{
+  "product_id": "1123677657",
+  "product_url": "https://www.walmart.com/ip/Canopi-by-ShedRain-Sun-Rain-Auto-Open-Auto-Close-43-UPF-50-Rain-Umbrella-Black/1123677657?classType=VARIANT&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "More red than orange",
+      "review_text": "We don't get a lot of rain where I live so I haven't had the chance to use this umbrella yet. However I feel it's worth noting (as I bought this item online) that the color is much more red in person than orange. I still decided to keep it because the pattern is cute (I purchased for my daughter). I bought “orange floral” if that wasn't obvious",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6027,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "1123677657",
+      "product_url": "https://www.walmart.com/ip/Canopi-by-ShedRain-Sun-Rain-Auto-Open-Auto-Close-43-UPF-50-Rain-Umbrella-Black/1123677657?classType=VARIANT&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Says auto but its not it just a regular umbrella with a push button to open. I thought auto open and close meant automatic. They should seriously specify that.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5106,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "1123677657",
+      "product_url": "https://www.walmart.com/ip/Canopi-by-ShedRain-Sun-Rain-Auto-Open-Auto-Close-43-UPF-50-Rain-Umbrella-Black/1123677657?classType=VARIANT&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T04:38:18.155054"
+}

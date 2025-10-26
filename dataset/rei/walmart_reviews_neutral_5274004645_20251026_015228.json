@@ -1,0 +1,43 @@
+{
+  "product_id": "5274004645",
+  "product_url": "https://www.walmart.com/ip/Kenmore-Energy-Efficient-Refrigerator-Black/5274004645?classType=VARIANT&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Kenmore Refrigerator",
+      "review_text": "[This review was collected as part of a promotion.] Did not Ike too small, seems too low on the shelf. Freedom portion tiny. Won't have room for extras like leftovers or storing ahead for parties.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.7093,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5274004645",
+      "product_url": "https://www.walmart.com/ip/Kenmore-Energy-Efficient-Refrigerator-Black/5274004645?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Nice but dated",
+      "review_text": "[This review was collected as part of a promotion.] Looks nice but seems smaller than I would like. Has nice features with hidden handles. But seems dated with ice inside and freezer on top.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5247,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5274004645",
+      "product_url": "https://www.walmart.com/ip/Kenmore-Energy-Efficient-Refrigerator-Black/5274004645?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T01:52:28.949082"
+}

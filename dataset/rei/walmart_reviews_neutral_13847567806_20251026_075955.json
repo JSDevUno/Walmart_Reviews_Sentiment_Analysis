@@ -1,0 +1,26 @@
+{
+  "product_id": "13847567806",
+  "product_url": "https://www.walmart.com/ip/ZEGJAW-Electric-Leaf-Blower-Corded-7-AMP-Leaf-Blowers-155MPH-350CFM-Small-Handheld-Lawn-Blower-Lightweight-Portable-for-Lawn-Care/13847567806?classType=REGULAR&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "my grandson got wet in the rain trying to blow leaves wit new blower 😂😂😂",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5271,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "13847567806",
+      "product_url": "https://www.walmart.com/ip/ZEGJAW-Electric-Leaf-Blower-Corded-7-AMP-Leaf-Blowers-155MPH-350CFM-Small-Handheld-Lawn-Blower-Lightweight-Portable-for-Lawn-Care/13847567806?classType=REGULAR&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T07:59:55.026354"
+}

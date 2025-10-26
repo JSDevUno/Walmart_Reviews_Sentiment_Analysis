@@ -1,0 +1,26 @@
+{
+  "product_id": "5375281156",
+  "product_url": "https://www.walmart.com/ip/4-EVER-WINNER-Twin-Bed-Frame-White-Twin-Bed-Frame-for-Kids-Twin-Size-Upholstered-Bed-Frame-with-Headboard-White/5375281156?adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "It was just a little smaller then the pictures looked",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.7558,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5375281156",
+      "product_url": "https://www.walmart.com/ip/4-EVER-WINNER-Twin-Bed-Frame-White-Twin-Bed-Frame-for-Kids-Twin-Size-Upholstered-Bed-Frame-with-Headboard-White/5375281156?adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T07:27:55.963857"
+}

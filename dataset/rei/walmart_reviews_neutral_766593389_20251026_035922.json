@@ -1,0 +1,60 @@
+{
+  "product_id": "766593389",
+  "product_url": "https://www.walmart.com/ip/Nutribullet-Baby-Food-Blender-NBY10100-Blue-White/766593389?classType=REGULAR&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Good but…",
+      "review_text": "[This review was collected as part of a promotion.] Down fall is you have to a very large amount for it to be able to blend properly. I wanted to be able to have the choice to do it a meal at a time if I wanted to. I feel like it should work no matter how much I make at a time",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6274,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "766593389",
+      "product_url": "https://www.walmart.com/ip/Nutribullet-Baby-Food-Blender-NBY10100-Blue-White/766593389?classType=REGULAR&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Rubber Gear of nutri bullet baby melts",
+      "review_text": "Rubber Gear of nutri bullet baby melts and mixes with baby food . We have been feeding our baby for the past 10 days without realizing rubber was getting into baby food . While feeding sweet potato purée we realized the difference . Please find the difference in attached pictures (blackish purée is from nutri bullet and the other was from a different blender )",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.8019,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "766593389",
+      "product_url": "https://www.walmart.com/ip/Nutribullet-Baby-Food-Blender-NBY10100-Blue-White/766593389?classType=REGULAR&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "It's cute to look at and that's about it",
+      "review_text": "The blade part leaks black lubricant after a few months of average use. When you contact warranty they say you're supposed to replace that part every 6-12 months but that information is only in the FAQs online and not in any of the material provided when you purchase the item. We got a new blade and after 3x a week use it's leaking the black lubricant again after 3.5 months. Also there are no measurements on anything, which is really inconvenient if you're keeping track of portions.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4643,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "766593389",
+      "product_url": "https://www.walmart.com/ip/Nutribullet-Baby-Food-Blender-NBY10100-Blue-White/766593389?classType=REGULAR&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T03:59:22.884975"
+}

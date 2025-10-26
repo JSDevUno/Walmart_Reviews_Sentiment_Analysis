@@ -1,0 +1,43 @@
+{
+  "product_id": "300005934",
+  "product_url": "https://www.walmart.com/ip/Ayieyill-64-Packs-Halloween-Stickers-Pumpkin-Decorating-Stickers-Children-32-Sheet-Small-Pumpkin-Face-Stickers-Halloween-Party-Supplies-Trick-Treat-P/300005934?classType=VARIANT&athbdg=L1103&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "I found that they do not stay on the pumpkin. They come off.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5259,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "300005934",
+      "product_url": "https://www.walmart.com/ip/Ayieyill-64-Packs-Halloween-Stickers-Pumpkin-Decorating-Stickers-Children-32-Sheet-Small-Pumpkin-Face-Stickers-Halloween-Party-Supplies-Trick-Treat-P/300005934?classType=VARIANT&athbdg=L1103&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Cute but small",
+      "review_text": "The stickers are cute but they are for small pumpkins, not the full size pumpkins.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4559,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "300005934",
+      "product_url": "https://www.walmart.com/ip/Ayieyill-64-Packs-Halloween-Stickers-Pumpkin-Decorating-Stickers-Children-32-Sheet-Small-Pumpkin-Face-Stickers-Halloween-Party-Supplies-Trick-Treat-P/300005934?classType=VARIANT&athbdg=L1103&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T04:18:08.630507"
+}

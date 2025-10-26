@@ -1,0 +1,43 @@
+{
+  "product_id": "5349984440",
+  "product_url": "https://www.walmart.com/ip/Tropicana-Strawberry-Lemonade-Made-with-Real-Lemons-46-fl-oz-Bottle/5349984440?classType=VARIANT&athbdg=L1300&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Reminds me of the starbucks strawberry refresher without the caffine. It's also pretty sugary, but I just mix it with some sparkling water",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6402,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5349984440",
+      "product_url": "https://www.walmart.com/ip/Tropicana-Strawberry-Lemonade-Made-with-Real-Lemons-46-fl-oz-Bottle/5349984440?classType=VARIANT&athbdg=L1300&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "You all said this was unavailable…but yet I found it at the store!!!",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.567,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5349984440",
+      "product_url": "https://www.walmart.com/ip/Tropicana-Strawberry-Lemonade-Made-with-Real-Lemons-46-fl-oz-Bottle/5349984440?classType=VARIANT&athbdg=L1300&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T05:36:39.094655"
+}

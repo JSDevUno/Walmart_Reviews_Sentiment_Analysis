@@ -1,0 +1,26 @@
+{
+  "product_id": "8898710757",
+  "product_url": "https://www.walmart.com/ip/Better-Homes-Gardens-Juliet-King-Boucle-Platform-Bed-Ivory/8898710757?classType=VARIANT&athbdg=L1103&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Allow me to de-influence you",
+      "review_text": "While this bed frame is beautiful (the main reason for giving any stars at all) It took nearly two hours to put together and I probably wouldn't recommend it to anyone. once assembled the middle slats are somewhat uneven and are big gaps all around the mattress. I'm not entirely sure why since I measured the mattress to confirm it is indeed a King size mattress and this is a king size bed frame. When trying to get help from Walmart (and report the manufacture defect) the best they could offer me was to send the frame back (aka take another two hours to take it apart) OR a $25 promo code (aka buy more stuff and we will give you $25 off lol) they do not have \"buttons\" for offering partial refunds due to manufacture defects. I'm still on the fence on If I will be returning it with the my new dresser that doesn't work.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4199,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "8898710757",
+      "product_url": "https://www.walmart.com/ip/Better-Homes-Gardens-Juliet-King-Boucle-Platform-Bed-Ivory/8898710757?classType=VARIANT&athbdg=L1103&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T07:08:24.276968"
+}

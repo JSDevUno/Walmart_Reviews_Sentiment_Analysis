@@ -1,0 +1,60 @@
+{
+  "product_id": "806314955",
+  "product_url": "https://www.walmart.com/ip/Way-to-Celebrate-6CT-BOUNCY-BALLS/806314955?classType=VARIANT&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Hard like erasers, but do bounce. For Older kids.",
+      "review_text": "These rubber balls feel just like erasers, hard. But they do bounce. I got these for trick-o-treaters, bunch of packs to give out one each.. I would just pass these out to ages 10 and up. I purchased softer and larger bulk for younger kids.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6735,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "806314955",
+      "product_url": "https://www.walmart.com/ip/Way-to-Celebrate-6CT-BOUNCY-BALLS/806314955?classType=VARIANT&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "the package contains 6 sold rubber balls. the balls measure 1 inch diameter.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.9245,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "806314955",
+      "product_url": "https://www.walmart.com/ip/Way-to-Celebrate-6CT-BOUNCY-BALLS/806314955?classType=VARIANT&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Size and quantity in the package. I bought them for an Easter egg hunt and they fit in the eggs.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5229,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "806314955",
+      "product_url": "https://www.walmart.com/ip/Way-to-Celebrate-6CT-BOUNCY-BALLS/806314955?classType=VARIANT&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T06:08:21.403724"
+}

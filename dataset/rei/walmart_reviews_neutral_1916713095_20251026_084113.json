@@ -1,0 +1,43 @@
+{
+  "product_id": "1916713095",
+  "product_url": "https://www.walmart.com/ip/Rechargeable-Flashlight-High-Lumens-120000-Lumens-XHP70-2-Super-Bright-Powerful-Tactical-LED-Flashlights-Zoomable-5-Modes-Waterproof-Flashlight-Emerg/1916713095?classType=VARIANT&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Really, Really Bright",
+      "review_text": "The light is indeed as bright as the picture shows. Note though, it is heavy, and awkward in the hand. If you are looking for an easy to hold and use for work around the home, perhaps not the best. If you are looking for a really, really bright light to illuminate a big area, this is the one",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4773,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "1916713095",
+      "product_url": "https://www.walmart.com/ip/Rechargeable-Flashlight-High-Lumens-120000-Lumens-XHP70-2-Super-Bright-Powerful-Tactical-LED-Flashlights-Zoomable-5-Modes-Waterproof-Flashlight-Emerg/1916713095?classType=VARIANT&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Bright light that needs just a bit of redesign",
+      "review_text": "The light is certainly as bright (or brighter) as advertised. I think a charger should have been included. The rechargeable battery runs down quickly on high beam but recharges quickly. Having to press the on/off/mode switch 5 times to turn the light off is a nuisance and causes unnecessary wear on the switch I'm certain. Altogether a good light at a good price but requires a bit of redesign.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4985,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "1916713095",
+      "product_url": "https://www.walmart.com/ip/Rechargeable-Flashlight-High-Lumens-120000-Lumens-XHP70-2-Super-Bright-Powerful-Tactical-LED-Flashlights-Zoomable-5-Modes-Waterproof-Flashlight-Emerg/1916713095?classType=VARIANT&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T08:41:13.912824"
+}

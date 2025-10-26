@@ -1,0 +1,60 @@
+{
+  "product_id": "9152107924",
+  "product_url": "https://www.walmart.com/ip/WANAI-3-5-Cu-ft-Fridge-with-Freezer-2-Door-Compact-Refrigerator-Adjustable-Thermostat-Silver-New/9152107924?classType=VARIANT&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "The fridge and freezer are nice however there was a dent in the top of the refrigerator/freezer when we took it out of the box.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5242,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "9152107924",
+      "product_url": "https://www.walmart.com/ip/WANAI-3-5-Cu-ft-Fridge-with-Freezer-2-Door-Compact-Refrigerator-Adjustable-Thermostat-Silver-New/9152107924?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Mini is Correct",
+      "review_text": "Much smaller than the picture it looks like you can put so much in the freezer and fridge so untrue I could’ve gotten the taller one for a few more dollars",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5178,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "9152107924",
+      "product_url": "https://www.walmart.com/ip/WANAI-3-5-Cu-ft-Fridge-with-Freezer-2-Door-Compact-Refrigerator-Adjustable-Thermostat-Silver-New/9152107924?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Refrigerator",
+      "review_text": "I’ll let you know after I have it up and running for a little while",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.8486,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "9152107924",
+      "product_url": "https://www.walmart.com/ip/WANAI-3-5-Cu-ft-Fridge-with-Freezer-2-Door-Compact-Refrigerator-Adjustable-Thermostat-Silver-New/9152107924?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T02:06:29.455978"
+}

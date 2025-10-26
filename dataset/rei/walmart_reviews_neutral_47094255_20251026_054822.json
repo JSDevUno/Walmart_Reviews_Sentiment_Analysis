@@ -1,0 +1,43 @@
+{
+  "product_id": "47094255",
+  "product_url": "https://www.walmart.com/ip/AriZona-Kiwi-Strawberry-Juice-Cocktail-128-Fl-Oz/47094255?classType=VARIANT&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "I paid for it but didn't get it when I picked up my order. Please see that it gets delivered to me. thanks Daisy Cutler",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6377,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "47094255",
+      "product_url": "https://www.walmart.com/ip/AriZona-Kiwi-Strawberry-Juice-Cocktail-128-Fl-Oz/47094255?classType=VARIANT&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "3 Arizona Kiwi strawberry substitutes",
+      "review_text": "Arizona kiwi strawberry (3)",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.9361,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "47094255",
+      "product_url": "https://www.walmart.com/ip/AriZona-Kiwi-Strawberry-Juice-Cocktail-128-Fl-Oz/47094255?classType=VARIANT&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T05:48:22.038263"
+}

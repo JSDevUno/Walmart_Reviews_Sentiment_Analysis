@@ -1,0 +1,43 @@
+{
+  "product_id": "15223003561",
+  "product_url": "https://www.walmart.com/ip/CONCETTA-Ergonomic-Home-Office-Mesh-Desk-Chair-Small-Space-Armless-Rolling-Chair-for-Adults-Blue/15223003561?classType=VARIANT&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Return",
+      "review_text": "it was never dismantled. It's a return because the college provided chairs.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.8183,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "15223003561",
+      "product_url": "https://www.walmart.com/ip/CONCETTA-Ergonomic-Home-Office-Mesh-Desk-Chair-Small-Space-Armless-Rolling-Chair-for-Adults-Blue/15223003561?classType=VARIANT&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "office chair",
+      "review_text": "it rolls fast. no arms to push against",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6431,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "15223003561",
+      "product_url": "https://www.walmart.com/ip/CONCETTA-Ergonomic-Home-Office-Mesh-Desk-Chair-Small-Space-Armless-Rolling-Chair-for-Adults-Blue/15223003561?classType=VARIANT&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T06:27:05.357997"
+}

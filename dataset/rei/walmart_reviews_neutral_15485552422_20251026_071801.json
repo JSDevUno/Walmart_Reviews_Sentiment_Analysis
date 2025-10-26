@@ -1,0 +1,43 @@
+{
+  "product_id": "15485552422",
+  "product_url": "https://www.walmart.com/ip/Feonase-Twin-Bed-Frame-Storage-Drawer-Metal-Platform-Bed-Charging-Station-Upholstered-Button-Tufted-Storage-Headboard-Box-Spring-Needed-Noise-Free-Ea/15485552422?classType=VARIANT&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Consider a different frame",
+      "review_text": "If all weight is applied to one side rails from the opposite side may stick out or come out of place. When moving around bed frame may make some noise.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.8352,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "15485552422",
+      "product_url": "https://www.walmart.com/ip/Feonase-Twin-Bed-Frame-Storage-Drawer-Metal-Platform-Bed-Charging-Station-Upholstered-Button-Tufted-Storage-Headboard-Box-Spring-Needed-Noise-Free-Ea/15485552422?classType=VARIANT&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "It would be more finished if the side if the headboard were enclosed.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.7612,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "15485552422",
+      "product_url": "https://www.walmart.com/ip/Feonase-Twin-Bed-Frame-Storage-Drawer-Metal-Platform-Bed-Charging-Station-Upholstered-Button-Tufted-Storage-Headboard-Box-Spring-Needed-Noise-Free-Ea/15485552422?classType=VARIANT&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T07:18:01.298391"
+}

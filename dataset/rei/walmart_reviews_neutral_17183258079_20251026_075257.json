@@ -1,0 +1,26 @@
+{
+  "product_id": "17183258079",
+  "product_url": "https://www.walmart.com/ip/20V-Cordless-Leaf-Blower-120MPH-Electric-Blower-1-Batteries-Charger-Lightweight-Yard-Tools-Lawn-Care-Patio-Backyard-Garden-Grass-Blower-Floor-Outdoor/17183258079?classType=VARIANT&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Tiny but mighty. Only issue is the battery longevity. after a full charge, I was able to use it for 15-20 minutes before the battery died. Then, it takes 5 times as long to charge.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4498,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "17183258079",
+      "product_url": "https://www.walmart.com/ip/20V-Cordless-Leaf-Blower-120MPH-Electric-Blower-1-Batteries-Charger-Lightweight-Yard-Tools-Lawn-Care-Patio-Backyard-Garden-Grass-Blower-Floor-Outdoor/17183258079?classType=VARIANT&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T07:52:57.004864"
+}

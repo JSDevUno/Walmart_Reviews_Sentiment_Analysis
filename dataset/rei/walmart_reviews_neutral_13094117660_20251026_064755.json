@@ -1,0 +1,43 @@
+{
+  "product_id": "13094117660",
+  "product_url": "https://www.walmart.com/ip/Beavtaens-Toddler-Couch-2-in-1-Kids-Flip-Chair-Kids-Pink-Sofa-Bed-Storage-Fold-Chairs-Boys-Girls-Reading-Relaxing-Playing-Sleeping-Hearts/13094117660?classType=VARIANT&athbdg=L1600",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Just OK",
+      "review_text": "Looks better in the picture. It is ok but not what I was expecting. Comes in a very small box and you put it all together. Material is very thin and hard to fit the cushions in.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.422,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "13094117660",
+      "product_url": "https://www.walmart.com/ip/Beavtaens-Toddler-Couch-2-in-1-Kids-Flip-Chair-Kids-Pink-Sofa-Bed-Storage-Fold-Chairs-Boys-Girls-Reading-Relaxing-Playing-Sleeping-Hearts/13094117660?classType=VARIANT&athbdg=L1600",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Difficult to put together. Directions weren't clear. Dog loves it.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4072,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "13094117660",
+      "product_url": "https://www.walmart.com/ip/Beavtaens-Toddler-Couch-2-in-1-Kids-Flip-Chair-Kids-Pink-Sofa-Bed-Storage-Fold-Chairs-Boys-Girls-Reading-Relaxing-Playing-Sleeping-Hearts/13094117660?classType=VARIANT&athbdg=L1600",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T06:47:55.507754"
+}

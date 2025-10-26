@@ -1,0 +1,60 @@
+{
+  "product_id": "15918221306",
+  "product_url": "https://www.walmart.com/ip/6-pack-Way-to-Celebrate-Party-Glow-Bounce-Ball-Green-3-08in-x-5-32in-x-1-14in-30-Grams/15918221306?classType=VARIANT&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Immediately Broke!",
+      "review_text": "Opened the ball, threw it as instructed to activate, and it exploded the glowing liquid across the room!",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5003,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "15918221306",
+      "product_url": "https://www.walmart.com/ip/6-pack-Way-to-Celebrate-Party-Glow-Bounce-Ball-Green-3-08in-x-5-32in-x-1-14in-30-Grams/15918221306?classType=VARIANT&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "glo ball",
+      "review_text": "Cat loves playing with it Doesn't keep it's glo.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5517,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "15918221306",
+      "product_url": "https://www.walmart.com/ip/6-pack-Way-to-Celebrate-Party-Glow-Bounce-Ball-Green-3-08in-x-5-32in-x-1-14in-30-Grams/15918221306?classType=VARIANT&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Bouncy, Glow-y, and...",
+      "review_text": "Well, it's as described. And for the price it seems fine, if you need a glowing ball for whatever reason. The only thing that threw me off a bit was how hard you have to hit this thing for it to light up. Then when it finally starts working, there's a very obvious tinkling of broken glass within the ball. Which makes me think it's maybe not the safest thing for small kids... On the other hand, I could not puncture this thing no matter how hard I tried.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4211,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "15918221306",
+      "product_url": "https://www.walmart.com/ip/6-pack-Way-to-Celebrate-Party-Glow-Bounce-Ball-Green-3-08in-x-5-32in-x-1-14in-30-Grams/15918221306?classType=VARIANT&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T06:03:52.106144"
+}

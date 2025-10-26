@@ -1,0 +1,43 @@
+{
+  "product_id": "5253663866",
+  "product_url": "https://www.walmart.com/ip/LINVO-Classic-Retro-Polarized-Black-Sunglasses-for-Men-Women-Fishing-Driving-Hiking/5253663866?classType=VARIANT&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Havent tried them yet but i was inoressed by the wuality and the case it came with, glasses cleaner rag and a key chane with glasses tools on it",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.7006,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5253663866",
+      "product_url": "https://www.walmart.com/ip/LINVO-Classic-Retro-Polarized-Black-Sunglasses-for-Men-Women-Fishing-Driving-Hiking/5253663866?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Cheap but exactly what i was looking for",
+      "review_text": "Glasses were cheaply made but that's what i was looking for. I drop my glasses a lot",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4523,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5253663866",
+      "product_url": "https://www.walmart.com/ip/LINVO-Classic-Retro-Polarized-Black-Sunglasses-for-Men-Women-Fishing-Driving-Hiking/5253663866?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T04:55:15.981626"
+}

@@ -1,0 +1,60 @@
+{
+  "product_id": "130303442",
+  "product_url": "https://www.walmart.com/ip/Great-Value-White-Cranberry-Strawberry-Juice-Cocktail-64-fl-oz/130303442?classType=REGULAR",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Not artificial",
+      "review_text": "Like that it is flavored with natural flavor and no artificial sweetener or color.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6128,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "130303442",
+      "product_url": "https://www.walmart.com/ip/Great-Value-White-Cranberry-Strawberry-Juice-Cocktail-64-fl-oz/130303442?classType=REGULAR",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "charged for two recieved one as i only ordered one but was double charged",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.782,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "130303442",
+      "product_url": "https://www.walmart.com/ip/Great-Value-White-Cranberry-Strawberry-Juice-Cocktail-64-fl-oz/130303442?classType=REGULAR",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "it was okay",
+      "review_text": "hello i didnt get all my juices its only 9 here and not 10",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.46,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "130303442",
+      "product_url": "https://www.walmart.com/ip/Great-Value-White-Cranberry-Strawberry-Juice-Cocktail-64-fl-oz/130303442?classType=REGULAR",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T05:38:14.053365"
+}

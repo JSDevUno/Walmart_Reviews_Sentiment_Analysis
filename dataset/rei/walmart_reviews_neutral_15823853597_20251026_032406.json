@@ -1,0 +1,26 @@
+{
+  "product_id": "15823853597",
+  "product_url": "https://www.walmart.com/ip/Jazmm-Hand-Crank-Emergency-Radio-NOAA-AM-FM-Portable-Radio-Solar-Emergency-Radio-Weather-Alert-Flashlight-Emergency-2000mAh-Power-Bank-Cellphone-Char/15823853597?classType=VARIANT&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Be prepared, not scared!!!",
+      "review_text": "Living in Florida you need this…. i'm most worried about tornadoes. They come out of nowhere… have a safe summer Florida be prepared. Have one of these radios…",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.398,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "15823853597",
+      "product_url": "https://www.walmart.com/ip/Jazmm-Hand-Crank-Emergency-Radio-NOAA-AM-FM-Portable-Radio-Solar-Emergency-Radio-Weather-Alert-Flashlight-Emergency-2000mAh-Power-Bank-Cellphone-Char/15823853597?classType=VARIANT&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T03:24:06.147100"
+}

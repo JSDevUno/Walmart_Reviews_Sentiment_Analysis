@@ -1,0 +1,26 @@
+{
+  "product_id": "871134872",
+  "product_url": "https://www.walmart.com/ip/Rechargeable-Spotlight-Super-Bright-135000-Lumen-LED-Flashlight-Handheld-spotlight-Long-Lasting-Large-Flashlight-Searchlight-IP65-Waterproof-Side-lig/871134872?classType=VARIANT&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Item is light and brightness is satisfactory for the value.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6888,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "871134872",
+      "product_url": "https://www.walmart.com/ip/Rechargeable-Spotlight-Super-Bright-135000-Lumen-LED-Flashlight-Handheld-spotlight-Long-Lasting-Large-Flashlight-Searchlight-IP65-Waterproof-Side-lig/871134872?classType=VARIANT&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T08:36:13.975630"
+}

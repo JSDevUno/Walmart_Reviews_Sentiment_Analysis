@@ -1,0 +1,43 @@
+{
+  "product_id": "9026806405",
+  "product_url": "https://www.walmart.com/ip/Capri-Sun-Fruit-Punch-Flavored-Juice-Drink-Blend-64-oz-Bottle/9026806405?classType=VARIANT&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Bulk",
+      "review_text": "[This review was collected as part of a promotion.] It is essentially buying capri sun in bulk without all the individual pouches and straws mess. You can bottle up however much or little you want at a time.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.7963,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "9026806405",
+      "product_url": "https://www.walmart.com/ip/Capri-Sun-Fruit-Punch-Flavored-Juice-Drink-Blend-64-oz-Bottle/9026806405?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "it was ok, something was off like it was watery or needed more flavor.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6821,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "9026806405",
+      "product_url": "https://www.walmart.com/ip/Capri-Sun-Fruit-Punch-Flavored-Juice-Drink-Blend-64-oz-Bottle/9026806405?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T05:35:38.667324"
+}

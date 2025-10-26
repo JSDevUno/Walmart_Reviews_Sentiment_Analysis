@@ -1,0 +1,26 @@
+{
+  "product_id": "13587870571",
+  "product_url": "https://www.walmart.com/ip/Mainstays-Executive-Home-Office-Chair-Ergonomic-High-Back-Cushion-Lumbar-Back-Support-Computer-Desk-Chair-Leather-Chair-with-Arms-Black/13587870571?classType=VARIANT&athbdg=L1600&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "The material is not durable. The chair is sturdy and comfortable. Directions for assembly very clear.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.483,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "13587870571",
+      "product_url": "https://www.walmart.com/ip/Mainstays-Executive-Home-Office-Chair-Ergonomic-High-Back-Cushion-Lumbar-Back-Support-Computer-Desk-Chair-Leather-Chair-with-Arms-Black/13587870571?classType=VARIANT&athbdg=L1600&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T06:25:17.790735"
+}

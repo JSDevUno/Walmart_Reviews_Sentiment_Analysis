@@ -1,0 +1,43 @@
+{
+  "product_id": "8950550293",
+  "product_url": "https://www.walmart.com/ip/Trident-Vibes-Sugar-Free-Gum-Spearmint-Rush-Regular-Size-40-Piece-Bottle/8950550293?adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Good but pricey",
+      "review_text": "My husband likes to keep these in his car. They've gotten expensive.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4348,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "8950550293",
+      "product_url": "https://www.walmart.com/ip/Trident-Vibes-Sugar-Free-Gum-Spearmint-Rush-Regular-Size-40-Piece-Bottle/8950550293?adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Not mint.",
+      "review_text": "Spearmint gum this is not. It tastes like apple. However, as quality of product goes, it stays soft when you chew it for long periods unlike others that seem to harden.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6017,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "8950550293",
+      "product_url": "https://www.walmart.com/ip/Trident-Vibes-Sugar-Free-Gum-Spearmint-Rush-Regular-Size-40-Piece-Bottle/8950550293?adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T04:21:36.796657"
+}

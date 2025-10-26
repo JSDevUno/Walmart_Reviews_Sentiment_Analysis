@@ -1,0 +1,43 @@
+{
+  "product_id": "5089315688",
+  "product_url": "https://www.walmart.com/ip/Disney-Minnie-Mouse-Foam-Chair-by-Delta-Children-Pink/5089315688?classType=REGULAR",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Easy to put togethr. The back wood piece does not go very far up so most of the back is just foam but sturdy foam.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5704,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5089315688",
+      "product_url": "https://www.walmart.com/ip/Disney-Minnie-Mouse-Foam-Chair-by-Delta-Children-Pink/5089315688?classType=REGULAR",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "snaller than description. for a 2 year old. not 3 or older.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6885,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5089315688",
+      "product_url": "https://www.walmart.com/ip/Disney-Minnie-Mouse-Foam-Chair-by-Delta-Children-Pink/5089315688?classType=REGULAR",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T06:52:39.888313"
+}

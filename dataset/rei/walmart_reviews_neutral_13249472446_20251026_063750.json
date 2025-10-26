@@ -1,0 +1,60 @@
+{
+  "product_id": "13249472446",
+  "product_url": "https://www.walmart.com/ip/Minnie-Mouse-Cozee-Buddy-Chair-by-Delta-Children-Pink/13249472446?classType=VARIANT&athbdg=L1600",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "The seating portion is too small. The backrest is too large. My grandchild struggled to adjust to a comfortable position. She did like it.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4556,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "13249472446",
+      "product_url": "https://www.walmart.com/ip/Minnie-Mouse-Cozee-Buddy-Chair-by-Delta-Children-Pink/13249472446?classType=VARIANT&athbdg=L1600",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Solidly okay.",
+      "review_text": "Not a bad little chair, but on the small side. Didn't seem to look good as long as some others.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4578,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "13249472446",
+      "product_url": "https://www.walmart.com/ip/Minnie-Mouse-Cozee-Buddy-Chair-by-Delta-Children-Pink/13249472446?classType=VARIANT&athbdg=L1600",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Kids Chair",
+      "review_text": "I expected it to be a little bigger than it was",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.7547,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "13249472446",
+      "product_url": "https://www.walmart.com/ip/Minnie-Mouse-Cozee-Buddy-Chair-by-Delta-Children-Pink/13249472446?classType=VARIANT&athbdg=L1600",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T06:37:50.175573"
+}

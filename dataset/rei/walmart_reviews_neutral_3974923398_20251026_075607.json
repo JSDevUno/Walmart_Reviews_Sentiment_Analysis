@@ -1,0 +1,26 @@
+{
+  "product_id": "3974923398",
+  "product_url": "https://www.walmart.com/ip/Senix-20V-Cordless-Jobsite-Leaf-Blower-180-MPH-at-75-CFM/3974923398?classType=VARIANT&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Lighr weight for senior with weak arms yet powerful for my needs",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5269,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "3974923398",
+      "product_url": "https://www.walmart.com/ip/Senix-20V-Cordless-Jobsite-Leaf-Blower-180-MPH-at-75-CFM/3974923398?classType=VARIANT&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T07:56:07.970863"
+}

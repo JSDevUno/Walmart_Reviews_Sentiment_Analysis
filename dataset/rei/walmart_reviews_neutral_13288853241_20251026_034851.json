@@ -1,0 +1,26 @@
+{
+  "product_id": "13288853241",
+  "product_url": "https://www.walmart.com/ip/Black-Decker-Easy-Assembly-8-Cup-Food-Processor-2-Speeds-Plus-Pulse-Dishwasher-Safe-Parts-850-Watts-of-Peak-Power-Chop-Puree-Slice-Shred/13288853241?classType=REGULAR&athbdg=L1102&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Food processor",
+      "review_text": "At one time I had a bigger food processor. It was way too hard to use. I gave it away. I would recommend this food processor.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.3759,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "13288853241",
+      "product_url": "https://www.walmart.com/ip/Black-Decker-Easy-Assembly-8-Cup-Food-Processor-2-Speeds-Plus-Pulse-Dishwasher-Safe-Parts-850-Watts-of-Peak-Power-Chop-Puree-Slice-Shred/13288853241?classType=REGULAR&athbdg=L1102&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T03:48:51.903945"
+}

@@ -1,0 +1,26 @@
+{
+  "product_id": "2205436996",
+  "product_url": "https://www.walmart.com/ip/Homchy-20-50-100PCS-Kids-5-7cm-Pit-Balls-Baby-Toys-Ocean-Balls-For-Play-Pool-Fun-Colorful-Soft-Plastic-Ocean-Ball/2205436996?classType=VARIANT&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Durable.",
+      "review_text": "These are the toughest ball pit balls available. Two additional types have to be returned. Since they are soft, they won't dent. Strongly advised!",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5055,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "2205436996",
+      "product_url": "https://www.walmart.com/ip/Homchy-20-50-100PCS-Kids-5-7cm-Pit-Balls-Baby-Toys-Ocean-Balls-For-Play-Pool-Fun-Colorful-Soft-Plastic-Ocean-Ball/2205436996?classType=VARIANT&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T06:15:52.402551"
+}

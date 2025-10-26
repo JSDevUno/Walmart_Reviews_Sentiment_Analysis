@@ -1,0 +1,43 @@
+{
+  "product_id": "13828308350",
+  "product_url": "https://www.walmart.com/ip/BAOKALER-Cordless-Leaf-Blower-160MPH-20V-Handheld-Electric-Leaf-Blowers-with-2-Battery-Lightweight-Battery-Powered-Leaf-Blower/13828308350?classType=VARIANT&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Was not powerful enough to for me to move lite snow",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.477,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "13828308350",
+      "product_url": "https://www.walmart.com/ip/BAOKALER-Cordless-Leaf-Blower-160MPH-20V-Handheld-Electric-Leaf-Blowers-with-2-Battery-Lightweight-Battery-Powered-Leaf-Blower/13828308350?classType=VARIANT&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "convenient",
+      "review_text": "Easy to use bu not as powerful as I expected",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5651,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "13828308350",
+      "product_url": "https://www.walmart.com/ip/BAOKALER-Cordless-Leaf-Blower-160MPH-20V-Handheld-Electric-Leaf-Blowers-with-2-Battery-Lightweight-Battery-Powered-Leaf-Blower/13828308350?classType=VARIANT&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T07:59:18.007265"
+}

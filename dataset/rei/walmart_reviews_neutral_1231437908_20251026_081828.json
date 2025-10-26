@@ -1,0 +1,60 @@
+{
+  "product_id": "1231437908",
+  "product_url": "https://www.walmart.com/ip/Energizer-Vision-HD-300-Lumen-LED-Headlamps-Batteries-Included-2-Pack/1231437908?adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Purpose for headlamp",
+      "review_text": "I use this headlamp for biking because someone kept stealing the bike lit that was attached to my front handlebar no matter where I went; when I was done shopping or whatever %26 I was ready to turn the bike light that was attached to the handlebars on %26 it was gone so after that happened about 4 times I could see that this energizer headlamp was what I needed cuz it went with me when I went shopping etc. This headlamp gives more light than a medium priced bike light %26 the straps can be easily adjusted to fit around my head;",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6715,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "1231437908",
+      "product_url": "https://www.walmart.com/ip/Energizer-Vision-HD-300-Lumen-LED-Headlamps-Batteries-Included-2-Pack/1231437908?adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Have not actually used it only opened it check batteries and brightness. Remove batteries and placed them in emergency kits. Will review more once used.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.7348,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "1231437908",
+      "product_url": "https://www.walmart.com/ip/Energizer-Vision-HD-300-Lumen-LED-Headlamps-Batteries-Included-2-Pack/1231437908?adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Hat light",
+      "review_text": "My husband wears these to do work outside after dark. He has them in all colors.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.69,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "1231437908",
+      "product_url": "https://www.walmart.com/ip/Energizer-Vision-HD-300-Lumen-LED-Headlamps-Batteries-Included-2-Pack/1231437908?adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T08:18:28.220412"
+}

@@ -1,0 +1,26 @@
+{
+  "product_id": "8329670261",
+  "product_url": "https://www.walmart.com/ip/4-5-Cu-ft-Mini-Refrigerator-with-Freezer-Small-Refrigerator-for-Office-Kitchen-Dorm-and-Bedroom-2-Doors-Mini-Fridge-with-Adjustable-Shelves-Sliver/8329670261?classType=VARIANT&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "refrig portion not cooling",
+      "review_text": "nice size, freezing is spacious, however, refrig portion not cooling",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.529,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "8329670261",
+      "product_url": "https://www.walmart.com/ip/4-5-Cu-ft-Mini-Refrigerator-with-Freezer-Small-Refrigerator-for-Office-Kitchen-Dorm-and-Bedroom-2-Doors-Mini-Fridge-with-Adjustable-Shelves-Sliver/8329670261?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T01:57:49.876497"
+}

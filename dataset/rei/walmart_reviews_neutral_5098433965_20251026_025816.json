@@ -1,0 +1,60 @@
+{
+  "product_id": "5098433965",
+  "product_url": "https://www.walmart.com/ip/AM-FM-Alarm-Clock-Radio-with-Dual-Alarm-Sleep-Timer-Orange-LED-Display-4-Level-Dimming-iTOMA/5098433965?classType=REGULAR&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "USB powered beware",
+      "review_text": "Powered by usb. Need to make sure you have a very RF quiet usb port you use to power the radio or even on FM you get noise that can override in I coming desired signals",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.8308,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5098433965",
+      "product_url": "https://www.walmart.com/ip/AM-FM-Alarm-Clock-Radio-with-Dual-Alarm-Sleep-Timer-Orange-LED-Display-4-Level-Dimming-iTOMA/5098433965?classType=REGULAR&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "You'll need a charger",
+      "review_text": "Doesn't have a regular plug. Now I have to get a charging cord in order to use it.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6664,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5098433965",
+      "product_url": "https://www.walmart.com/ip/AM-FM-Alarm-Clock-Radio-with-Dual-Alarm-Sleep-Timer-Orange-LED-Display-4-Level-Dimming-iTOMA/5098433965?classType=REGULAR&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "radio",
+      "review_text": "this radio was sent with a usb coed not a 110 cord yes it still produces electricity But gets hot after running a week",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.7656,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5098433965",
+      "product_url": "https://www.walmart.com/ip/AM-FM-Alarm-Clock-Radio-with-Dual-Alarm-Sleep-Timer-Orange-LED-Display-4-Level-Dimming-iTOMA/5098433965?classType=REGULAR&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T02:58:16.273515"
+}

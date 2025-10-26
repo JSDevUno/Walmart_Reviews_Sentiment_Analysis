@@ -1,0 +1,43 @@
+{
+  "product_id": "1083497281",
+  "product_url": "https://www.walmart.com/ip/Swiss-Tech-Steigern-2000-Lumen-LED-Rechargeable-Flashlight-IPX7-Waterproof-Digital-Focusing/1083497281?classType=VARIANT&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Powerful",
+      "review_text": "Powerful. I question the 30 battery life on the 2,000 lumen setting though.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4654,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "1083497281",
+      "product_url": "https://www.walmart.com/ip/Swiss-Tech-Steigern-2000-Lumen-LED-Rechargeable-Flashlight-IPX7-Waterproof-Digital-Focusing/1083497281?classType=VARIANT&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Flash Light",
+      "review_text": "I needed a flash light that was powerful enough for me to see my entire backyard. We have coyotes and need to see if any are around when we go out at night.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5736,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "1083497281",
+      "product_url": "https://www.walmart.com/ip/Swiss-Tech-Steigern-2000-Lumen-LED-Rechargeable-Flashlight-IPX7-Waterproof-Digital-Focusing/1083497281?classType=VARIANT&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T08:39:27.945274"
+}

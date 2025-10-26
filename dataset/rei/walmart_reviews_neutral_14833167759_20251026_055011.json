@@ -1,0 +1,26 @@
+{
+  "product_id": "14833167759",
+  "product_url": "https://www.walmart.com/ip/Telescope-70mm-Telescopes-for-Adults-Kids-300mm-Refractor-Telescope-15X-150X-with-Adjustable-Tripod-for-Astronomy-Beginners-Gift-for-Kids/14833167759?classType=VARIANT&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "4.331536388140162 stars out of 5, based on 371 seller reviews\n(4.3)\n371 seller reviews",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.8736,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "14833167759",
+      "product_url": "https://www.walmart.com/ip/Telescope-70mm-Telescopes-for-Adults-Kids-300mm-Refractor-Telescope-15X-150X-with-Adjustable-Tripod-for-Astronomy-Beginners-Gift-for-Kids/14833167759?classType=VARIANT&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T05:50:11.852258"
+}

@@ -1,0 +1,26 @@
+{
+  "product_id": "583657041",
+  "product_url": "https://www.walmart.com/ip/DeerValley-Liberty-DV-1F52812-Dual-Flush-Elongated-One-Piece-Toilet-Seat-Included/583657041?classType=REGULAR&athbdg=L1600&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Tiny toilet",
+      "review_text": "The toilet seems very small. It is the normal height, however, it is very slim and it will work great for a tight area. The only challenge is that the toilet seat is not standard. I don't know what you would do to replace it.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4609,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "583657041",
+      "product_url": "https://www.walmart.com/ip/DeerValley-Liberty-DV-1F52812-Dual-Flush-Elongated-One-Piece-Toilet-Seat-Included/583657041?classType=REGULAR&athbdg=L1600&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T06:55:24.098472"
+}

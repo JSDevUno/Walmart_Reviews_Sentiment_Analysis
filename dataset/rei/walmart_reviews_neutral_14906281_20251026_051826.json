@@ -1,0 +1,60 @@
+{
+  "product_id": "14906281",
+  "product_url": "https://www.walmart.com/ip/Paper-Mate-SharpWriter-Mechanical-Pencils-0-7-mm-6-CT/14906281?classType=VARIANT&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Bring my order to my room s door and let me know",
+      "review_text": "They are requested to bring my groceries at my door, Most of the time they do but this time they did not. I am in a Nursing home and I can not go down stairs and bring it up to my room so I have to depend on staff to bring it up to me and if I have frozen food it thaws out.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6187,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "14906281",
+      "product_url": "https://www.walmart.com/ip/Paper-Mate-SharpWriter-Mechanical-Pencils-0-7-mm-6-CT/14906281?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Have used them for many years...only pencils I buy.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6081,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "14906281",
+      "product_url": "https://www.walmart.com/ip/Paper-Mate-SharpWriter-Mechanical-Pencils-0-7-mm-6-CT/14906281?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Hard lead",
+      "review_text": "The pencils were more like %233 than %232. I have some previous Papermate Sharpwriter %232 an they are more like I'm used to finding %232 pencils.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.8227,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "14906281",
+      "product_url": "https://www.walmart.com/ip/Paper-Mate-SharpWriter-Mechanical-Pencils-0-7-mm-6-CT/14906281?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T05:18:26.719495"
+}

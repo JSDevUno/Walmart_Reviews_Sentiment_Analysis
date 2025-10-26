@@ -1,0 +1,60 @@
+{
+  "product_id": "1953908614",
+  "product_url": "https://www.walmart.com/ip/Jazeyeah-7-inch-Large-Digital-Alarm-Clock-Day-Date-Senior-Easy-Use-Calendar-Alarm-Day-Dementia-Alzheimers-Clock-Elderly-Gift-Black/1953908614?classType=VARIANT&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "well my dad can stop complaining he cant see the time anymore so it does it job",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4745,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "1953908614",
+      "product_url": "https://www.walmart.com/ip/Jazeyeah-7-inch-Large-Digital-Alarm-Clock-Day-Date-Senior-Easy-Use-Calendar-Alarm-Day-Dementia-Alzheimers-Clock-Elderly-Gift-Black/1953908614?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Defective right out of box",
+      "review_text": "The time and date will not set. It allows you to select but will not hold selections.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.8662,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "1953908614",
+      "product_url": "https://www.walmart.com/ip/Jazeyeah-7-inch-Large-Digital-Alarm-Clock-Day-Date-Senior-Easy-Use-Calendar-Alarm-Day-Dementia-Alzheimers-Clock-Elderly-Gift-Black/1953908614?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Good product",
+      "review_text": "Clock has a USB slot not mentioned in the ad for the clock and isn't mentioned in the instructions. Could the clock be charged? It came with a standard plug in.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "1953908614",
+      "product_url": "https://www.walmart.com/ip/Jazeyeah-7-inch-Large-Digital-Alarm-Clock-Day-Date-Senior-Easy-Use-Calendar-Alarm-Day-Dementia-Alzheimers-Clock-Elderly-Gift-Black/1953908614?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T03:36:32.782515"
+}

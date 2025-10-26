@@ -1,0 +1,60 @@
+{
+  "product_id": "655904944",
+  "product_url": "https://www.walmart.com/ip/Light-up-Spikey-Ball-Way-to-Celebrate-Party-Favors-Multi-Color-Plastic-Novelty-Everyday/655904944?classType=VARIANT&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "The ball is fine if you get a working one. Only one of the balls I prdered worked. I don't think the seam where the light was insertered will hold up very well, but for the price, it's not bad.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5461,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "655904944",
+      "product_url": "https://www.walmart.com/ip/Light-up-Spikey-Ball-Way-to-Celebrate-Party-Favors-Multi-Color-Plastic-Novelty-Everyday/655904944?classType=VARIANT&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "The balls are much smaller than expected, I didn't see a size, but the picture made them look larger.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5793,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "655904944",
+      "product_url": "https://www.walmart.com/ip/Light-up-Spikey-Ball-Way-to-Celebrate-Party-Favors-Multi-Color-Plastic-Novelty-Everyday/655904944?classType=VARIANT&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Cat likes to chase it around, doesn't easily get misplaced like the smaller rubber balls do",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5887,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "655904944",
+      "product_url": "https://www.walmart.com/ip/Light-up-Spikey-Ball-Way-to-Celebrate-Party-Favors-Multi-Color-Plastic-Novelty-Everyday/655904944?classType=VARIANT&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T06:12:34.003658"
+}

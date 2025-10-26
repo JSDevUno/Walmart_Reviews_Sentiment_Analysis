@@ -1,0 +1,26 @@
+{
+  "product_id": "6406409605",
+  "product_url": "https://www.walmart.com/ip/Emerson-Boombox-CD-Cassette-Player-Digital-FM-Portable-Radio-MP3-AUX-Mic-Input-Portable-Stereo-System-Home-Indoor-Outdoor-Loud-Big-Speakers/6406409605?classType=VARIANT&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Sterio came in time that they said., but when opened the box, the battery cover was not included.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.8073,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "6406409605",
+      "product_url": "https://www.walmart.com/ip/Emerson-Boombox-CD-Cassette-Player-Digital-FM-Portable-Radio-MP3-AUX-Mic-Input-Portable-Stereo-System-Home-Indoor-Outdoor-Loud-Big-Speakers/6406409605?classType=VARIANT&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T03:31:39.702059"
+}

@@ -1,0 +1,43 @@
+{
+  "product_id": "2484810403",
+  "product_url": "https://www.walmart.com/ip/BlackHawk-Agility-SUV-All-Season-235-55R19-105V-XL-SUV-Crossover-Tire/2484810403?classType=REGULAR&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Tires Not Round",
+      "review_text": "Two of the four tires were out of shape. Walmart was helpful and allowed me to return and install a different brand. So I appreciate that.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.414,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "2484810403",
+      "product_url": "https://www.walmart.com/ip/BlackHawk-Agility-SUV-All-Season-235-55R19-105V-XL-SUV-Crossover-Tire/2484810403?classType=REGULAR&from=/search",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Just got the tire so it's hard to give a rating. They seem good the first 10 miles so far.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4847,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "2484810403",
+      "product_url": "https://www.walmart.com/ip/BlackHawk-Agility-SUV-All-Season-235-55R19-105V-XL-SUV-Crossover-Tire/2484810403?classType=REGULAR&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T06:56:24.043474"
+}

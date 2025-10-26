@@ -1,0 +1,60 @@
+{
+  "product_id": "3652302320",
+  "product_url": "https://www.walmart.com/ip/Coolhut-Executive-Office-Chair-Big-Tall-Office-Chair-Foot-Rest-Reclining-Leather-Chair-High-Back-Lumbar-Support-Ergonomic-Office-Chair-Padded-Armrest/3652302320?classType=VARIANT&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Replaced an aging relic",
+      "review_text": "Easier than i thought to assemble.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.567,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "3652302320",
+      "product_url": "https://www.walmart.com/ip/Coolhut-Executive-Office-Chair-Big-Tall-Office-Chair-Foot-Rest-Reclining-Leather-Chair-High-Back-Lumbar-Support-Ergonomic-Office-Chair-Padded-Armrest/3652302320?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Comfortable and fits my desk neatly, However the foot rest is too short. When extended. it only rest on my calf.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5575,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "3652302320",
+      "product_url": "https://www.walmart.com/ip/Coolhut-Executive-Office-Chair-Big-Tall-Office-Chair-Foot-Rest-Reclining-Leather-Chair-High-Back-Lumbar-Support-Ergonomic-Office-Chair-Padded-Armrest/3652302320?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "New Chair",
+      "review_text": "l gave it to someone who weighs less yhan 100 pounds.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.8237,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "3652302320",
+      "product_url": "https://www.walmart.com/ip/Coolhut-Executive-Office-Chair-Big-Tall-Office-Chair-Foot-Rest-Reclining-Leather-Chair-High-Back-Lumbar-Support-Ergonomic-Office-Chair-Padded-Armrest/3652302320?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T06:28:34.742383"
+}

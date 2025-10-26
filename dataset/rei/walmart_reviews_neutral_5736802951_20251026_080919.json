@@ -1,0 +1,60 @@
+{
+  "product_id": "5736802951",
+  "product_url": "https://www.walmart.com/ip/HART-20-Volt-Cordless-4-Tool-Combo-Kit-HPCK412B/5736802951?classType=REGULAR&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "i like the light weight of the tool the only thing i a disappointed about is the color. White is hard to keep clean. Yet i shall try.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4746,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5736802951",
+      "product_url": "https://www.walmart.com/ip/HART-20-Volt-Cordless-4-Tool-Combo-Kit-HPCK412B/5736802951?classType=REGULAR&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Just a thot",
+      "review_text": "The only suggestion I'd like to add for the company to consider is they should add a couple of pockets to the bag so customers can add a few things so it makes it easier to carry everything needed for whatever they are working on. Otherwise this was a great buy.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4839,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5736802951",
+      "product_url": "https://www.walmart.com/ip/HART-20-Volt-Cordless-4-Tool-Combo-Kit-HPCK412B/5736802951?classType=REGULAR&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Been using this brand for a while. Needed some more power tools, figured I would get them again.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6582,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5736802951",
+      "product_url": "https://www.walmart.com/ip/HART-20-Volt-Cordless-4-Tool-Combo-Kit-HPCK412B/5736802951?classType=REGULAR&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T08:09:19.728897"
+}

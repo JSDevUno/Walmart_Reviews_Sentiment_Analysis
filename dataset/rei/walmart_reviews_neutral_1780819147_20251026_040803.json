@@ -1,0 +1,26 @@
+{
+  "product_id": "1780819147",
+  "product_url": "https://www.walmart.com/ip/Body-Wave-Lace-Front-Wigs-Human-Hair-150-Density-13x4-HD-Lace-Frontal-Wigs-Black-Women-Human-Hair-Lace-Front-Wigs-9A-Glueless-Wigs-Human-Hair-Pre-Plu/1780819147?classType=VARIANT&athbdg=L1600&from=/search",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "24in body wave wig",
+      "review_text": "I got the 24in body wave lace front wig",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.8341,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "1780819147",
+      "product_url": "https://www.walmart.com/ip/Body-Wave-Lace-Front-Wigs-Human-Hair-150-Density-13x4-HD-Lace-Frontal-Wigs-Black-Women-Human-Hair-Lace-Front-Wigs-9A-Glueless-Wigs-Human-Hair-Pre-Plu/1780819147?classType=VARIANT&athbdg=L1600&from=/search",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T04:08:03.088352"
+}

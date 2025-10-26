@@ -1,0 +1,60 @@
+{
+  "product_id": "5385439087",
+  "product_url": "https://www.walmart.com/ip/SENIX-X6-60V-Brushless-810CFM-Cordless-Leaf-Blower-4Ah-Battery-and-Charger-Included/5385439087?classType=VARIANT&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "More than expected",
+      "review_text": "This replaces personal strength and time consumption sweeping of areas such as patios, garage, cleaning around bordering edges of lawn where mowing left grass clippings. A variety of places and uses of this super power leaf blower and pleased at time it can be used so far without losing power.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.7255,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5385439087",
+      "product_url": "https://www.walmart.com/ip/SENIX-X6-60V-Brushless-810CFM-Cordless-Leaf-Blower-4Ah-Battery-and-Charger-Included/5385439087?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Has a battery thats heavey lasts 30min.",
+      "review_text": "kind of heavey had to switch hands often for comfort",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.717,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5385439087",
+      "product_url": "https://www.walmart.com/ip/SENIX-X6-60V-Brushless-810CFM-Cordless-Leaf-Blower-4Ah-Battery-and-Charger-Included/5385439087?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Powerful enough to move heavy wet leaves late in fall. Just to what we needed.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5774,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5385439087",
+      "product_url": "https://www.walmart.com/ip/SENIX-X6-60V-Brushless-810CFM-Cordless-Leaf-Blower-4Ah-Battery-and-Charger-Included/5385439087?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-26T08:01:07.471345"
+}
