@@ -271,6 +271,18 @@ class WalmartReviewInference:
         self.wait = WebDriverWait(self.driver, 8)
         self.analyzer = sentiment_analyzer
         self.browser_closed = False
+        
+        # Time estimation constants (in seconds)
+        self.TIME_CONSTANTS = {
+            'browser_startup': 3.0,      # Browser initialization
+            'page_load': 2.5,            # Initial page load
+            'navigation_delay': 2.0,     # Navigation to reviews
+            'per_page_load': 1.5,        # Time per page load
+            'per_review_analysis': 0.1,  # Time per review sentiment analysis
+            'per_review_extraction': 0.05, # Time per review extraction
+            'page_transition': 1.0,      # Time between pages
+            'finalization': 1.0          # Final processing
+        }
     
     def is_browser_alive(self) -> bool:
         if self.browser_closed:
@@ -299,6 +311,103 @@ class WalmartReviewInference:
     
     def human_delay(self, min_sec: float = 1.0, max_sec: float = 3.0):
         time.sleep(random.uniform(min_sec, max_sec))
+    
+    def calculate_estimated_time(self, max_reviews: int) -> Dict[str, float]:
+        """Calculate estimated time for scraping and analysis based on review count with calibration factors"""
+        constants = self.TIME_CONSTANTS
+        
+        # Calibration factors based on review count ranges
+        calibration_factors = {
+            'small_batch': {'threshold': 25, 'factor': 1.2},      # 1-25 reviews: 20% slower due to overhead
+            'medium_batch': {'threshold': 100, 'factor': 1.0},    # 26-100 reviews: baseline
+            'large_batch': {'threshold': 200, 'factor': 0.9},     # 101-200 reviews: 10% faster due to efficiency
+            'xlarge_batch': {'threshold': float('inf'), 'factor': 0.85}  # 200+ reviews: 15% faster
+        }
+        
+        # Determine calibration factor
+        calibration_factor = 1.0
+        for batch_type, config in calibration_factors.items():
+            if max_reviews <= config['threshold']:
+                calibration_factor = config['factor']
+                break
+        
+        # Base time for setup (varies slightly with review count)
+        base_time = (
+            constants['browser_startup'] + 
+            constants['page_load'] + 
+            constants['navigation_delay'] + 
+            constants['finalization']
+        )
+        
+        # Dynamic reviews per page estimation based on review count
+        if max_reviews <= 25:
+            avg_reviews_per_page = 8  # Smaller batches often have fewer reviews per page
+        elif max_reviews <= 100:
+            avg_reviews_per_page = 12  # Standard
+        else:
+            avg_reviews_per_page = 15  # Larger batches tend to have more reviews per page
+        
+        estimated_pages = max(1, (max_reviews / avg_reviews_per_page))
+        
+        # Time for page processing with diminishing returns
+        page_load_time = constants['per_page_load']
+        page_transition_time = constants['page_transition']
+        
+        # Apply diminishing returns for page transitions (first few pages are slower)
+        if estimated_pages <= 3:
+            page_transition_multiplier = 1.0
+        elif estimated_pages <= 6:
+            page_transition_multiplier = 0.9
+        else:
+            page_transition_multiplier = 0.8
+        
+        page_time = (
+            estimated_pages * page_load_time + 
+            (estimated_pages - 1) * page_transition_time * page_transition_multiplier
+        )
+        
+        # Time for review processing with efficiency gains for larger batches
+        per_review_time = constants['per_review_extraction'] + constants['per_review_analysis']
+        
+        # Efficiency factor for large batches (parallel processing simulation)
+        if max_reviews <= 50:
+            efficiency_factor = 1.0
+        elif max_reviews <= 100:
+            efficiency_factor = 0.95
+        else:
+            efficiency_factor = 0.9
+        
+        review_time = max_reviews * per_review_time * efficiency_factor
+        
+        # Calculate total time
+        total_estimated_time = (base_time + page_time + review_time) * calibration_factor
+        
+        # Add buffer time for uncertainty (5-15% based on batch size)
+        if max_reviews <= 25:
+            buffer_factor = 1.15  # 15% buffer for small batches
+        elif max_reviews <= 100:
+            buffer_factor = 1.10  # 10% buffer for medium batches
+        else:
+            buffer_factor = 1.05  # 5% buffer for large batches
+        
+        total_estimated_time *= buffer_factor
+        
+        return {
+            'total_seconds': total_estimated_time,
+            'total_minutes': total_estimated_time / 60,
+            'estimated_pages': int(estimated_pages),
+            'calibration_factor': calibration_factor,
+            'efficiency_factor': efficiency_factor,
+            'buffer_factor': buffer_factor,
+            'avg_reviews_per_page': avg_reviews_per_page,
+            'breakdown': {
+                'setup': base_time,
+                'page_processing': page_time,
+                'review_processing': review_time,
+                'calibration_adjustment': (base_time + page_time + review_time) * (calibration_factor - 1),
+                'buffer_time': total_estimated_time * (buffer_factor - 1) / buffer_factor
+            }
+        }
     
     def extract_product_id(self, url: str) -> Optional[str]:
         patterns = [
@@ -570,7 +679,7 @@ class WalmartReviewInference:
         
         return reviews, False
     
-    def scrape_and_analyze(self, url: str, max_reviews: int = 50, session_id: str = None) -> Dict:
+    def scrape_and_analyze(self, url: str, max_reviews: int = 50, session_id: str = None, time_estimate: Dict = None) -> Dict:
         if session_id:
             analysis_status[session_id] = {"status": "loading", "message": "Extracting product ID..."}
         
@@ -650,9 +759,17 @@ class WalmartReviewInference:
                 raise ValueError("Browser was closed unexpectedly")
                 
             if session_id:
+                progress_percentage = min(100, (len(all_reviews) / max_reviews) * 100)
                 analysis_status[session_id] = {
                     "status": "loading", 
-                    "message": f"Extracting reviews from page {current_page}... (Found: {len(all_reviews)})"
+                    "message": f"Extracting reviews from page {current_page}... (Found: {len(all_reviews)})",
+                    "progress": {
+                        "current_reviews": len(all_reviews),
+                        "target_reviews": max_reviews,
+                        "percentage": round(progress_percentage, 1),
+                        "current_page": current_page,
+                        "estimated_time": time_estimate
+                    }
                 }
             
             page_reviews, captcha_detected = self.extract_reviews_from_current_page(seen_texts)
@@ -713,10 +830,16 @@ def analyze():
     
     session_id = str(time.time())
     
+    # Calculate estimated time
+    temp_scraper = WalmartReviewInference(analyzer, headless=True)
+    time_estimate = temp_scraper.calculate_estimated_time(max_reviews)
+    temp_scraper.close()
+    
     # Initialize status immediately
     analysis_status[session_id] = {
         "status": "loading",
-        "message": "Initializing browser..."
+        "message": "Initializing browser...",
+        "estimated_time": time_estimate
     }
     
     def run_analysis():
@@ -734,7 +857,7 @@ def analyze():
                 "message": "Browser started, beginning analysis..."
             }
             
-            result = scraper.scrape_and_analyze(url, max_reviews, session_id)
+            result = scraper.scrape_and_analyze(url, max_reviews, session_id, time_estimate)
             
             reviews = result['reviews']
             

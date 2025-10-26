@@ -4,6 +4,7 @@ import AnalysisForm from '../components/analysis/AnalysisForm'
 function HomePage({ onShowResults }) {
   const [isAnalyzing, setIsAnalyzing] = useState(false)
   const [error, setError] = useState('')
+  const [analysisProgress, setAnalysisProgress] = useState(null)
 
   const handleAnalyze = async (url, maxReviews) => {
     setIsAnalyzing(true)
@@ -36,16 +37,25 @@ function HomePage({ onShowResults }) {
 
           if (status.status === 'complete') {
             setIsAnalyzing(false)
+            setAnalysisProgress(null)
             onShowResults(status.data)
           } else if (status.status === 'error') {
             setIsAnalyzing(false)
+            setAnalysisProgress(null)
             setError(status.message)
           } else if (status.status === 'loading') {
+            // Update progress information
+            setAnalysisProgress({
+              message: status.message,
+              estimatedTime: status.estimated_time,
+              progress: status.progress
+            })
             // Continue polling
             setTimeout(pollResults, 2000)
           }
         } catch (err) {
           setIsAnalyzing(false)
+          setAnalysisProgress(null)
           setError('Failed to get analysis status')
         }
       }
@@ -55,6 +65,7 @@ function HomePage({ onShowResults }) {
 
     } catch (err) {
       setIsAnalyzing(false)
+      setAnalysisProgress(null)
       setError(err.message)
     }
   }
@@ -72,6 +83,7 @@ function HomePage({ onShowResults }) {
           isLoading={isAnalyzing}
           error={error}
           onClearError={() => setError('')}
+          analysisProgress={analysisProgress}
         />
       </div>
     </div>
