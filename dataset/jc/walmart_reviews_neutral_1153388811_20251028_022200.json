@@ -1,0 +1,43 @@
+{
+  "product_id": "1153388811",
+  "product_url": "https://www.walmart.com/ip/ChVans-35-6-Square-Lift-Top-Coffee-Table-Farmhouse-Coffee-Table-Storage-Charging-Ports-Wood-Center-Table-w-Large-Hidden-Space-Living-Room-Home-Office/1153388811?classType=VARIANT&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "color is not as pictured in ad online",
+      "review_text": "The color is not as pictured or described in ad. it is well constructed and nice. i gave it a 3 bc of the color not being what i was expecting which makes it difficult whwn you are trying to decorate. the other issue is the plug where it is located. might work in between couches better than in front so cord is not running as a trip hazard. so recommending it is both yes and no.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4535,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "1153388811",
+      "product_url": "https://www.walmart.com/ip/ChVans-35-6-Square-Lift-Top-Coffee-Table-Farmhouse-Coffee-Table-Storage-Charging-Ports-Wood-Center-Table-w-Large-Hidden-Space-Living-Room-Home-Office/1153388811?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Assembly little rough. the plug goes across floor to be plugged in but it doesn’t bother me too much. The chord needs to be longer. It is great having the plug to it but having the chord along floor is an eyesore. We have it going directly under couch.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5187,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "1153388811",
+      "product_url": "https://www.walmart.com/ip/ChVans-35-6-Square-Lift-Top-Coffee-Table-Farmhouse-Coffee-Table-Storage-Charging-Ports-Wood-Center-Table-w-Large-Hidden-Space-Living-Room-Home-Office/1153388811?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-28T02:22:00.215607"
+}

@@ -1,0 +1,43 @@
+{
+  "product_id": "8341169795",
+  "product_url": "https://www.walmart.com/ip/Brindle-6-Drawer-Dresser-Gray-Oak-by-Hillsdale-Living-Essentials/8341169795?classType=VARIANT",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "The driver just put it outside instead of bringing it inside, it was a heavy item as well.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6042,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "8341169795",
+      "product_url": "https://www.walmart.com/ip/Brindle-6-Drawer-Dresser-Gray-Oak-by-Hillsdale-Living-Essentials/8341169795?classType=VARIANT",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "good for price",
+      "review_text": "first off, the box is HEAVY. very heavy. I was able to slide it into my house, but you will need to people to move it if it cannot be pushed to the room you need it in. it's extremely heavy once built as well. I think this took me about 2.5 hours to assemble, but pretty straightforward directions, just a lot of steps. The drawers slide in and out nicely, and it's definitely good quality for $140! Mine did have one damaged piece, and it was very close to being more than cosmetic damage. If I was patient, I would have exchanged it for a new one. It was broke right wear connector piece goes. overall, it's a nice piece of furniture for the price.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4373,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "8341169795",
+      "product_url": "https://www.walmart.com/ip/Brindle-6-Drawer-Dresser-Gray-Oak-by-Hillsdale-Living-Essentials/8341169795?classType=VARIANT",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-28T02:24:43.576149"
+}

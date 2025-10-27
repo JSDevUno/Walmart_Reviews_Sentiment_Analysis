@@ -1,0 +1,43 @@
+{
+  "product_id": "21983601",
+  "product_url": "https://www.walmart.com/ip/Mainstays-6-Inch-Futon-Mattress-with-Tufted-Cover-and-Recycled-Polyester-Fill-Full-Black/21983601?classType=VARIANT&athbdg=L1600",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "the fact that ive had this futon for like a week and some change.. the thing is already flatening.. only been a week and i already want to spin it.. for a pinch its fine and i sleep well on it.. just its only a few inches of cushion. cant be getting flat. i wouls take the picture but im sure you will see other say the same",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.452,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "21983601",
+      "product_url": "https://www.walmart.com/ip/Mainstays-6-Inch-Futon-Mattress-with-Tufted-Cover-and-Recycled-Polyester-Fill-Full-Black/21983601?classType=VARIANT&athbdg=L1600",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "when looking for a futon mattress i thouggt the color looked good and the fabric was nice looking.even looked for one that was.a littlw thicker. however when i got it. it is not grear super light not at all ok to sit or.sleep on my cheap couch has a thicker denser couahion.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4156,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "21983601",
+      "product_url": "https://www.walmart.com/ip/Mainstays-6-Inch-Futon-Mattress-with-Tufted-Cover-and-Recycled-Polyester-Fill-Full-Black/21983601?classType=VARIANT&athbdg=L1600",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-28T02:32:36.813505"
+}

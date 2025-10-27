@@ -1,0 +1,26 @@
+{
+  "product_id": "17324446",
+  "product_url": "https://www.walmart.com/ip/Mainstays-Titan-Solid-Area-Rug-or-Runner/17324446?classType=VARIANT",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Has a strong smell",
+      "review_text": "The shipping was fast and the rug came in tact. I didn’t have any trouble with laying out corners or them staying put. It does however have a very plastic smell to it. I left windows open during the day with a fan running to help with the smell but after a week the smell is still there. Especially stronger when we have been gone all day with the house closed up. It’s the first thing we smell walking in this room. The smell isn’t awful though so it wouldn’t deter me from buying again. It’s easy to clean so far. Haven’t had any spills or major accidents yet though. The shorter the rug the better because I have 3 kids and everything just glides right off this.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4751,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "17324446",
+      "product_url": "https://www.walmart.com/ip/Mainstays-Titan-Solid-Area-Rug-or-Runner/17324446?classType=VARIANT",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-28T02:55:32.490623"
+}

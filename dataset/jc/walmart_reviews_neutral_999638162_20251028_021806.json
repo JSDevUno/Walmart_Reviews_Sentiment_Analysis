@@ -1,0 +1,26 @@
+{
+  "product_id": "999638162",
+  "product_url": "https://www.walmart.com/ip/Protege-Garment-Bag-48-in/999638162?classType=VARIANT&athbdg=L1300",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Pleased traveler",
+      "review_text": "I have suitcases, but I had nothing to transport my suit and sport coat in without wrinkling them. I needed both for a trip. The bag was large enough I placed a full suit, a sport coat, slacks, and a couple dress shirts in it. The suit and sport coat were on wooden hangers, which take up more room, but I still had enough room for the rest. I was traveling by car, so I laid the garment bag on top of what else we had in the back of the car. When I carried the bag in and out of the house and where we stayed, I folded the bag in half, without wrinkling anything inside the bag. It was easy to handle, just extending my hangers through the opening at the top of the bag. I left the clothes in the bag, in the closet, until I needled them.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5051,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "999638162",
+      "product_url": "https://www.walmart.com/ip/Protege-Garment-Bag-48-in/999638162?classType=VARIANT&athbdg=L1300",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-28T02:18:06.659008"
+}

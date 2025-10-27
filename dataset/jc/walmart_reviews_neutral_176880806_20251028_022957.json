@@ -1,0 +1,26 @@
+{
+  "product_id": "176880806",
+  "product_url": "https://www.walmart.com/ip/Best-Choice-Products-Modern-Faux-Leather-Convertible-Futon-Sofa-w-Removable-Armrests-2-Cupholders-Black/176880806?classType=VARIANT",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Nice look",
+      "review_text": "Small, couldn't get in sitting position, package came damage, could be because of that, hopefully i here back some good news on fixing the issues. call suppose to hear back in 24 hours.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4003,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "176880806",
+      "product_url": "https://www.walmart.com/ip/Best-Choice-Products-Modern-Faux-Leather-Convertible-Futon-Sofa-w-Removable-Armrests-2-Cupholders-Black/176880806?classType=VARIANT",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-28T02:29:57.507272"
+}

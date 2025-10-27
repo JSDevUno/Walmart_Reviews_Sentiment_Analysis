@@ -1,0 +1,43 @@
+{
+  "product_id": "940034949",
+  "product_url": "https://www.walmart.com/ip/American-Tourister-Fieldbrook-XLT-4-Piece-Softside-Luggage-Set/940034949?classType=VARIANT",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Got to measure",
+      "review_text": "All carry ons are not equal and many airlines have a contraption passengers slide their bag into to make sure it fits...if not, must pay to check. I have witnessed over and over unknowing passengers complaining their luggage was advertised as carry on compliant yet the wheels caused it to be too long. As soon as this one arrived I pulled out the tape measure and found it within guidelines, whew! So it will be coming with me from now on as my carry on bag.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.55,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "940034949",
+      "product_url": "https://www.walmart.com/ip/American-Tourister-Fieldbrook-XLT-4-Piece-Softside-Luggage-Set/940034949?classType=VARIANT",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Zipper loose",
+      "review_text": "The zipper on the large bag was not sew for about 10 inches. So will be returning.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5959,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "940034949",
+      "product_url": "https://www.walmart.com/ip/American-Tourister-Fieldbrook-XLT-4-Piece-Softside-Luggage-Set/940034949?classType=VARIANT",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-28T02:19:20.138377"
+}

@@ -1,0 +1,26 @@
+{
+  "product_id": "1827251928",
+  "product_url": "https://www.walmart.com/ip/Mainstays-11-3-Cube-Storage-Organizer-Black/1827251928?classType=VARIANT&athbdg=L1600",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "I have sever arthritis and I was able to put the shelf together by myself. It took about 20 minutes.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5732,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "1827251928",
+      "product_url": "https://www.walmart.com/ip/Mainstays-11-3-Cube-Storage-Organizer-Black/1827251928?classType=VARIANT&athbdg=L1600",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-28T02:58:03.273115"
+}

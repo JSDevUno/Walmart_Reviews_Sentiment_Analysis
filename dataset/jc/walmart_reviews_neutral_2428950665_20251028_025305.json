@@ -1,0 +1,26 @@
+{
+  "product_id": "2428950665",
+  "product_url": "https://www.walmart.com/ip/Mainstays-Blue-Dogs-Cozy-Plush-Throw-Blanket-50-x-60/2428950665?classType=VARIANT",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": 824.0,
+      "title": "Customer ratings & reviews",
+      "review_text": "Helpful?\n(0)\n(0)\nReport",
+      "date": "",
+      "verified_purchase": true,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.8077,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "2428950665",
+      "product_url": "https://www.walmart.com/ip/Mainstays-Blue-Dogs-Cozy-Plush-Throw-Blanket-50-x-60/2428950665?classType=VARIANT",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-28T02:53:05.525025"
+}

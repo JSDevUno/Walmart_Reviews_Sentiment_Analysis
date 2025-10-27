@@ -1,0 +1,1813 @@
+{
+  "metadata": {
+    "total_files_merged": 35,
+    "total_products": 35,
+    "total_reviews": 80,
+    "merged_at": "2025-10-28T04:11:17.589093",
+    "statistics": {
+      "sentiment_distribution": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 80,
+        "unknown": 0
+      },
+      "average_rating": 824.0,
+      "average_confidence": 0.5702,
+      "average_score": 0.5,
+      "verified_purchases": 1,
+      "verified_percentage": 1.25
+    }
+  },
+  "products": [
+    {
+      "product_id": "15289615155",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/SLOW-COOKER-CRP-7QT-MANUAL-MUSSEL-GRAY/15289615155",
+      "source_files": [
+        "walmart_reviews_neutral_15289615155_20251028_021610.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "In My Crock-Pot Era",
+          "review_text": "I'm a full-time STEM major and corporate employee. I don't have enough time to cook as much as I used to. We've been trying to eat at home more and slow a cooker is the best way to go. I made a delicious saucy savory chicken.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.5148,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "15289615155",
+          "product_url": "https://www.walmart.com/ip/SLOW-COOKER-CRP-7QT-MANUAL-MUSSEL-GRAY/15289615155",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_15289615155_20251028_021610.json"
+        }
+      ]
+    },
+    {
+      "product_id": "559995509",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Protege-Digital-Luggage-Scale/559995509?classType=REGULAR&athbdg=L1600",
+      "source_files": [
+        "walmart_reviews_neutral_559995509_20251028_021716.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "I was tired of weighing my bags on the bathroom scale it worked, but it was awkward. This baggage scale was perfect and accurate as I weighed bags at the airport to check accuracy.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.4478,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "559995509",
+          "product_url": "https://www.walmart.com/ip/Protege-Digital-Luggage-Scale/559995509?classType=REGULAR&athbdg=L1600",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_559995509_20251028_021716.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "when luggage is heavy you have to hold it and sometime it dont give the actual weight",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.5115,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "559995509",
+          "product_url": "https://www.walmart.com/ip/Protege-Digital-Luggage-Scale/559995509?classType=REGULAR&athbdg=L1600",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_559995509_20251028_021716.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "It's a bit difficult to lift, but gives an accurate reading quickly",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.5444,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "559995509",
+          "product_url": "https://www.walmart.com/ip/Protege-Digital-Luggage-Scale/559995509?classType=REGULAR&athbdg=L1600",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_559995509_20251028_021716.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "In app it says delivered. But I got only one package of spider man. I didn't get the luggage weigh scale",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.5633,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "559995509",
+          "product_url": "https://www.walmart.com/ip/Protege-Digital-Luggage-Scale/559995509?classType=REGULAR&athbdg=L1600",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_559995509_20251028_021716.json"
+        }
+      ]
+    },
+    {
+      "product_id": "999638162",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Protege-Garment-Bag-48-in/999638162?classType=VARIANT&athbdg=L1300",
+      "source_files": [
+        "walmart_reviews_neutral_999638162_20251028_021806.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Pleased traveler",
+          "review_text": "I have suitcases, but I had nothing to transport my suit and sport coat in without wrinkling them. I needed both for a trip. The bag was large enough I placed a full suit, a sport coat, slacks, and a couple dress shirts in it. The suit and sport coat were on wooden hangers, which take up more room, but I still had enough room for the rest. I was traveling by car, so I laid the garment bag on top of what else we had in the back of the car. When I carried the bag in and out of the house and where we stayed, I folded the bag in half, without wrinkling anything inside the bag. It was easy to handle, just extending my hangers through the opening at the top of the bag. I left the clothes in the bag, in the closet, until I needled them.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.5051,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "999638162",
+          "product_url": "https://www.walmart.com/ip/Protege-Garment-Bag-48-in/999638162?classType=VARIANT&athbdg=L1300",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_999638162_20251028_021806.json"
+        }
+      ]
+    },
+    {
+      "product_id": "940034949",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/American-Tourister-Fieldbrook-XLT-4-Piece-Softside-Luggage-Set/940034949?classType=VARIANT",
+      "source_files": [
+        "walmart_reviews_neutral_940034949_20251028_021920.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Got to measure",
+          "review_text": "All carry ons are not equal and many airlines have a contraption passengers slide their bag into to make sure it fits...if not, must pay to check. I have witnessed over and over unknowing passengers complaining their luggage was advertised as carry on compliant yet the wheels caused it to be too long. As soon as this one arrived I pulled out the tape measure and found it within guidelines, whew! So it will be coming with me from now on as my carry on bag.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.55,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "940034949",
+          "product_url": "https://www.walmart.com/ip/American-Tourister-Fieldbrook-XLT-4-Piece-Softside-Luggage-Set/940034949?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_940034949_20251028_021920.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Zipper loose",
+          "review_text": "The zipper on the large bag was not sew for about 10 inches. So will be returning.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.5959,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "940034949",
+          "product_url": "https://www.walmart.com/ip/American-Tourister-Fieldbrook-XLT-4-Piece-Softside-Luggage-Set/940034949?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_940034949_20251028_021920.json"
+        }
+      ]
+    },
+    {
+      "product_id": "1065878584",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Laresar-500W-Cordless-Vacuum-50kPa-Power-Suction-60min-Runtime-Self-Standing-with-Charging-Station/1065878584?classType=VARIANT&adsRedirect=true",
+      "source_files": [
+        "walmart_reviews_neutral_1065878584_20251028_022022.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Good vacuum overall.",
+          "review_text": "My only complaint is the vacuum doesn't stand by itself. I think it's supposed to. the vacuum part is heavy and the vacuum stick and brush head are super light. It does come with a wall mount but I don't have room to hang it anywhere.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.4237,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "1065878584",
+          "product_url": "https://www.walmart.com/ip/Laresar-500W-Cordless-Vacuum-50kPa-Power-Suction-60min-Runtime-Self-Standing-with-Charging-Station/1065878584?classType=VARIANT&adsRedirect=true",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_1065878584_20251028_022022.json"
+        }
+      ]
+    },
+    {
+      "product_id": "1153388811",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/ChVans-35-6-Square-Lift-Top-Coffee-Table-Farmhouse-Coffee-Table-Storage-Charging-Ports-Wood-Center-Table-w-Large-Hidden-Space-Living-Room-Home-Office/1153388811?classType=VARIANT&adsRedirect=true",
+      "source_files": [
+        "walmart_reviews_neutral_1153388811_20251028_022200.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "color is not as pictured in ad online",
+          "review_text": "The color is not as pictured or described in ad. it is well constructed and nice. i gave it a 3 bc of the color not being what i was expecting which makes it difficult whwn you are trying to decorate. the other issue is the plug where it is located. might work in between couches better than in front so cord is not running as a trip hazard. so recommending it is both yes and no.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.4535,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "1153388811",
+          "product_url": "https://www.walmart.com/ip/ChVans-35-6-Square-Lift-Top-Coffee-Table-Farmhouse-Coffee-Table-Storage-Charging-Ports-Wood-Center-Table-w-Large-Hidden-Space-Living-Room-Home-Office/1153388811?classType=VARIANT&adsRedirect=true",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_1153388811_20251028_022200.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "Assembly little rough. the plug goes across floor to be plugged in but it doesn’t bother me too much. The chord needs to be longer. It is great having the plug to it but having the chord along floor is an eyesore. We have it going directly under couch.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.5187,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "1153388811",
+          "product_url": "https://www.walmart.com/ip/ChVans-35-6-Square-Lift-Top-Coffee-Table-Farmhouse-Coffee-Table-Storage-Charging-Ports-Wood-Center-Table-w-Large-Hidden-Space-Living-Room-Home-Office/1153388811?classType=VARIANT&adsRedirect=true",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_1153388811_20251028_022200.json"
+        }
+      ]
+    },
+    {
+      "product_id": "2294455888",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Mainstays-Lift-Top-Coffee-Table-with-Storage-Shelf-Black-wood-finish/2294455888?classType=REGULAR",
+      "source_files": [
+        "walmart_reviews_neutral_2294455888_20251028_022313.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "This took alot of work to assemble even with two ppl, only because the instructions were unclear. Download the app that comes on a paper in the box, it will help. Would order again. Springs make noise when opening and closing. Maybe DW40 will help... plenty of storage. Solid/Sturdy!",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.5275,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "2294455888",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Lift-Top-Coffee-Table-with-Storage-Shelf-Black-wood-finish/2294455888?classType=REGULAR",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_2294455888_20251028_022313.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "If you want coffee table to look nice and be affordable this is it for you. The quality is pretty meh but as long as you don't body slam someone on it you should be good",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.3781,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "2294455888",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Lift-Top-Coffee-Table-with-Storage-Shelf-Black-wood-finish/2294455888?classType=REGULAR",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_2294455888_20251028_022313.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Bottom Shelf Before Other Set of Legs",
+          "review_text": "Some scratches out of the box. Need to get furniture/wood pens to match the color and draw over the scratches. The assembly was cool using Bilt, but I did NOT realize that the bottom shelf was meant to go on before the second set of legs. I was using a power drill to secure everything tightly, and was unable to undo the second set of legs to fit the bottom shelf. So I took the included screws out of the legs/shelf and drilled through the legs and secured the bottom rack from the outside in using wood construction screws... Honestly you shouldn't punish people for trying to go ahead and put both sets of legs on only to have the assembly require one set of legs off for you to put the shelf in. Stop trying to fit everything together like a jigsaw puzzle with dowels and interlocking screws and just use regular holes and screws.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.6153,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "2294455888",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Lift-Top-Coffee-Table-with-Storage-Shelf-Black-wood-finish/2294455888?classType=REGULAR",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_2294455888_20251028_022313.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "Missing the dwarf screwdriver needed to complete assembly. Bought my own and finished the job.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.6165,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "2294455888",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Lift-Top-Coffee-Table-with-Storage-Shelf-Black-wood-finish/2294455888?classType=REGULAR",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_2294455888_20251028_022313.json"
+        }
+      ]
+    },
+    {
+      "product_id": "8341169795",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Brindle-6-Drawer-Dresser-Gray-Oak-by-Hillsdale-Living-Essentials/8341169795?classType=VARIANT",
+      "source_files": [
+        "walmart_reviews_neutral_8341169795_20251028_022443.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "The driver just put it outside instead of bringing it inside, it was a heavy item as well.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.6042,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "8341169795",
+          "product_url": "https://www.walmart.com/ip/Brindle-6-Drawer-Dresser-Gray-Oak-by-Hillsdale-Living-Essentials/8341169795?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_8341169795_20251028_022443.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "good for price",
+          "review_text": "first off, the box is HEAVY. very heavy. I was able to slide it into my house, but you will need to people to move it if it cannot be pushed to the room you need it in. it's extremely heavy once built as well. I think this took me about 2.5 hours to assemble, but pretty straightforward directions, just a lot of steps. The drawers slide in and out nicely, and it's definitely good quality for $140! Mine did have one damaged piece, and it was very close to being more than cosmetic damage. If I was patient, I would have exchanged it for a new one. It was broke right wear connector piece goes. overall, it's a nice piece of furniture for the price.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.4373,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "8341169795",
+          "product_url": "https://www.walmart.com/ip/Brindle-6-Drawer-Dresser-Gray-Oak-by-Hillsdale-Living-Essentials/8341169795?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_8341169795_20251028_022443.json"
+        }
+      ]
+    },
+    {
+      "product_id": "515887217",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Serta-Windsor-Futon-with-Storage-and-Power-Gray-Fabric/515887217?classType=VARIANT&adsRedirect=true",
+      "source_files": [
+        "walmart_reviews_neutral_515887217_20251028_022743.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "Need instructions so that I can completely put the item together",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.8391,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "515887217",
+          "product_url": "https://www.walmart.com/ip/Serta-Windsor-Futon-with-Storage-and-Power-Gray-Fabric/515887217?classType=VARIANT&adsRedirect=true",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_515887217_20251028_022743.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "assembly",
+          "review_text": "i liked the design but the assembly was tough.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.4833,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "515887217",
+          "product_url": "https://www.walmart.com/ip/Serta-Windsor-Futon-with-Storage-and-Power-Gray-Fabric/515887217?classType=VARIANT&adsRedirect=true",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_515887217_20251028_022743.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Futon",
+          "review_text": "I only gave it 2 stars because I had to return it. The Futon was damaged, when I called Walmart the person who helped me was very nice . The sofa (dark charcoal)was made very well. If you are looking for a small (twin size)Futon this is perfect.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.377,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "515887217",
+          "product_url": "https://www.walmart.com/ip/Serta-Windsor-Futon-with-Storage-and-Power-Gray-Fabric/515887217?classType=VARIANT&adsRedirect=true",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_515887217_20251028_022743.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "You get what you pay for",
+          "review_text": "These are very easy to assemble, unless pieces are missing from the box. The supports that were supposed to go across the bottom of the the drawers were missing and one of the wheels to help the drawers slide in and out was broken. They're also very short. For someone tall these are a long way down. They'll do in a pinch, but definitely not made to last forever. The fabric seems to stand up to children and pets alike and the outlets/USB port are a nice addition.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.5303,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "515887217",
+          "product_url": "https://www.walmart.com/ip/Serta-Windsor-Futon-with-Storage-and-Power-Gray-Fabric/515887217?classType=VARIANT&adsRedirect=true",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_515887217_20251028_022743.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Bed bug found during assembly",
+          "review_text": "Bed bug found during assembly",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.6052,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "515887217",
+          "product_url": "https://www.walmart.com/ip/Serta-Windsor-Futon-with-Storage-and-Power-Gray-Fabric/515887217?classType=VARIANT&adsRedirect=true",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_515887217_20251028_022743.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "For a child or young teen.",
+          "review_text": "Not sturdy enough for adults. Perfect for a young child.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.5018,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "515887217",
+          "product_url": "https://www.walmart.com/ip/Serta-Windsor-Futon-with-Storage-and-Power-Gray-Fabric/515887217?classType=VARIANT&adsRedirect=true",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_515887217_20251028_022743.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "There's a thin layer of mesh at the bottom that holds the boards and legs towards the back of the couch, it did come a little torn but is not noticeable at all. It's an okay size couch for an apartment will be ordering another",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.6602,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "515887217",
+          "product_url": "https://www.walmart.com/ip/Serta-Windsor-Futon-with-Storage-and-Power-Gray-Fabric/515887217?classType=VARIANT&adsRedirect=true",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_515887217_20251028_022743.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "While this is not the size futon I really wanted, full sized, this twin size is going to work as it is for a second guest room.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.5206,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "515887217",
+          "product_url": "https://www.walmart.com/ip/Serta-Windsor-Futon-with-Storage-and-Power-Gray-Fabric/515887217?classType=VARIANT&adsRedirect=true",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_515887217_20251028_022743.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "They put the extra parts inside the bottom of the couch and it rips the zip up bottom because its not secured in there",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.5338,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "515887217",
+          "product_url": "https://www.walmart.com/ip/Serta-Windsor-Futon-with-Storage-and-Power-Gray-Fabric/515887217?classType=VARIANT&adsRedirect=true",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_515887217_20251028_022743.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "ripped",
+          "review_text": "its a good purchase other then the package arrived 2 weeks late. Also the futon was ripped in more then one place on the backing",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.4444,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "515887217",
+          "product_url": "https://www.walmart.com/ip/Serta-Windsor-Futon-with-Storage-and-Power-Gray-Fabric/515887217?classType=VARIANT&adsRedirect=true",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_515887217_20251028_022743.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "bottom turn and the bottom of the drawers were missing along with the hardware to put it all together other than that I like it",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.6525,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "515887217",
+          "product_url": "https://www.walmart.com/ip/Serta-Windsor-Futon-with-Storage-and-Power-Gray-Fabric/515887217?classType=VARIANT&adsRedirect=true",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_515887217_20251028_022743.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Kinda hard to tell till I get it.",
+          "review_text": "It hasn't gotten here yet!",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.5684,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "515887217",
+          "product_url": "https://www.walmart.com/ip/Serta-Windsor-Futon-with-Storage-and-Power-Gray-Fabric/515887217?classType=VARIANT&adsRedirect=true",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_515887217_20251028_022743.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Going to go for it.",
+          "review_text": "The reviews were up and down. Im old Navy and looking for a tight bed. I will let you know.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.7277,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "515887217",
+          "product_url": "https://www.walmart.com/ip/Serta-Windsor-Futon-with-Storage-and-Power-Gray-Fabric/515887217?classType=VARIANT&adsRedirect=true",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_515887217_20251028_022743.json"
+        }
+      ]
+    },
+    {
+      "product_id": "1408423898",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Mainstays-Camden-Cozy-Futon-Charcoal-Boucle-Fabric-72/1408423898?classType=VARIANT",
+      "source_files": [
+        "walmart_reviews_neutral_1408423898_20251028_022839.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Simple %26 Functional",
+          "review_text": "It's a futon NOT a mattress. I wasn't expecting softness to be present even though it's advertised in the picture. I just added some fleece blankets and a comforter on top, and it works for me. Assembly was easy to understand, just time consuming as expected. if you want softness, add some memory foam or similar material on top of the seats/backrest. Simple.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.5737,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "1408423898",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Camden-Cozy-Futon-Charcoal-Boucle-Fabric-72/1408423898?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_1408423898_20251028_022839.json"
+        }
+      ]
+    },
+    {
+      "product_id": "176880806",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Best-Choice-Products-Modern-Faux-Leather-Convertible-Futon-Sofa-w-Removable-Armrests-2-Cupholders-Black/176880806?classType=VARIANT",
+      "source_files": [
+        "walmart_reviews_neutral_176880806_20251028_022957.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Nice look",
+          "review_text": "Small, couldn't get in sitting position, package came damage, could be because of that, hopefully i here back some good news on fixing the issues. call suppose to hear back in 24 hours.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.4003,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "176880806",
+          "product_url": "https://www.walmart.com/ip/Best-Choice-Products-Modern-Faux-Leather-Convertible-Futon-Sofa-w-Removable-Armrests-2-Cupholders-Black/176880806?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_176880806_20251028_022957.json"
+        }
+      ]
+    },
+    {
+      "product_id": "340861854",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Casper-Sleep-Essential-Pillow-Standard/340861854?athAsset=eyJhdGhjcGlkIjoiMzQwODYxODU0IiwiYXRoc3RpZCI6IkNTMDIwIiwiYXRoYW5jaWQiOiIyNzU4NzYzNDMiLCJhdGhyayI6MC4wfQ==&athena=true",
+      "source_files": [
+        "walmart_reviews_neutral_340861854_20251028_023143.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "It was not as good as some of the older versions of the pillow, but should do fine.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.502,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "340861854",
+          "product_url": "https://www.walmart.com/ip/Casper-Sleep-Essential-Pillow-Standard/340861854?athAsset=eyJhdGhjcGlkIjoiMzQwODYxODU0IiwiYXRoc3RpZCI6IkNTMDIwIiwiYXRoYW5jaWQiOiIyNzU4NzYzNDMiLCJhdGhyayI6MC4wfQ==&athena=true",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_340861854_20251028_023143.json"
+        }
+      ]
+    },
+    {
+      "product_id": "21983601",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Mainstays-6-Inch-Futon-Mattress-with-Tufted-Cover-and-Recycled-Polyester-Fill-Full-Black/21983601?classType=VARIANT&athbdg=L1600",
+      "source_files": [
+        "walmart_reviews_neutral_21983601_20251028_023236.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "the fact that ive had this futon for like a week and some change.. the thing is already flatening.. only been a week and i already want to spin it.. for a pinch its fine and i sleep well on it.. just its only a few inches of cushion. cant be getting flat. i wouls take the picture but im sure you will see other say the same",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.452,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "21983601",
+          "product_url": "https://www.walmart.com/ip/Mainstays-6-Inch-Futon-Mattress-with-Tufted-Cover-and-Recycled-Polyester-Fill-Full-Black/21983601?classType=VARIANT&athbdg=L1600",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_21983601_20251028_023236.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "when looking for a futon mattress i thouggt the color looked good and the fabric was nice looking.even looked for one that was.a littlw thicker. however when i got it. it is not grear super light not at all ok to sit or.sleep on my cheap couch has a thicker denser couahion.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.4156,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "21983601",
+          "product_url": "https://www.walmart.com/ip/Mainstays-6-Inch-Futon-Mattress-with-Tufted-Cover-and-Recycled-Polyester-Fill-Full-Black/21983601?classType=VARIANT&athbdg=L1600",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_21983601_20251028_023236.json"
+        }
+      ]
+    },
+    {
+      "product_id": "36613069",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Mainstays-8-5-Key-Rack-4-Hooks-Walnut-Finish-2-lbs-Working-Capacity-Hardware-Included/36613069?classType=VARIANT&athbdg=L1600&adsRedirect=true",
+      "source_files": [
+        "walmart_reviews_neutral_36613069_20251028_023431.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Its a Key Holder!",
+          "review_text": "For a key holder, it does the job it was intended for. Not sure why they give you such a long anchoring screws……..its holding keys?",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.522,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "36613069",
+          "product_url": "https://www.walmart.com/ip/Mainstays-8-5-Key-Rack-4-Hooks-Walnut-Finish-2-lbs-Working-Capacity-Hardware-Included/36613069?classType=VARIANT&athbdg=L1600&adsRedirect=true",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_36613069_20251028_023431.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Never Lose Keys Again",
+          "review_text": "After getting tired of keys getting set in different spots or the kids walking away from them, we purchased this little rack. It is the perfect spot for our car keys along with the neighborhood pools and clubhouse entry tag, and spare house keys for when we have a house sitter. Leaving in the morning is so much simpler without the hunt for the keys.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.4889,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "36613069",
+          "product_url": "https://www.walmart.com/ip/Mainstays-8-5-Key-Rack-4-Hooks-Walnut-Finish-2-lbs-Working-Capacity-Hardware-Included/36613069?classType=VARIANT&athbdg=L1600&adsRedirect=true",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_36613069_20251028_023431.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "It was just as described. I wanted something simple to hang keys on without a lot of expense.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.6352,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "36613069",
+          "product_url": "https://www.walmart.com/ip/Mainstays-8-5-Key-Rack-4-Hooks-Walnut-Finish-2-lbs-Working-Capacity-Hardware-Included/36613069?classType=VARIANT&athbdg=L1600&adsRedirect=true",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_36613069_20251028_023431.json"
+        }
+      ]
+    },
+    {
+      "product_id": "768595294",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Mainstays-Reclining-Bungee-Beach-Chair-Teal/768595294?classType=VARIANT",
+      "source_files": [
+        "walmart_reviews_neutral_768595294_20251028_023608.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "The bungee style looked like it would feel more flexible -- the brand new chair seat is a bit firm and inflexible. Also, its way too early to tell if the aluminum will stand up to normal use... Also, 'cup holder and 'pocket' that comes with the chair is tiny -- too small for a regular 12oz can, lame, and looks like it cost 20 cents to make.... but the chair was cheap enough so its all ok so far...",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.6114,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "768595294",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Reclining-Bungee-Beach-Chair-Teal/768595294?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_768595294_20251028_023608.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Nice chair, but not functional.",
+          "review_text": "The chair is well made and given our age, my wife wanted something higher, which would be easier to get up from. I wanted an aluminium frame, which it has. However, the pouch on the side of the chair is so small, that a water bottle will not even fit, let alone a can of pop or beer. Pretty much limits its use on the beach. Would have kept it otherwise.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.4447,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "768595294",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Reclining-Bungee-Beach-Chair-Teal/768595294?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_768595294_20251028_023608.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "The chair is lightweight and easy to use but after a few uses at the beach it started rusting.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.5714,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "768595294",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Reclining-Bungee-Beach-Chair-Teal/768595294?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_768595294_20251028_023608.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "The phone pouch and bottle holder are too small to hold anything. They are hanging on the bottom rail of the chair with velcro straps.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.6909,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "768595294",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Reclining-Bungee-Beach-Chair-Teal/768595294?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_768595294_20251028_023608.json"
+        }
+      ]
+    },
+    {
+      "product_id": "10404233",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Mainstays-8-5x11-Front-Loading-Document-Picture-Frames-Black-Set-of-6/10404233?classType=REGULAR",
+      "source_files": [
+        "walmart_reviews_neutral_10404233_20251028_023705.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Inexpensive frame does its job",
+          "review_text": "I bought a bunch of these...in the neighborhood of 200 for certificates to present. Only a 3 were damaged. I picked these because I don't like to mess with the hateful prongs. The glass pops out, you put the certificate in and pop the glass back in. It did not take a great amount of time with two people working as a team. Don't put the little stand thing on it unless you plan on it being there forever or until you break it. We tried doing this with one of the damaged ones and once we got it in it does not move. For what they cost, it was a good value and served its purpose.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.5151,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "10404233",
+          "product_url": "https://www.walmart.com/ip/Mainstays-8-5x11-Front-Loading-Document-Picture-Frames-Black-Set-of-6/10404233?classType=REGULAR",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_10404233_20251028_023705.json"
+        }
+      ]
+    },
+    {
+      "product_id": "5015470225",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Mainstays-Tie-up-Balloon-Shade-Valance-Rod-Pocket-Arctic-White-42-W-x-63-L/5015470225?classType=VARIANT",
+      "source_files": [
+        "walmart_reviews_neutral_5015470225_20251028_023839.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Uneven bows",
+          "review_text": "I had to order one curtain from another store as they only had one from the store I bought it from. After washing and ironing I hung them up. That's when I noticed the bow/tie back on them were uneven. There is about an inch difference between the curtains and on one there is like a quarter inch between the bows. They are very nice looking curtains though.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.6975,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "5015470225",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Tie-up-Balloon-Shade-Valance-Rod-Pocket-Arctic-White-42-W-x-63-L/5015470225?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_5015470225_20251028_023839.json"
+        }
+      ]
+    },
+    {
+      "product_id": "2242264499",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Mainstays-12-75-Rope-Mini-Lamp-Brown-5-75-x-6-5-x-6-5-Lamp-Shade/2242264499?classType=VARIANT",
+      "source_files": [
+        "walmart_reviews_neutral_2242264499_20251028_023924.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "mini lamp",
+          "review_text": "I knew it was mini but it wasn't at all what I was expecting. Nevertheless it will do. I use it for a bedroom. The cord situation on the lamp should have been a little better as well",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.5228,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "2242264499",
+          "product_url": "https://www.walmart.com/ip/Mainstays-12-75-Rope-Mini-Lamp-Brown-5-75-x-6-5-x-6-5-Lamp-Shade/2242264499?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_2242264499_20251028_023924.json"
+        }
+      ]
+    },
+    {
+      "product_id": "403967470",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Mainstays-Dylan-Solid-Diamond-Olefin-Red-Indoor-Rug-Set-3-Piece-Accent-Rug-Set/403967470?classType=VARIANT",
+      "source_files": [
+        "walmart_reviews_neutral_403967470_20251028_024155.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Light blue not green in picture",
+          "review_text": "The picture looks green but they're really blue. As it states in the description.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.8691,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "403967470",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Dylan-Solid-Diamond-Olefin-Red-Indoor-Rug-Set-3-Piece-Accent-Rug-Set/403967470?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_403967470_20251028_024155.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "It's just a basic rug. Basic price, acceptable quality",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.6346,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "403967470",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Dylan-Solid-Diamond-Olefin-Red-Indoor-Rug-Set-3-Piece-Accent-Rug-Set/403967470?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_403967470_20251028_024155.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "you can run the vacuum over them and they will stay in place",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.8022,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "403967470",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Dylan-Solid-Diamond-Olefin-Red-Indoor-Rug-Set-3-Piece-Accent-Rug-Set/403967470?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_403967470_20251028_024155.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "When received only two rugs in the bag. The smaller rug was missing, bag had been opened.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.8041,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "403967470",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Dylan-Solid-Diamond-Olefin-Red-Indoor-Rug-Set-3-Piece-Accent-Rug-Set/403967470?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_403967470_20251028_024155.json"
+        }
+      ]
+    },
+    {
+      "product_id": "1093606016",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Mainstays-Coir-Navy-Good-To-Be-Home-Doormat-18-x30/1093606016?classType=REGULAR&athbdg=L1600",
+      "source_files": [
+        "walmart_reviews_neutral_1093606016_20251028_024306.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "A lot of the fibers were loose on the top which then got on the floor when un packaging",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.4917,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "1093606016",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Coir-Navy-Good-To-Be-Home-Doormat-18-x30/1093606016?classType=REGULAR&athbdg=L1600",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_1093606016_20251028_024306.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Sturdy mat",
+          "review_text": "Sturdy and durable for the foot traffic entering my apartment.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.6116,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "1093606016",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Coir-Navy-Good-To-Be-Home-Doormat-18-x30/1093606016?classType=REGULAR&athbdg=L1600",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_1093606016_20251028_024306.json"
+        }
+      ]
+    },
+    {
+      "product_id": "498157738",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Mainstays-Unscented-Flameless-LED-Pillar-Candles-White-Various-Sizes-3-Count/498157738?classType=VARIANT",
+      "source_files": [
+        "walmart_reviews_neutral_498157738_20251028_024405.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Don't stay white with light",
+          "review_text": "Great price, size and value. However, if you want white candles beware. They are white BUT glow amber or light brown when turned on. I wanted white candles that glowed white so they were not “the ones” for me.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.4866,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "498157738",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Unscented-Flameless-LED-Pillar-Candles-White-Various-Sizes-3-Count/498157738?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_498157738_20251028_024405.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "The only thing I didn't like was that it said it was white, but when you light it, it's yellow. Which is fine for some things that you're gonna use it for but what I was gonna use it for I needed white. Other than that, it works great so far.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.5113,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "498157738",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Unscented-Flameless-LED-Pillar-Candles-White-Various-Sizes-3-Count/498157738?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_498157738_20251028_024405.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "Works well. There's a slight smell when taken out of box and it took a few days to go away.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.4722,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "498157738",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Unscented-Flameless-LED-Pillar-Candles-White-Various-Sizes-3-Count/498157738?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_498157738_20251028_024405.json"
+        }
+      ]
+    },
+    {
+      "product_id": "3281745779",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Mainstays-12-75-Power-Outlet-Mini-Table-Lamp-with-Clear-Glass-Shade/3281745779?classType=VARIANT",
+      "source_files": [
+        "walmart_reviews_neutral_3281745779_20251028_024655.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Small lamp; lampshade problem",
+          "review_text": "The lamp is cute, small in size so it doesn't take up a lot of space. The lampshade sits on top of the lightbulb, so any movement knocks it sideways and it falls off.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.5817,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "3281745779",
+          "product_url": "https://www.walmart.com/ip/Mainstays-12-75-Power-Outlet-Mini-Table-Lamp-with-Clear-Glass-Shade/3281745779?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_3281745779_20251028_024655.json"
+        }
+      ]
+    },
+    {
+      "product_id": "528530126",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/12-inch-Artificial-Green-Mixed-Berry-Plant-Pick-for-Indoor-Use-by-Mainstays/528530126?classType=VARIANT&athbdg=L1600",
+      "source_files": [
+        "walmart_reviews_neutral_528530126_20251028_024808.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Mixed Berry Pick",
+          "review_text": "Alot of stems/filler for the money. Does not look fake mixed into an arrangement.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.6889,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "528530126",
+          "product_url": "https://www.walmart.com/ip/12-inch-Artificial-Green-Mixed-Berry-Plant-Pick-for-Indoor-Use-by-Mainstays/528530126?classType=VARIANT&athbdg=L1600",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_528530126_20251028_024808.json"
+        }
+      ]
+    },
+    {
+      "product_id": "495761816",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Mainstays-Bless-Home-17-x-30-Wood-Inspired-Indoor-Accent-Rug/495761816?classType=VARIANT",
+      "source_files": [
+        "walmart_reviews_neutral_495761816_20251028_025022.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Thin Rug",
+          "review_text": "I ordered the rugs online. The rugs snag easily. Very thin material.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.5541,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "495761816",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Bless-Home-17-x-30-Wood-Inspired-Indoor-Accent-Rug/495761816?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_495761816_20251028_025022.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "For a one or 2 weeks used",
+          "review_text": "S as disposable pretty rug for the bathroom",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.837,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "495761816",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Bless-Home-17-x-30-Wood-Inspired-Indoor-Accent-Rug/495761816?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_495761816_20251028_025022.json"
+        }
+      ]
+    },
+    {
+      "product_id": "186533945",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Mainstays-Remnant-4-5-x-6-Indoor-Solid-Area-Rug/186533945?classType=VARIANT&athbdg=L1102",
+      "source_files": [
+        "walmart_reviews_neutral_186533945_20251028_025135.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Buying Blind",
+          "review_text": "I ordered 2 rugs, selecting them from a previous purchase. I had bought a beige rug, and wanted 2 more of the same. The picture in my new order was of a beige rug, so I assumed I was buying 2 beige rugs. What arrived was 2 rugs with 2 different patterns, neither of which was beige I'm not sure why someone decided to pick random rugs, but for me, the buyer, it ended up like picking colors in the dark, and then paying for whatever they decided to send. I suppose I should be grateful they sent rugs, as opposed to a toaster or a can of paint. I decided to keep them, but in the future I will certainly be more careful about who I order products from online. This is not the first time Walmart botched an online order of mine...",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.7923,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "186533945",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Remnant-4-5-x-6-Indoor-Solid-Area-Rug/186533945?classType=VARIANT&athbdg=L1102",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_186533945_20251028_025135.json"
+        }
+      ]
+    },
+    {
+      "product_id": "666999258",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Mainstays-Flokati-Decorative-Throw-Pillow-16-x-16-Blush/666999258?classType=VARIANT",
+      "source_files": [
+        "walmart_reviews_neutral_666999258_20251028_025228.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "I purchase for decor to match a bedroom and was looking for color blush. However, the color wasnt blush. I will be returning. I gave five stars because its a nice product. Just not right color.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.4413,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "666999258",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Flokati-Decorative-Throw-Pillow-16-x-16-Blush/666999258?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_666999258_20251028_025228.json"
+        }
+      ]
+    },
+    {
+      "product_id": "2428950665",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Mainstays-Blue-Dogs-Cozy-Plush-Throw-Blanket-50-x-60/2428950665?classType=VARIANT",
+      "source_files": [
+        "walmart_reviews_neutral_2428950665_20251028_025305.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": 824.0,
+          "title": "Customer ratings & reviews",
+          "review_text": "Helpful?\n(0)\n(0)\nReport",
+          "date": "",
+          "verified_purchase": true,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.8077,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "2428950665",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Blue-Dogs-Cozy-Plush-Throw-Blanket-50-x-60/2428950665?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_2428950665_20251028_025305.json"
+        }
+      ]
+    },
+    {
+      "product_id": "17324446",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Mainstays-Titan-Solid-Area-Rug-or-Runner/17324446?classType=VARIANT",
+      "source_files": [
+        "walmart_reviews_neutral_17324446_20251028_025532.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Has a strong smell",
+          "review_text": "The shipping was fast and the rug came in tact. I didn’t have any trouble with laying out corners or them staying put. It does however have a very plastic smell to it. I left windows open during the day with a fan running to help with the smell but after a week the smell is still there. Especially stronger when we have been gone all day with the house closed up. It’s the first thing we smell walking in this room. The smell isn’t awful though so it wouldn’t deter me from buying again. It’s easy to clean so far. Haven’t had any spills or major accidents yet though. The shorter the rug the better because I have 3 kids and everything just glides right off this.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.4751,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "17324446",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Titan-Solid-Area-Rug-or-Runner/17324446?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_17324446_20251028_025532.json"
+        }
+      ]
+    },
+    {
+      "product_id": "1125113655",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Mainstays-Unscented-Votive-Candles-White-4-Pack/1125113655?classType=VARIANT",
+      "source_files": [
+        "walmart_reviews_neutral_1125113655_20251028_025721.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "good emergency candle also put a clay flower pot in winter when electric goes out instant heat. Candle heats up clay pot stays warmer long time",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.5919,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "1125113655",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Unscented-Votive-Candles-White-4-Pack/1125113655?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_1125113655_20251028_025721.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "These are small for votives. But, at this price they do get the job done . They burn for a decent amount of time for a low cost option.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.5371,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "1125113655",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Unscented-Votive-Candles-White-4-Pack/1125113655?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_1125113655_20251028_025721.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "They're okay",
+          "review_text": "when i received them in th mail the bottom layer nost of them don't burn right. they are sticky and drown themselves in less than an hour. i buy them ONLY BECAUSE i can not find them in store.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.4012,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "1125113655",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Unscented-Votive-Candles-White-4-Pack/1125113655?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_1125113655_20251028_025721.json"
+        }
+      ]
+    },
+    {
+      "product_id": "1827251928",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Mainstays-11-3-Cube-Storage-Organizer-Black/1827251928?classType=VARIANT&athbdg=L1600",
+      "source_files": [
+        "walmart_reviews_neutral_1827251928_20251028_025803.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "I have sever arthritis and I was able to put the shelf together by myself. It took about 20 minutes.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.5732,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "1827251928",
+          "product_url": "https://www.walmart.com/ip/Mainstays-11-3-Cube-Storage-Organizer-Black/1827251928?classType=VARIANT&athbdg=L1600",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_1827251928_20251028_025803.json"
+        }
+      ]
+    },
+    {
+      "product_id": "5164753239",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Better-Homes-Gardens-Tension-Pole-Shower-Caddy-Resists-Rust-3-Tier-Caddy-5-9-ft-Matte-Black/5164753239?classType=VARIANT",
+      "source_files": [
+        "walmart_reviews_neutral_5164753239_20251028_025959.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Off color.Functional product.Limited customization",
+          "review_text": "The color is definitely Not metallic. I had to check the box to make sure the right one was delivered. It's clearly more of a taupe. Quick assembly. Easily adjustable. Not as sturdy as I expected, but sufficient. Baskets are only able to be adjusted on the bottom portion of the pole. The highest position of the top basket is about 33 inches from the base.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.5564,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "5164753239",
+          "product_url": "https://www.walmart.com/ip/Better-Homes-Gardens-Tension-Pole-Shower-Caddy-Resists-Rust-3-Tier-Caddy-5-9-ft-Matte-Black/5164753239?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_5164753239_20251028_025959.json"
+        }
+      ]
+    },
+    {
+      "product_id": "5201315875",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Mainstays-Basic-Hanging-Shower-Caddy-with-2-Shelves-and-Soap-Tray-White/5201315875?athAsset=eyJhdGhjcGlkIjoiNTIwMTMxNTg3NSIsImF0aHN0aWQiOiJDUzAyMCIsImF0aGFuY2lkIjoiNTE2NDc1MzIzOSIsImF0aHJrIjowLjB9&athena=true&athbdg=L1600",
+      "source_files": [
+        "walmart_reviews_neutral_5201315875_20251028_030115.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "The suction is not sticking on the wall so there is a tendency that it will wall or move and move.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.8413,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "5201315875",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Basic-Hanging-Shower-Caddy-with-2-Shelves-and-Soap-Tray-White/5201315875?athAsset=eyJhdGhjcGlkIjoiNTIwMTMxNTg3NSIsImF0aHN0aWQiOiJDUzAyMCIsImF0aGFuY2lkIjoiNTE2NDc1MzIzOSIsImF0aHJrIjowLjB9&athena=true&athbdg=L1600",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_5201315875_20251028_030115.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "view of product.",
+          "review_text": "It's A little short to hang over the shower head. I have to reach up high to get things from it.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.7334,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "5201315875",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Basic-Hanging-Shower-Caddy-with-2-Shelves-and-Soap-Tray-White/5201315875?athAsset=eyJhdGhjcGlkIjoiNTIwMTMxNTg3NSIsImF0aHN0aWQiOiJDUzAyMCIsImF0aGFuY2lkIjoiNTE2NDc1MzIzOSIsImF0aHJrIjowLjB9&athena=true&athbdg=L1600",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_5201315875_20251028_030115.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Shower caddy",
+          "review_text": "I am not at all mechanical. It requires no special effort. Just hang over your shower and it's ready.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.6075,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "5201315875",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Basic-Hanging-Shower-Caddy-with-2-Shelves-and-Soap-Tray-White/5201315875?athAsset=eyJhdGhjcGlkIjoiNTIwMTMxNTg3NSIsImF0aHN0aWQiOiJDUzAyMCIsImF0aGFuY2lkIjoiNTE2NDc1MzIzOSIsImF0aHJrIjowLjB9&athena=true&athbdg=L1600",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_5201315875_20251028_030115.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Hang your soap and shampoo with style",
+          "review_text": "Just what I was looking for to replace the one in my shower that only lasted 10 years before starting to rust in spots.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.6055,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "5201315875",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Basic-Hanging-Shower-Caddy-with-2-Shelves-and-Soap-Tray-White/5201315875?athAsset=eyJhdGhjcGlkIjoiNTIwMTMxNTg3NSIsImF0aHN0aWQiOiJDUzAyMCIsImF0aGFuY2lkIjoiNTE2NDc1MzIzOSIsImF0aHJrIjowLjB9&athena=true&athbdg=L1600",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_5201315875_20251028_030115.json"
+        }
+      ]
+    },
+    {
+      "product_id": "1082943717",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Mainstays-Small-Portable-Shower-Caddy-Frost-Plastic/1082943717?athAsset=eyJhdGhjcGlkIjoiMTA4Mjk0MzcxNyIsImF0aHN0aWQiOiJDUzAyMCIsImF0aGFuY2lkIjoiNTIwMTMxNTg3NSIsImF0aHJrIjowLjB9&athena=true&athbdg=L1600",
+      "source_files": [
+        "walmart_reviews_neutral_1082943717_20251028_030212.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "It seems sufficient and was priced well. I don't know how long the product will last so I m uncertain how to rate it's quality.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.4968,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "1082943717",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Small-Portable-Shower-Caddy-Frost-Plastic/1082943717?athAsset=eyJhdGhjcGlkIjoiMTA4Mjk0MzcxNyIsImF0aHN0aWQiOiJDUzAyMCIsImF0aGFuY2lkIjoiNTIwMTMxNTg3NSIsImF0aHJrIjowLjB9&athena=true&athbdg=L1600",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_1082943717_20251028_030212.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Small shower caddy, fine for few small items",
+          "review_text": "This wasn't large enough for larger-sized shampoo and body wash. It's now being used to bring to dorm bathrooms with non-shower items like toothbrush, toothpaste, contacts, face wash. Had to buy a larger one for shower time since we use larger pump bottles of shampoo, conditioner, %26 bodywash. Sturdy, small, simple. Great price.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.6956,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "1082943717",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Small-Portable-Shower-Caddy-Frost-Plastic/1082943717?athAsset=eyJhdGhjcGlkIjoiMTA4Mjk0MzcxNyIsImF0aHN0aWQiOiJDUzAyMCIsImF0aGFuY2lkIjoiNTIwMTMxNTg3NSIsImF0aHJrIjowLjB9&athena=true&athbdg=L1600",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_1082943717_20251028_030212.json"
+        }
+      ]
+    },
+    {
+      "product_id": "806443150",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Mainstays-Navy-Polyester-Spiral-Pop-up-Laundry-Hamper-with-Zipper-Lid/806443150?athAsset=eyJhdGhjcGlkIjoiODA2NDQzMTUwIiwiYXRoc3RpZCI6IkNTMDIwIiwiYXRoYW5jaWQiOiI3OTAwOTAwNzUiLCJhdGhyayI6MC4wfQ==&athena=true&athbdg=L1102",
+      "source_files": [
+        "walmart_reviews_neutral_806443150_20251028_030323.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Space saving hamper - stores flat",
+          "review_text": "This dark blue / navy blue laundry hamper holds a fair amount of clothing or other laundry - its about 21 inches tall and 16 to 17 inches measured across (diameter I think). Those are my measurements, not whats in the description or on the package. It has a spiral ring type device that encircles the basket that keeps it upright and gives it a tubular shape when opened, and actually has a fairly good amount of tension in it, meaning that the basket is going to stay upright and not collapse down accidentally. There is also an attached cover, or lid, that can be zipped closed. It doesn't remove completely, thus no worries about it being lost. A strap is attached on each side of the top to make for easy carrying if its full. And when its empty, it collapses almost completely flat so it takes very little storage space. Great idea this was! So far I've used it twice, meaning I've filled it up and emptied into the washer twice. It seems like it will hold up well although I haven't had it long enough to know its long term durability. For now giving it 5 stars because I have no issues with it and its very functional in its design and usefulness. Russell in Scottsdale",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.7404,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "806443150",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Navy-Polyester-Spiral-Pop-up-Laundry-Hamper-with-Zipper-Lid/806443150?athAsset=eyJhdGhjcGlkIjoiODA2NDQzMTUwIiwiYXRoc3RpZCI6IkNTMDIwIiwiYXRoYW5jaWQiOiI3OTAwOTAwNzUiLCJhdGhyayI6MC4wfQ==&athena=true&athbdg=L1102",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_806443150_20251028_030323.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "It's sturdy enough but much smaller than I thought it would be.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.4922,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "806443150",
+          "product_url": "https://www.walmart.com/ip/Mainstays-Navy-Polyester-Spiral-Pop-up-Laundry-Hamper-with-Zipper-Lid/806443150?athAsset=eyJhdGhjcGlkIjoiODA2NDQzMTUwIiwiYXRoc3RpZCI6IkNTMDIwIiwiYXRoYW5jaWQiOiI3OTAwOTAwNzUiLCJhdGhyayI6MC4wfQ==&athena=true&athbdg=L1102",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_806443150_20251028_030323.json"
+        }
+      ]
+    },
+    {
+      "product_id": "5219389748",
+      "product_name": null,
+      "product_url": "https://www.walmart.com/ip/Better-Homes-Gardens-Heavyweight-PEVA-Shower-Liner-70-W-x-72-H-Soft-Silver/5219389748?classType=VARIANT",
+      "source_files": [
+        "walmart_reviews_neutral_5219389748_20251028_030457.json"
+      ],
+      "reviews": [
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Nice but stiff",
+          "review_text": "I like that it has the suction cups on the sides of the curtain as I have a fiberglass or acrylic tub/shower combo. I did not like that it is VERY STIFF. When you open or close the curtain it sometimes comes out of the grommet hooks at the top of curtain and it is hard to keep open to clean out tub when done with your shower.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.5632,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "5219389748",
+          "product_url": "https://www.walmart.com/ip/Better-Homes-Gardens-Heavyweight-PEVA-Shower-Liner-70-W-x-72-H-Soft-Silver/5219389748?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_5219389748_20251028_030457.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Not what was pictured",
+          "review_text": "The liner is good quality, it's not what was pictured. I ordered soft silver and the image was like a clear silver frosty look, no the liner that came was opaque and gray. It's ok it will work this time but I won't purchase again, and buyer be ware that you might get something different than pictured.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.4759,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "5219389748",
+          "product_url": "https://www.walmart.com/ip/Better-Homes-Gardens-Heavyweight-PEVA-Shower-Liner-70-W-x-72-H-Soft-Silver/5219389748?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_5219389748_20251028_030457.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Heavyweight and very stiff",
+          "review_text": "I don't mind it, but I gave one to my mom and she had me remove hers. It is very thick and very stiff. They are elderly and she thought it would make them fall. Mine has been up for a few weeks and is still super stiff. My husband says it should last a lifetime. lol",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.4468,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "5219389748",
+          "product_url": "https://www.walmart.com/ip/Better-Homes-Gardens-Heavyweight-PEVA-Shower-Liner-70-W-x-72-H-Soft-Silver/5219389748?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_5219389748_20251028_030457.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "",
+          "review_text": "Material is good quality. Very thick and sturdy. The problem is it is too stiff. You can't slide it open. It won't bunch up like it should. So you peel it back and climb in the tub/shower. Never seen anything like it.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.43,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "5219389748",
+          "product_url": "https://www.walmart.com/ip/Better-Homes-Gardens-Heavyweight-PEVA-Shower-Liner-70-W-x-72-H-Soft-Silver/5219389748?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_5219389748_20251028_030457.json"
+        },
+        {
+          "reviewer_name": "Anonymous",
+          "rating": null,
+          "title": "Heavy Shower Curtain",
+          "review_text": "It is a heavy liner and very stiff at first. It is long enough and does the job I need it to do. It is washable I'd say a couple times. Then usually replace it.",
+          "date": "",
+          "verified_purchase": false,
+          "helpful_count": 0,
+          "sentiment": "neutral",
+          "confidence": 0.6674,
+          "score": 0.5,
+          "roberta_label": "neutral",
+          "method": "roberta",
+          "product_id": "5219389748",
+          "product_url": "https://www.walmart.com/ip/Better-Homes-Gardens-Heavyweight-PEVA-Shower-Liner-70-W-x-72-H-Soft-Silver/5219389748?classType=VARIANT",
+          "product_name": null,
+          "source_file": "walmart_reviews_neutral_5219389748_20251028_030457.json"
+        }
+      ]
+    }
+  ]
+}

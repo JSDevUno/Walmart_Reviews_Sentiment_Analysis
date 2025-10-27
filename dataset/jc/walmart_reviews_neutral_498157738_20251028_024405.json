@@ -1,0 +1,60 @@
+{
+  "product_id": "498157738",
+  "product_url": "https://www.walmart.com/ip/Mainstays-Unscented-Flameless-LED-Pillar-Candles-White-Various-Sizes-3-Count/498157738?classType=VARIANT",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Don't stay white with light",
+      "review_text": "Great price, size and value. However, if you want white candles beware. They are white BUT glow amber or light brown when turned on. I wanted white candles that glowed white so they were not “the ones” for me.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4866,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "498157738",
+      "product_url": "https://www.walmart.com/ip/Mainstays-Unscented-Flameless-LED-Pillar-Candles-White-Various-Sizes-3-Count/498157738?classType=VARIANT",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "The only thing I didn't like was that it said it was white, but when you light it, it's yellow. Which is fine for some things that you're gonna use it for but what I was gonna use it for I needed white. Other than that, it works great so far.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5113,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "498157738",
+      "product_url": "https://www.walmart.com/ip/Mainstays-Unscented-Flameless-LED-Pillar-Candles-White-Various-Sizes-3-Count/498157738?classType=VARIANT",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "Works well. There's a slight smell when taken out of box and it took a few days to go away.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4722,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "498157738",
+      "product_url": "https://www.walmart.com/ip/Mainstays-Unscented-Flameless-LED-Pillar-Candles-White-Various-Sizes-3-Count/498157738?classType=VARIANT",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-28T02:44:05.663939"
+}

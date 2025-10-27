@@ -1,0 +1,26 @@
+{
+  "product_id": "5015470225",
+  "product_url": "https://www.walmart.com/ip/Mainstays-Tie-up-Balloon-Shade-Valance-Rod-Pocket-Arctic-White-42-W-x-63-L/5015470225?classType=VARIANT",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Uneven bows",
+      "review_text": "I had to order one curtain from another store as they only had one from the store I bought it from. After washing and ironing I hung them up. That's when I noticed the bow/tie back on them were uneven. There is about an inch difference between the curtains and on one there is like a quarter inch between the bows. They are very nice looking curtains though.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6975,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5015470225",
+      "product_url": "https://www.walmart.com/ip/Mainstays-Tie-up-Balloon-Shade-Valance-Rod-Pocket-Arctic-White-42-W-x-63-L/5015470225?classType=VARIANT",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-28T02:38:39.741136"
+}

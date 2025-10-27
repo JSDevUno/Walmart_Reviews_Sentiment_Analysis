@@ -1,0 +1,26 @@
+{
+  "product_id": "2242264499",
+  "product_url": "https://www.walmart.com/ip/Mainstays-12-75-Rope-Mini-Lamp-Brown-5-75-x-6-5-x-6-5-Lamp-Shade/2242264499?classType=VARIANT",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "mini lamp",
+      "review_text": "I knew it was mini but it wasn't at all what I was expecting. Nevertheless it will do. I use it for a bedroom. The cord situation on the lamp should have been a little better as well",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5228,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "2242264499",
+      "product_url": "https://www.walmart.com/ip/Mainstays-12-75-Rope-Mini-Lamp-Brown-5-75-x-6-5-x-6-5-Lamp-Shade/2242264499?classType=VARIANT",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-28T02:39:24.792207"
+}

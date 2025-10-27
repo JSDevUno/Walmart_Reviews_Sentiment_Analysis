@@ -1,0 +1,43 @@
+{
+  "product_id": "495761816",
+  "product_url": "https://www.walmart.com/ip/Mainstays-Bless-Home-17-x-30-Wood-Inspired-Indoor-Accent-Rug/495761816?classType=VARIANT",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Thin Rug",
+      "review_text": "I ordered the rugs online. The rugs snag easily. Very thin material.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5541,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "495761816",
+      "product_url": "https://www.walmart.com/ip/Mainstays-Bless-Home-17-x-30-Wood-Inspired-Indoor-Accent-Rug/495761816?classType=VARIANT",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "For a one or 2 weeks used",
+      "review_text": "S as disposable pretty rug for the bathroom",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.837,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "495761816",
+      "product_url": "https://www.walmart.com/ip/Mainstays-Bless-Home-17-x-30-Wood-Inspired-Indoor-Accent-Rug/495761816?classType=VARIANT",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-28T02:50:22.755056"
+}

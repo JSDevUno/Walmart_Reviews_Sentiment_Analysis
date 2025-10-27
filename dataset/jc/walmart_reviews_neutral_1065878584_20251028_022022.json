@@ -1,0 +1,26 @@
+{
+  "product_id": "1065878584",
+  "product_url": "https://www.walmart.com/ip/Laresar-500W-Cordless-Vacuum-50kPa-Power-Suction-60min-Runtime-Self-Standing-with-Charging-Station/1065878584?classType=VARIANT&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Good vacuum overall.",
+      "review_text": "My only complaint is the vacuum doesn't stand by itself. I think it's supposed to. the vacuum part is heavy and the vacuum stick and brush head are super light. It does come with a wall mount but I don't have room to hang it anywhere.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4237,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "1065878584",
+      "product_url": "https://www.walmart.com/ip/Laresar-500W-Cordless-Vacuum-50kPa-Power-Suction-60min-Runtime-Self-Standing-with-Charging-Station/1065878584?classType=VARIANT&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-28T02:20:22.789729"
+}

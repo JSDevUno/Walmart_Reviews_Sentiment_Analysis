@@ -1,0 +1,26 @@
+{
+  "product_id": "15289615155",
+  "product_url": "https://www.walmart.com/ip/SLOW-COOKER-CRP-7QT-MANUAL-MUSSEL-GRAY/15289615155",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "In My Crock-Pot Era",
+      "review_text": "I'm a full-time STEM major and corporate employee. I don't have enough time to cook as much as I used to. We've been trying to eat at home more and slow a cooker is the best way to go. I made a delicious saucy savory chicken.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5148,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "15289615155",
+      "product_url": "https://www.walmart.com/ip/SLOW-COOKER-CRP-7QT-MANUAL-MUSSEL-GRAY/15289615155",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-28T02:16:10.639502"
+}

@@ -1,0 +1,60 @@
+{
+  "product_id": "36613069",
+  "product_url": "https://www.walmart.com/ip/Mainstays-8-5-Key-Rack-4-Hooks-Walnut-Finish-2-lbs-Working-Capacity-Hardware-Included/36613069?classType=VARIANT&athbdg=L1600&adsRedirect=true",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Its a Key Holder!",
+      "review_text": "For a key holder, it does the job it was intended for. Not sure why they give you such a long anchoring screws……..its holding keys?",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.522,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "36613069",
+      "product_url": "https://www.walmart.com/ip/Mainstays-8-5-Key-Rack-4-Hooks-Walnut-Finish-2-lbs-Working-Capacity-Hardware-Included/36613069?classType=VARIANT&athbdg=L1600&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Never Lose Keys Again",
+      "review_text": "After getting tired of keys getting set in different spots or the kids walking away from them, we purchased this little rack. It is the perfect spot for our car keys along with the neighborhood pools and clubhouse entry tag, and spare house keys for when we have a house sitter. Leaving in the morning is so much simpler without the hunt for the keys.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4889,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "36613069",
+      "product_url": "https://www.walmart.com/ip/Mainstays-8-5-Key-Rack-4-Hooks-Walnut-Finish-2-lbs-Working-Capacity-Hardware-Included/36613069?classType=VARIANT&athbdg=L1600&adsRedirect=true",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "It was just as described. I wanted something simple to hang keys on without a lot of expense.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6352,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "36613069",
+      "product_url": "https://www.walmart.com/ip/Mainstays-8-5-Key-Rack-4-Hooks-Walnut-Finish-2-lbs-Working-Capacity-Hardware-Included/36613069?classType=VARIANT&athbdg=L1600&adsRedirect=true",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-28T02:34:31.661372"
+}

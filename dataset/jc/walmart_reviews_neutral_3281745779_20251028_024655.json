@@ -1,0 +1,26 @@
+{
+  "product_id": "3281745779",
+  "product_url": "https://www.walmart.com/ip/Mainstays-12-75-Power-Outlet-Mini-Table-Lamp-with-Clear-Glass-Shade/3281745779?classType=VARIANT",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Small lamp; lampshade problem",
+      "review_text": "The lamp is cute, small in size so it doesn't take up a lot of space. The lampshade sits on top of the lightbulb, so any movement knocks it sideways and it falls off.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5817,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "3281745779",
+      "product_url": "https://www.walmart.com/ip/Mainstays-12-75-Power-Outlet-Mini-Table-Lamp-with-Clear-Glass-Shade/3281745779?classType=VARIANT",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-28T02:46:55.590595"
+}

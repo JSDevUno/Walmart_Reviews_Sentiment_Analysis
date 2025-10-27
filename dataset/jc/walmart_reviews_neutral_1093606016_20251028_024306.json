@@ -1,0 +1,43 @@
+{
+  "product_id": "1093606016",
+  "product_url": "https://www.walmart.com/ip/Mainstays-Coir-Navy-Good-To-Be-Home-Doormat-18-x30/1093606016?classType=REGULAR&athbdg=L1600",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "A lot of the fibers were loose on the top which then got on the floor when un packaging",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4917,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "1093606016",
+      "product_url": "https://www.walmart.com/ip/Mainstays-Coir-Navy-Good-To-Be-Home-Doormat-18-x30/1093606016?classType=REGULAR&athbdg=L1600",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Sturdy mat",
+      "review_text": "Sturdy and durable for the foot traffic entering my apartment.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6116,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "1093606016",
+      "product_url": "https://www.walmart.com/ip/Mainstays-Coir-Navy-Good-To-Be-Home-Doormat-18-x30/1093606016?classType=REGULAR&athbdg=L1600",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-28T02:43:06.322411"
+}

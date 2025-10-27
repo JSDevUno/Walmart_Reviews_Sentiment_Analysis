@@ -1,0 +1,26 @@
+{
+  "product_id": "666999258",
+  "product_url": "https://www.walmart.com/ip/Mainstays-Flokati-Decorative-Throw-Pillow-16-x-16-Blush/666999258?classType=VARIANT",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "I purchase for decor to match a bedroom and was looking for color blush. However, the color wasnt blush. I will be returning. I gave five stars because its a nice product. Just not right color.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4413,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "666999258",
+      "product_url": "https://www.walmart.com/ip/Mainstays-Flokati-Decorative-Throw-Pillow-16-x-16-Blush/666999258?classType=VARIANT",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-28T02:52:28.702199"
+}

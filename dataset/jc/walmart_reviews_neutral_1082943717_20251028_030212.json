@@ -1,0 +1,43 @@
+{
+  "product_id": "1082943717",
+  "product_url": "https://www.walmart.com/ip/Mainstays-Small-Portable-Shower-Caddy-Frost-Plastic/1082943717?athAsset=eyJhdGhjcGlkIjoiMTA4Mjk0MzcxNyIsImF0aHN0aWQiOiJDUzAyMCIsImF0aGFuY2lkIjoiNTIwMTMxNTg3NSIsImF0aHJrIjowLjB9&athena=true&athbdg=L1600",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "It seems sufficient and was priced well. I don't know how long the product will last so I m uncertain how to rate it's quality.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4968,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "1082943717",
+      "product_url": "https://www.walmart.com/ip/Mainstays-Small-Portable-Shower-Caddy-Frost-Plastic/1082943717?athAsset=eyJhdGhjcGlkIjoiMTA4Mjk0MzcxNyIsImF0aHN0aWQiOiJDUzAyMCIsImF0aGFuY2lkIjoiNTIwMTMxNTg3NSIsImF0aHJrIjowLjB9&athena=true&athbdg=L1600",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Small shower caddy, fine for few small items",
+      "review_text": "This wasn't large enough for larger-sized shampoo and body wash. It's now being used to bring to dorm bathrooms with non-shower items like toothbrush, toothpaste, contacts, face wash. Had to buy a larger one for shower time since we use larger pump bottles of shampoo, conditioner, %26 bodywash. Sturdy, small, simple. Great price.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6956,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "1082943717",
+      "product_url": "https://www.walmart.com/ip/Mainstays-Small-Portable-Shower-Caddy-Frost-Plastic/1082943717?athAsset=eyJhdGhjcGlkIjoiMTA4Mjk0MzcxNyIsImF0aHN0aWQiOiJDUzAyMCIsImF0aGFuY2lkIjoiNTIwMTMxNTg3NSIsImF0aHJrIjowLjB9&athena=true&athbdg=L1600",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-28T03:02:12.332163"
+}

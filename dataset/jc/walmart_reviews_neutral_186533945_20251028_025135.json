@@ -1,0 +1,26 @@
+{
+  "product_id": "186533945",
+  "product_url": "https://www.walmart.com/ip/Mainstays-Remnant-4-5-x-6-Indoor-Solid-Area-Rug/186533945?classType=VARIANT&athbdg=L1102",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Buying Blind",
+      "review_text": "I ordered 2 rugs, selecting them from a previous purchase. I had bought a beige rug, and wanted 2 more of the same. The picture in my new order was of a beige rug, so I assumed I was buying 2 beige rugs. What arrived was 2 rugs with 2 different patterns, neither of which was beige I'm not sure why someone decided to pick random rugs, but for me, the buyer, it ended up like picking colors in the dark, and then paying for whatever they decided to send. I suppose I should be grateful they sent rugs, as opposed to a toaster or a can of paint. I decided to keep them, but in the future I will certainly be more careful about who I order products from online. This is not the first time Walmart botched an online order of mine...",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.7923,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "186533945",
+      "product_url": "https://www.walmart.com/ip/Mainstays-Remnant-4-5-x-6-Indoor-Solid-Area-Rug/186533945?classType=VARIANT&athbdg=L1102",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-28T02:51:35.933369"
+}

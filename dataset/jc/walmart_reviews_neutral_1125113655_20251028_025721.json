@@ -1,0 +1,60 @@
+{
+  "product_id": "1125113655",
+  "product_url": "https://www.walmart.com/ip/Mainstays-Unscented-Votive-Candles-White-4-Pack/1125113655?classType=VARIANT",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "good emergency candle also put a clay flower pot in winter when electric goes out instant heat. Candle heats up clay pot stays warmer long time",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5919,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "1125113655",
+      "product_url": "https://www.walmart.com/ip/Mainstays-Unscented-Votive-Candles-White-4-Pack/1125113655?classType=VARIANT",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "",
+      "review_text": "These are small for votives. But, at this price they do get the job done . They burn for a decent amount of time for a low cost option.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5371,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "1125113655",
+      "product_url": "https://www.walmart.com/ip/Mainstays-Unscented-Votive-Candles-White-4-Pack/1125113655?classType=VARIANT",
+      "product_name": null
+    },
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "They're okay",
+      "review_text": "when i received them in th mail the bottom layer nost of them don't burn right. they are sticky and drown themselves in less than an hour. i buy them ONLY BECAUSE i can not find them in store.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.4012,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "1125113655",
+      "product_url": "https://www.walmart.com/ip/Mainstays-Unscented-Votive-Candles-White-4-Pack/1125113655?classType=VARIANT",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-28T02:57:21.770342"
+}

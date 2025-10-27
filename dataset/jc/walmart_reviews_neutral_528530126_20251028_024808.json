@@ -1,0 +1,26 @@
+{
+  "product_id": "528530126",
+  "product_url": "https://www.walmart.com/ip/12-inch-Artificial-Green-Mixed-Berry-Plant-Pick-for-Indoor-Use-by-Mainstays/528530126?classType=VARIANT&athbdg=L1600",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Mixed Berry Pick",
+      "review_text": "Alot of stems/filler for the money. Does not look fake mixed into an arrangement.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.6889,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "528530126",
+      "product_url": "https://www.walmart.com/ip/12-inch-Artificial-Green-Mixed-Berry-Plant-Pick-for-Indoor-Use-by-Mainstays/528530126?classType=VARIANT&athbdg=L1600",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-28T02:48:08.848184"
+}

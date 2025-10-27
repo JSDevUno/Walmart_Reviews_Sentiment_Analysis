@@ -1,0 +1,26 @@
+{
+  "product_id": "1408423898",
+  "product_url": "https://www.walmart.com/ip/Mainstays-Camden-Cozy-Futon-Charcoal-Boucle-Fabric-72/1408423898?classType=VARIANT",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Simple %26 Functional",
+      "review_text": "It's a futon NOT a mattress. I wasn't expecting softness to be present even though it's advertised in the picture. I just added some fleece blankets and a comforter on top, and it works for me. Assembly was easy to understand, just time consuming as expected. if you want softness, add some memory foam or similar material on top of the seats/backrest. Simple.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5737,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "1408423898",
+      "product_url": "https://www.walmart.com/ip/Mainstays-Camden-Cozy-Futon-Charcoal-Boucle-Fabric-72/1408423898?classType=VARIANT",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-28T02:28:39.720932"
+}

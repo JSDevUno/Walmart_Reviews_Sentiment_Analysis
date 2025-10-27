@@ -1,0 +1,26 @@
+{
+  "product_id": "5164753239",
+  "product_url": "https://www.walmart.com/ip/Better-Homes-Gardens-Tension-Pole-Shower-Caddy-Resists-Rust-3-Tier-Caddy-5-9-ft-Matte-Black/5164753239?classType=VARIANT",
+  "product_name": null,
+  "reviews": [
+    {
+      "reviewer_name": "Anonymous",
+      "rating": null,
+      "title": "Off color.Functional product.Limited customization",
+      "review_text": "The color is definitely Not metallic. I had to check the box to make sure the right one was delivered. It's clearly more of a taupe. Quick assembly. Easily adjustable. Not as sturdy as I expected, but sufficient. Baskets are only able to be adjusted on the bottom portion of the pole. The highest position of the top basket is about 33 inches from the base.",
+      "date": "",
+      "verified_purchase": false,
+      "helpful_count": 0,
+      "sentiment": "neutral",
+      "confidence": 0.5564,
+      "score": 0.5,
+      "roberta_label": "neutral",
+      "method": "roberta",
+      "product_id": "5164753239",
+      "product_url": "https://www.walmart.com/ip/Better-Homes-Gardens-Tension-Pole-Shower-Caddy-Resists-Rust-3-Tier-Caddy-5-9-ft-Matte-Black/5164753239?classType=VARIANT",
+      "product_name": null
+    }
+  ],
+  "filter": "NEUTRAL_ONLY",
+  "scraped_at": "2025-10-28T02:59:59.472521"
+}
