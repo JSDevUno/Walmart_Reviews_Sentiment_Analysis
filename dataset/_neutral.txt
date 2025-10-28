@@ -1,3 +1,13 @@
 progress bar calculation must be depended in the user set review too/
 hide the chrome window, but dont use headless true, it still false(when the chrome window is not in not in current task or window, it doesn't scrape properly like it terminate immediately)
 distinguish this kind of review
+
+this is the script and the csv
+
+
+
+⚠ Warning: Model still struggling with edge cases. Consider:
+  • Adding more training examples with these patterns
+  • Adjusting feature weights
+  • Fine-tuning hyperparameters
+
