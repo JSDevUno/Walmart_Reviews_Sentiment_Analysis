@@ -43,7 +43,7 @@ function AboutModal({ isOpen, onClose }) {
             <p>
               Sentilytics is an ML-powered tool that analyzes customer reviews 
               from Walmart products to determine overall sentiment. It uses advanced machine learning 
-              models to classify reviews as positive, negative, or neutral.
+              models to classify product reviews as positive, negative, or neutral.
             </p>
           </div>
           
