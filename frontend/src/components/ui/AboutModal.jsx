@@ -27,7 +27,7 @@ function AboutModal({ isOpen, onClose }) {
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal" onClick={(e) => e.stopPropagation()}>
         <div className="modal-header">
-          <h2>About Walmart Sentiment Analyzer</h2>
+          <h2>About Sentilytics</h2>
           <button 
             className="modal-close" 
             onClick={onClose}
@@ -41,7 +41,7 @@ function AboutModal({ isOpen, onClose }) {
           <div className="about-section">
             <h3>What is this tool?</h3>
             <p>
-              The Walmart Sentiment Analyzer is an ML-powered tool that analyzes customer reviews 
+              Sentilytics is an ML-powered tool that analyzes customer reviews 
               from Walmart products to determine overall sentiment. It uses advanced machine learning 
               models to classify reviews as positive, negative, or neutral.
             </p>

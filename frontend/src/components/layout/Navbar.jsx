@@ -14,7 +14,7 @@ function Navbar({ onToggleSidebar, onToggleTheme, theme }) {
         <div className="nav-icon">
           <i className="fas fa-store"></i>
         </div>
-        <span>Walmart Sentiment Analyzer</span>
+        <span>Sentilytics</span>
       </div>
       
       <div className="nav-actions">

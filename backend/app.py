@@ -65,7 +65,6 @@ class TFIDFSentimentAnalyzer:
         self.label_map = model_data['label_map']
         self.reverse_label_map = model_data['reverse_label_map']
         
-        # Enhanced feature extraction patterns (from svm_regression.py)
         self.intensity_amplifiers = model_data.get('intensity_amplifiers', {
             'very', 'extremely', 'incredibly', 'absolutely', 'totally',
             'completely', 'utterly', 'highly', 'really', 'so', 'super'
